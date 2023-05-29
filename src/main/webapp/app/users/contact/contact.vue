@@ -68,15 +68,15 @@
                     <p>
                       <i class="el-icon-school" style="font-size: medium"></i>
                       <span>
-                          <strong>Đại học Bách Khoa Hà Nội</strong>
+                          <strong>Đại học Giao thông vận tải</strong>
                           <br>
-                          <i>C9 - 307, Viện Điện tử - Viễn thông</i>
+                          <i>Công nghệ thông tin 5 - K60</i>
                         </span>
                     </p>
                     <p>
                       <i class="el-icon-mobile-phone" style="font-size: larger"></i>
                       <span>
-                          <strong>+84 988 161 359</strong>
+                          <strong>+84 8689 974 222</strong>
                           <br>
                           <i>Mon to Fri 9am to 6pm</i>
                         </span>
@@ -84,7 +84,7 @@
                     <p>
                       <i class="el-icon-message" style="font-size: larger"></i>
                       <span>
-                          <strong>sang.sama.1999@gmail.com</strong>
+                          <strong>buithithanhlam@gmail.com</strong>
                           <br>
                           <i>Send us your query anytime!</i>
                         </span>

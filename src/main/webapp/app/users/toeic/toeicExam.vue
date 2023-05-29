@@ -29,7 +29,7 @@
 
     <div class="container-fluid">
       <div class="content row">
-        <div class="col-md-9">
+        <div class="col-md-8">
           <div class="test">
             <el-tabs type="card" v-model="activeName" @tab-click="handleClick">
               <!-- Part 01 -->
@@ -51,10 +51,14 @@
                     <p><b>Question 1:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/1.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div>
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div>
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
@@ -2329,6 +2333,7 @@
                   <div class="question">
                     <p><b>Question 200:</b>What does Ms. Redman suggest qualifies her for the representative position?</p>
                     <div class="select">
+
                       <el-radio v-model="radio" label="1" size="medium">(A) Her university degree</el-radio>
                       <el-radio v-model="radio" label="2" size="medium">(B) Her fresh leadership ideas</el-radio>
                       <el-radio v-model="radio" label="3" size="medium">(C) Her awareness of national issues</el-radio>
@@ -2343,7 +2348,7 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="point">
             <p id="timer">0{{ hour }} : {{ minutes }} : {{ seconds }}</p>
             <div class="numberAnswer row">
@@ -2690,7 +2695,8 @@ h2 {
 
 }
 .part1 .select {
-
+  display: flex;
+  flex-direction:row;
 }
 .part1 .select .select-sub {
 
@@ -2705,18 +2711,17 @@ h2 {
 
 }
 .numberAnswer .answer {
-  height: 70px;
-  border: 5px solid #003c72;
+  height: 20px;
+  border: 2px solid #003c72;
   border-radius: 50%;
   margin: 5px;
   text-align: center;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: bolder;
-  padding-top: 3%;
 }
 #timer {
   height: 50px;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bolder;
   text-align: center;
   margin-bottom: 20px;

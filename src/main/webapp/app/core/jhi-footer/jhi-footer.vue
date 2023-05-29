@@ -1,6 +1,6 @@
 <template>
   <div id="footer" class="footer">
-    <p v-text="$t('footer')">--- HUST - SET - BME - Trương Thị Sáng - 20172785 - Kỳ 2021.1 ---</p>
+    <p v-text="$t('footer')">--- UTC - Bùi Thị Thanh Lam - 191203978 ---</p>
   </div>
 </template>
 

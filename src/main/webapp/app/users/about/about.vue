@@ -38,7 +38,7 @@
                           <li v-text="$t('home.test.voca01')">It is important for typical language learning.</li>
                           <li v-text="$t('home.test.voca02')">Vocabulary is the focus of language.</li>
                           <li v-text="$t('home.test.voca03')">Vocabulary is the core of English when communicating.</li>
-                          <li v-text="$t('home.test.voca04')">Vocabulary is the foundation for development skills.</li>
+                          <li v-text="$t('home.test.voca04')">Vocabulary is the foundation for development skills. Hehe</li>
                         </ul>
                         <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
                       </div>
@@ -132,12 +132,12 @@
                   <el-card>
                     <img src="../../../content/images/avatar01.jpg" class="image">
                     <div class="info">
-                      <p><strong>Trương Thị Sáng</strong></p>
+                      <p><strong>Bùi Thị Thanh Lam</strong></p>
                       <div class="bottom clearfix">
                         <ul>
                           <li>Admin / Developer / Designer</li>
-                          <li>Phone number: 0988161359</li>
-                          <li>Student Code: 20172785</li>
+                          <li>Phone number: 09869974222</li>
+                          <li>Student Code: 191203978</li>
                         </ul>
                       </div>
                     </div>

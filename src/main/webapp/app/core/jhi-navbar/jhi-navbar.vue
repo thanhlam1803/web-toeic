@@ -54,14 +54,14 @@
           </span>
         </b-nav-item>
         <!--Thuc the-->
-        <b-nav-item-dropdown right id="entity-menu" v-if="authenticated" active-class="active" class="pointer" data-cy="entity">
-          <span slot="button-content" class="navbar-dropdown-menu">
-            <font-awesome-icon icon="th-list" />
-            <span class="no-bold" v-text="$t('global.menu.entities.main')">Entities</span>
-          </span>
-          <entities-menu></entities-menu>
-          <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
-        </b-nav-item-dropdown>
+<!--        <b-nav-item-dropdown right id="entity-menu" v-if="authenticated" active-class="active" class="pointer" data-cy="entity">-->
+<!--          <span slot="button-content" class="navbar-dropdown-menu">-->
+<!--            <font-awesome-icon icon="th-list" />-->
+<!--            <span class="no-bold" v-text="$t('global.menu.entities.main')">Entities</span>-->
+<!--          </span>-->
+<!--          <entities-menu></entities-menu>-->
+<!--          &lt;!&ndash; jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here &ndash;&gt;-->
+<!--        </b-nav-item-dropdown>-->
         <!--Quan tri-->
         <b-nav-item-dropdown
           right
@@ -186,11 +186,11 @@
     ========================================================================== */
 .navbar-version {
   font-size: 10px;
-  color: #ccc;
+  color: #4089c1;
 }
 
 .jh-navbar {
-  background-color: #353d47;
+  background-color: #003c72;
   padding: 0.2em 1em;
 }
 
@@ -205,6 +205,7 @@
 .jh-navbar .dropdown-item.active:focus,
 .jh-navbar .dropdown-item.active:hover {
   background-color: #353d47;
+  color: #4089c1;
 }
 
 .jh-navbar .dropdown-toggle::after {
@@ -219,19 +220,25 @@
   margin-left: 1.5rem;
 }
 
-.jh-navbar a.nav-link,
+.jh-navbar a.nav-link{
+  color: #fff;
+  font-weight:bold;
+}
+.jh-navbar a.nav-link:hover{
+  color:#4089c1;
+}
 .jh-navbar .no-bold {
   font-weight: 400;
 }
 
 .jh-navbar .jh-navbar-toggler {
-  color: #ccc;
+  color: black;
   font-size: 1.5em;
   padding: 10px;
 }
 
 .jh-navbar .jh-navbar-toggler:hover {
-  color: #fff;
+  color: #4089c1;
 }
 
 @media screen and (min-width: 768px) {
@@ -249,14 +256,17 @@
 .navbar-title {
   display: inline-block;
   vertical-align: middle;
-  color: white;
+  color: #fff;
 }
 
 /* ==========================================================================
     Logo styles
     ========================================================================== */
 .navbar-brand.logo {
-  padding: 5px 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo .logo-img {
@@ -271,6 +281,6 @@
   background: url('../../../content/images/logo-jhipster.png') no-repeat center center;
   background-size: contain;
   width: 100%;
-  filter: drop-shadow(0 0 0.05rem white);
+  filter: drop-shadow(0 0 0.05rem #4089c1);
 }
 </style>

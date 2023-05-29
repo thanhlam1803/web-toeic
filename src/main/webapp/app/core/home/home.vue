@@ -10,7 +10,7 @@
       <span class="hipster img-fluid rounded"></span>
     </div>
     <div class="col-md-9">
-      <h1 class="display-4" v-text="$t('home.title')">Welcome, TOEICsv!</h1>
+      <h1 class="display-4" v-text="$t('home.title')">Welcome, TOEICsv! </h1>
 
       <div>
         <!--Dang nhap thanh cong-->
@@ -100,11 +100,7 @@
             </div>
             <div class="text">
               <h4 v-text="$t('home.contactus.text')">Contact us if you have any questions or want to contribute to the development of the website.</h4>
-              <h6><strong>Trương Thị Sáng</strong> - Admin / Developer / Designer</h6>
-              <ul>
-                <li>sang.tt172785@sis.hust.edu.vn</li>
-                <li>sang.sama.1999@gmail.com</li>
-              </ul>
+              <h6><strong>Bùi Thị Thanh Lam</strong> - Admin / Developer / Designer</h6>
             </div>
           </div>
         </div>
@@ -200,6 +196,9 @@
     border: none;
     background: none;
     color: #002950;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .bg-test {
@@ -300,8 +299,8 @@
   }
 
   .bg-login {
-    width: 100%;
-    height: 480px;
+    width: 80%;
+    height: 250px;
   }
   .bg-login img {
     width: 100%;
