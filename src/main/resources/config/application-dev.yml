@@ -36,7 +36,7 @@ spring:
 #    url: jdbc:mysql://10.61.152.234:3306/toeic_test?useUnicode=yes&characterEncoding=UTF-8
     username: root
 #    username: toeic_test
-    password: 1234
+    password: Nguyentai2k
     hikari:
       poolName: Hikari
       auto-commit: false
