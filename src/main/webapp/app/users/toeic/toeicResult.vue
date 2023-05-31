@@ -25,6 +25,11 @@
     <!--ket qua-->
     <div class="container">
       <div class="result">
+<!--        <div>-->
+<!--          <h1>User Profile</h1>-->
+<!--          <p>ID: {{ $route.query.answerArr }}</p>-->
+<!--          <p>Name: {{ $route.query.name }}</p>-->
+<!--        </div>-->
         <h3><3 Chúc mừng bạn đã hoàn thành bài thi ^^</h3>
         <h5>Hiện tại trang web vẫn đang trong quá trình phát triển, các bạn có thể dành 3-5 phút cho nhóm phát triển thêm ý kiến đánh giá được không ạ?</h5>
         <router-link class="alert-link join" to="" type="primary">
@@ -141,10 +146,18 @@
             </td>
             <td>
               <ul>
-                <li>C</li>
-                <li>A</li>
-                <li>D</li>
-                <li>B</li>
+<!--                <li>C</li>-->
+<!--                <li>A</li>-->
+<!--                <li>D</li>-->
+<!--                <li>B</li>-->
+                <li v-if = "$route.query.answerArr[1] != 'C'" class = "answerBackground"> {{ $route.query.answerArr[1] }} </li>
+                <li v-if = "$route.query.answerArr[1] === 'C'"> {{ $route.query.answerArr[1] }} </li>
+                <li v-if = "$route.query.answerArr[2] != 'A'" class = "answerBackground"> {{ $route.query.answerArr[2] }} </li>
+                <li v-if = "$route.query.answerArr[2] === 'A'"> $route.query.answerArr[2] </li>
+                <li v-if = "$route.query.answerArr[3] != 'D'" class = "answerBackground"> {{ $route.query.answerArr[3] }} </li>
+                <li v-if = "$route.query.answerArr[3] === 'D'"> $route.query.answerArr[3] </li>
+                <li v-if = "$route.query.answerArr[4] != 'B'" class = "answerBackground"> {{ $route.query.answerArr[4] }} </li>
+                <li v-if = "$route.query.answerArr[4] === 'B'"> {{ $route.query.answerArr[4] }} </li>
                 <li>C</li>
                 <li>C</li>
                 <li>A</li>
@@ -835,5 +848,7 @@ ul li {
   margin: 0 50px;
   padding: 10px 20px
 }
-
+.answerBackground {
+  background-color: red;
+}
 </style>

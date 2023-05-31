@@ -52,12 +52,10 @@
                     <img src="../../../content/images/ets2021test01/part1/1.jpg" class="image">
                     <div class="select">
                       <div>
-                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      </div>
-                      <div>
-                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                        <el-radio v-model="answerArr[1]" label="A" size="medium">(A)</el-radio>
+                        <el-radio v-model="answerArr[1]" label="B" size="medium">(B)</el-radio>
+                        <el-radio v-model="answerArr[1]" label="C" size="medium">(C)</el-radio>
+                        <el-radio v-model="answerArr[1]" label="D" size="medium">(D)</el-radio>
                       </div>
                     </div>
                   </div>
@@ -66,10 +64,10 @@
                     <p><b>Question 2:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/2.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[2]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[2]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[2]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[2]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -77,10 +75,10 @@
                     <p><b>Question 3:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/3.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[3]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[3]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[3]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[3]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -88,10 +86,10 @@
                     <p><b>Question 4:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/4.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[4]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[4]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[4]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[4]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -99,10 +97,10 @@
                     <p><b>Question 5:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/5.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[5]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[5]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[5]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[5]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -110,10 +108,10 @@
                     <p><b>Question 6:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/6.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[6]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[6]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[6]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[6]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -136,40 +134,40 @@
                   <div class="question">
                     <p><b>Question 7:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="radio7" label="1" size="medium">(A)</el-radio>
+                      <el-radio v-model="radio7" label="2" size="medium">(B)</el-radio>
+                      <el-radio v-model="radio7" label="3" size="medium">(C)</el-radio>
+                      <el-radio v-model="radio7" label="4" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 8:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="radio8" label="1" size="medium">(A)</el-radio>
+                      <el-radio v-model="radio8" label="2" size="medium">(B)</el-radio>
+                      <el-radio v-model="radio8" label="3" size="medium">(C)</el-radio>
+                      <el-radio v-model="radio8" label="4" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 9:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="radio9" label="1" size="medium">(A)</el-radio>
+                      <el-radio v-model="radio9" label="2" size="medium">(B)</el-radio>
+                      <el-radio v-model="radio9" label="3" size="medium">(C)</el-radio>
+                      <el-radio v-model="radio9" label="4" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 10:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="radio10" label="1" size="medium">(A)</el-radio>
+                      <el-radio v-model="radio10" label="2" size="medium">(B)</el-radio>
+                      <el-radio v-model="radio10" label="3" size="medium">(C)</el-radio>
+                      <el-radio v-model="radio10" label="4" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2352,12 +2350,18 @@
           <div class="point">
             <p id="timer">0{{ hour }} : {{ minutes }} : {{ seconds }}</p>
             <div class="numberAnswer row">
-              <div class="col-md-2 answer">1</div>
-              <div class="col-md-2 answer">2</div>
-              <div class="col-md-2 answer">3</div>
-              <div class="col-md-2 answer">4</div>
-              <div class="col-md-2 answer">5</div>
-              <div class="col-md-2 answer">6</div>
+              <div v-if="answerArr[1] === ''" class="col-md-2 answer">1</div>
+              <div v-if="answerArr[1] != ''" class="col-md-2 answerBackground">1</div>
+              <div v-if="answerArr[2] === ''" class="col-md-2 answer">2</div>
+              <div v-if="answerArr[2] != ''" class="col-md-2 answerBackground">2</div>
+              <div v-if="answerArr[3] === ''" class="col-md-2 answer">3</div>
+              <div v-if="answerArr[3] != ''" class="col-md-2 answerBackground">3</div>
+              <div v-if="answerArr[4] === ''" class="col-md-2 answer">4</div>
+              <div v-if="answerArr[4] != ''" class="col-md-2 answerBackground">4</div>
+              <div v-if="answerArr[5] === ''" class="col-md-2 answer">5</div>
+              <div v-if="answerArr[5] != ''" class="col-md-2 answerBackground">5</div>
+              <div v-if="answerArr[6] === ''" class="col-md-2 answer">6</div>
+              <div v-if="answerArr[6] != ''" class="col-md-2 answerBackground">6</div>
               <div class="col-md-2 answer">7</div>
               <div class="col-md-2 answer">8</div>
               <div class="col-md-2 answer">9</div>
@@ -2440,7 +2444,6 @@
               <div class="col-md-2 answer">79</div>
               <div class="col-md-2 answer">80</div>
 
-              <div class="col-md-2 answer">81</div>
               <div class="col-md-2 answer">82</div>
               <div class="col-md-2 answer">83</div>
               <div class="col-md-2 answer">84</div>
@@ -2574,7 +2577,7 @@
 
             </div>
             <div class="btn-submit">
-              <router-link class="alert-link join" to="/users/toeic/toeicStart/toeicExam/toeicResult" type="primary">
+              <router-link class="alert-link join" :to="{path: '/users/toeic/toeicStart/toeicExam/toeicResult', query: { answerArr: answerArr }}" type="primary">
                 <p>SUBMIT</p>
               </router-link>
             </div>
@@ -2594,6 +2597,20 @@ export default {
     return {
       activeName: 'first',
       radio: '',
+      radio1: '',
+      radio2: '',
+      radio3: '',
+      radio4: '',
+      radio5: '',
+      radio6: '',
+      radio7: '',
+      radio8: '',
+      radio9: '',
+      radio10: '',
+      radio11: '',
+      answerArr: Array(205).fill(''),
+      userId: 1,
+      userName: 'John Doe',
       hour: 2,
       minutes: 0,
       seconds: 0
@@ -2719,6 +2736,16 @@ h2 {
   font-size: 10px;
   font-weight: bolder;
 }
+.answerBackground {
+  height: 20px;
+  border: 2px solid #003c72;
+  border-radius: 50%;
+  margin: 5px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+  background-color: lightblue;
+}
 #timer {
   height: 50px;
   font-size: 50px;
@@ -2742,6 +2769,5 @@ h2 {
   background: linear-gradient(to bottom right, #003c72, #c000de);
   color: #ffffff;
 }
-
 
 </style>
