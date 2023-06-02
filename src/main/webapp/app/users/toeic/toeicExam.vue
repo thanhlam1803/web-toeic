@@ -54,6 +54,8 @@
                       <div>
                         <el-radio v-model="answerArr[1]" label="A" size="medium">(A)</el-radio>
                         <el-radio v-model="answerArr[1]" label="B" size="medium">(B)</el-radio>
+                      </div>
+                      <div>
                         <el-radio v-model="answerArr[1]" label="C" size="medium">(C)</el-radio>
                         <el-radio v-model="answerArr[1]" label="D" size="medium">(D)</el-radio>
                       </div>
@@ -134,248 +136,248 @@
                   <div class="question">
                     <p><b>Question 7:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio7" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio7" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio7" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio7" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[7]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[7]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[7]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[7]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 8:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio8" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio8" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio8" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio8" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[8]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[8]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[8]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[8]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 9:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio9" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio9" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio9" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio9" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[9]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[9]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[9]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[9]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 10:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio10" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio10" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio10" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio10" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[10]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[10]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[10]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[10]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 11:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[11]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[11]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[11]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[11]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 12:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[12]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[12]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[12]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[12]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 13:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[13]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[13]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[13]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[13]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 14:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[14]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[14]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[14]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[14]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 15:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[15]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[15]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[15]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[15]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 16:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[16]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[16]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[16]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[26]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <div class="question">
                     <p><b>Question 17:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[17]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[17]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[17]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[17]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 18:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model="answerArr[18]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[18]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[18] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[18] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 19:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[19] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[19] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[19] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[19] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 20:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[20] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[20] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[20] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[20] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <div class="question">
                     <p><b>Question 21:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[21] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[21] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[21] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[21] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 22:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[22] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[22] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[22] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[22] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 23:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[23] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[23] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[23] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[23] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 24:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[24] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[24] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[24] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[24] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 25:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[25] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[25] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[25] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[25] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 26:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[26] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[26] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[26] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[26] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 27:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[27] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[27] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[27] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[27] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 28:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[28] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[28] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[28] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[28] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 29:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[29] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[29] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[29] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[29] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 30:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[30] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[30] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[30] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[30] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 31:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <el-radio v-model=answerArr[31] label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model=answerArr[31] label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model=answerArr[31] label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model=answerArr[31] label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                 </div>
@@ -398,10 +400,10 @@
                     <p><b>Question 32:</b>What does the man say he plans to do today?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Go sightseeing</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Attend a conference</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Purchase some gifts</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Stop at a bank</el-radio>
+                      <el-radio v-model=answerArr[32] label="A" size="medium">(A) Go sightseeing</el-radio>
+                      <el-radio v-model=answerArr[32] label="B" size="medium">(B) Attend a conference</el-radio>
+                      <el-radio v-model=answerArr[32] label="C" size="medium">(C) Purchase some gifts</el-radio>
+                      <el-radio v-model=answerArr[32] label="D" size="medium">(D) Stop at a bank</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -409,10 +411,10 @@
                     <p><b>Question 33:</b>What does the man ask about?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Internet access</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Use of a fitness center</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Transportation options</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Nearby restaurants</el-radio>
+                      <el-radio v-model=answerArr[33] label="A" size="medium">(A) Internet access</el-radio>
+                      <el-radio v-model=answerArr[33] label="B" size="medium">(B) Use of a fitness center</el-radio>
+                      <el-radio v-model=answerArr[33] label="C" size="medium">(C) Transportation options</el-radio>
+                      <el-radio v-model=answerArr[33] label="D" size="medium">(D) Nearby restaurants</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -420,10 +422,10 @@
                     <p><b>Question 34:</b>What does the woman offer to do?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Make a reservation</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Print a parking pass</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Provide a password</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Check on some prices</el-radio>
+                      <el-radio v-model=answerArr[34] label="A" size="medium">(A) Make a reservation</el-radio>
+                      <el-radio v-model=answerArr[34] label="B" size="medium">(B) Print a parking pass</el-radio>
+                      <el-radio v-model=answerArr[34] label="C" size="medium">(C) Provide a password</el-radio>
+                      <el-radio v-model=answerArr[34] label="D" size="medium">(D) Check on some prices</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -431,10 +433,10 @@
                     <p><b>Question 35:</b>What did the man do before coming in to work?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) He met with a friend</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) He revised a menu</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) He read a newspaper</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) He bought some breakfast</el-radio>
+                      <el-radio v-model=answerArr[35] label="A" size="medium">(A) He met with a friend</el-radio>
+                      <el-radio v-model=answerArr[35] label="B" size="medium">(B) He revised a menu</el-radio>
+                      <el-radio v-model=answerArr[35] label="C" size="medium">(C) He read a newspaper</el-radio>
+                      <el-radio v-model=answerArr[35] label="D" size="medium">(D) He bought some breakfast</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -442,10 +444,10 @@
                     <p><b>Question 36:</b>What does the man think will happen this week?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) There will be more customers</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) There will be a safety inspection</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A contract will be renewed</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A new chef will be hired</el-radio>
+                      <el-radio v-model=answerArr[36] label="A" size="medium">(A) There will be more customers</el-radio>
+                      <el-radio v-model=answerArr[36] label="B" size="medium">(B) There will be a safety inspection</el-radio>
+                      <el-radio v-model=answerArr[36] label="C" size="medium">(C) A contract will be renewed</el-radio>
+                      <el-radio v-model=answerArr[36] label="D" size="medium">(D) A new chef will be hired</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -453,10 +455,10 @@
                     <p><b>Question 37:</b>What will the woman most likely do next?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Hire additional staff</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Schedule some repairs</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Place an order</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Print an article</el-radio>
+                      <el-radio v-model=answerArr[37] label="A" size="medium">(A) Hire additional staff</el-radio>
+                      <el-radio v-model=answerArr[37] label="B" size="medium">(B) Schedule some repairs</el-radio>
+                      <el-radio v-model=answerArr[37] label="C" size="medium">(C) Place an order</el-radio>
+                      <el-radio v-model=answerArr[37] label="D" size="medium">(D) Print an article</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -464,10 +466,10 @@
                     <p><b>Question 38:</b>Who most likely is the man?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A supermarket manager</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An appliance store employee</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) An ice-cream shop owner</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A real estate agent</el-radio>
+                      <el-radio v-model=answerArr[38] label="A" size="medium">(A) A supermarket manager</el-radio>
+                      <el-radio v-model=answerArr[38] label="B" size="medium">(B) An appliance store employee</el-radio>
+                      <el-radio v-model=answerArr[38] label="C" size="medium">(C) An ice-cream shop owner</el-radio>
+                      <el-radio v-model=answerArr[38] label="D" size="medium">(D) A real estate agent</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -475,10 +477,10 @@
                     <p><b>Question 39:</b>What problem does the woman mention?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) An invoice is incorrect</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An item is broken</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A document is missing</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A product is too expensive</el-radio>
+                      <el-radio v-model=answerArr[39] label="A" size="medium">(A) An invoice is incorrect</el-radio>
+                      <el-radio v-model=answerArr[39] label="B" size="medium">(B) An item is broken</el-radio>
+                      <el-radio v-model=answerArr[39] label="C" size="medium">(C) A document is missing</el-radio>
+                      <el-radio v-model=answerArr[39] label="D" size="medium">(D) A product is too expensive</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -486,10 +488,10 @@
                     <p><b>Question 40:</b>What does the man suggest the woman do?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Purchase a warranty</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Return some merchandise</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Call a specialist</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Find an item online</el-radio>
+                      <el-radio v-model=answerArr[40] label="A" size="medium">(A) Purchase a warranty</el-radio>
+                      <el-radio v-model=answerArr[40] label="B" size="medium">(B) Return some merchandise</el-radio>
+                      <el-radio v-model=answerArr[40] label="C" size="medium">(C) Call a specialist</el-radio>
+                      <el-radio v-model=answerArr[40] label="D" size="medium">(D) Find an item online</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -497,10 +499,10 @@
                     <p><b>Question 41:</b>Why is the man calling?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To make a payment</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To request an extension</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To cancel a registration</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To obtain course information</el-radio>
+                      <el-radio v-model=answerArr[41] label="A" size="medium">(A) To make a payment</el-radio>
+                      <el-radio v-model=answerArr[41] label="B" size="medium">(B) To request an extension</el-radio>
+                      <el-radio v-model=answerArr[41] label="C" size="medium">(C) To cancel a registration</el-radio>
+                      <el-radio v-model=answerArr[41] label="D" size="medium">(D) To obtain course information</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -508,10 +510,10 @@
                     <p><b>Question 42:</b>What does the man say about his friend?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She works in his office</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She benefited from a certificate program</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) She runs a successful accounting firm</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) She wrote a positive review</el-radio>
+                      <el-radio v-model=answerArr[42] label="A" size="medium">(A) She works in his office</el-radio>
+                      <el-radio v-model=answerArr[42] label="B" size="medium">(B) She benefited from a certificate program</el-radio>
+                      <el-radio v-model=answerArr[42] label="C" size="medium">(C) She runs a successful accounting firm</el-radio>
+                      <el-radio v-model=answerArr[42] label="D" size="medium">(D) She wrote a positive review</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -519,10 +521,10 @@
                     <p><b>Question 43:</b>What does the woman say the man might be eligible for?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A reduced fee</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A consultation</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A job promotion</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A free upgrade</el-radio>
+                      <el-radio v-model=answerArr[43] label="A" size="medium">(A) A reduced fee</el-radio>
+                      <el-radio v-model=answerArr[43] label="B" size="medium">(B) A consultation</el-radio>
+                      <el-radio v-model=answerArr[43] label="C" size="medium">(C) A job promotion</el-radio>
+                      <el-radio v-model=answerArr[43] label="D" size="medium">(D) A free upgrade</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -530,10 +532,10 @@
                     <p><b>Question 44:</b>Where do the speakers work?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) At a clothing store</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) At a fitness center</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) At a software comoany</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) At a sports arena</el-radio>
+                      <el-radio v-model=answerArr[44] label="A" size="medium">(A) At a clothing store</el-radio>
+                      <el-radio v-model=answerArr[44] label="B" size="medium">(B) At a fitness center</el-radio>
+                      <el-radio v-model=answerArr[44] label="C" size="medium">(C) At a software comoany</el-radio>
+                      <el-radio v-model=answerArr[44] label="D" size="medium">(D) At a sports arena</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -541,10 +543,10 @@
                     <p><b>Question 45:</b>According to the speakers, what will happen next month?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Pricing options will change</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Renovation work will begin</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) New employees will be hired</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Business hours will be extended</el-radio>
+                      <el-radio v-model=answerArr[45] label="A" size="medium">(A) Pricing options will change</el-radio>
+                      <el-radio v-model=answerArr[45] label="B" size="medium">(B) Renovation work will begin</el-radio>
+                      <el-radio v-model=answerArr[45] label="C" size="medium">(C) New employees will be hired</el-radio>
+                      <el-radio v-model=answerArr[45] label="D" size="medium">(D) Business hours will be extended</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -552,10 +554,10 @@
                     <p><b>Question 46:</b>What does the man offer to do?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Make some signs</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Update a schedule</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Estimate some costs</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Send an e-mail</el-radio>
+                      <el-radio v-model=answerArr[46] label="A" size="medium">(A) Make some signs</el-radio>
+                      <el-radio v-model=answerArr[46] label="B" size="medium">(B) Update a schedule</el-radio>
+                      <el-radio v-model=answerArr[46] label="C" size="medium">(C) Estimate some costs</el-radio>
+                      <el-radio v-model=answerArr[46] label="D" size="medium">(D) Send an e-mail</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -563,10 +565,10 @@
                     <p><b>Question 47:</b>Where most likely are the speakers?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) At a print shop</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) At a furniture factory</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) At an appliance warehouse</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) At a stationery store</el-radio>
+                      <el-radio v-model=answerArr[47] label="A" size="medium">(A) At a print shop</el-radio>
+                      <el-radio v-model=answerArr[47] label="B" size="medium">(B) At a furniture factory</el-radio>
+                      <el-radio v-model=answerArr[47] label="C" size="medium">(C) At an appliance warehouse</el-radio>
+                      <el-radio v-model=answerArr[47] label="D" size="medium">(D) At a stationery store</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -574,10 +576,10 @@
                     <p><b>Question 48:</b>What problem do the men describe?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A door has been left open</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A delivery truck has been delayed</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Some employees are out sick</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Some products are defective</el-radio>
+                      <el-radio v-model=answerArr[48] label="A" size="medium">(A) A door has been left open</el-radio>
+                      <el-radio v-model=answerArr[48] label="B" size="medium">(B) A delivery truck has been delayed</el-radio>
+                      <el-radio v-model=answerArr[48] label="C" size="medium">(C) Some employees are out sick</el-radio>
+                      <el-radio v-model=answerArr[48] label="D" size="medium">(D) Some products are defective</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -585,10 +587,10 @@
                     <p><b>Question 49:</b>What is scheduled to happen at one o'clock?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Some clients will visit</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Some equipment will be cleaned</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A training session will be conducted</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) An employee luncheon will be held</el-radio>
+                      <el-radio v-model=answerArr[49] label="A" size="medium">(A) Some clients will visit</el-radio>
+                      <el-radio v-model=answerArr[49] label="B" size="medium">(B) Some equipment will be cleaned</el-radio>
+                      <el-radio v-model=answerArr[49] label="C" size="medium">(C) A training session will be conducted</el-radio>
+                      <el-radio v-model=answerArr[49] label="D" size="medium">(D) An employee luncheon will be held</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -596,10 +598,10 @@
                     <p><b>Question 50:</b>What did the man recently finish?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A conference proposal</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An agenda for a business trip</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A revision to a client database</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A review of some blueprints</el-radio>
+                      <el-radio v-model=answerArr[50] label="A" size="medium">(A) A conference proposal</el-radio>
+                      <el-radio v-model=answerArr[50] label="B" size="medium">(B) An agenda for a business trip</el-radio>
+                      <el-radio v-model=answerArr[50] label="C" size="medium">(C) A revision to a client database</el-radio>
+                      <el-radio v-model=answerArr[50] label="D" size="medium">(D) A review of some blueprints</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -607,10 +609,10 @@
                     <p><b>Question 51:</b>What problem does the man mention?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Additional permits are needed</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An expense was not approved</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A supervisor is unavailable</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A Web site is not working</el-radio>
+                      <el-radio v-model=answerArr[51] label="A" size="medium">(A) Additional permits are needed</el-radio>
+                      <el-radio v-model=answerArr[51] label="B" size="medium">(B) An expense was not approved</el-radio>
+                      <el-radio v-model=answerArr[51] label="C" size="medium">(C) A supervisor is unavailable</el-radio>
+                      <el-radio v-model=answerArr[51] label="D" size="medium">(D) A Web site is not working</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -618,10 +620,10 @@
                     <p><b>Question 52:</b>What will the speakers do next?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Rehearse a presentation</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Print some documents</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Go have lunch</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Call technical support</el-radio>
+                      <el-radio v-model=answerArr[52] label="A" size="medium">(A) Rehearse a presentation</el-radio>
+                      <el-radio v-model=answerArr[52] label="B" size="medium">(B) Print some documents</el-radio>
+                      <el-radio v-model=answerArr[52] label="C" size="medium">(C) Go have lunch</el-radio>
+                      <el-radio v-model=answerArr[52] label="D" size="medium">(D) Call technical support</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -629,10 +631,10 @@
                     <p><b>Question 53:</b>Who most likely is the woman?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A safety inspector</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An overseas client</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) An athlete</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) An accountant</el-radio>
+                      <el-radio v-model=answerArr[53] label="A" size="medium">(A) A safety inspector</el-radio>
+                      <el-radio v-model=answerArr[53] label="B" size="medium">(B) An overseas client</el-radio>
+                      <el-radio v-model=answerArr[53] label="C" size="medium">(C) An athlete</el-radio>
+                      <el-radio v-model=answerArr[53] label="D" size="medium">(D) An accountant</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -640,10 +642,10 @@
                     <p><b>Question 54:</b>What does the woman tell the man about her ID card?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) It is expired</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) It has the wrong photo</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Her name is misspelled</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) She forgot to bring it</el-radio>
+                      <el-radio v-model=answerArr[54] label="A" size="medium">(A) It is expired</el-radio>
+                      <el-radio v-model=answerArr[54] label="B" size="medium">(B) It has the wrong photo</el-radio>
+                      <el-radio v-model=answerArr[54] label="C" size="medium">(C) Her name is misspelled</el-radio>
+                      <el-radio v-model=answerArr[54] label="D" size="medium">(D) She forgot to bring it</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -651,10 +653,10 @@
                     <p><b>Question 55:</b>Why does the man say. It normally lakes a few days'?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To reject a request</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To address a concern</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To complain about a delay</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To acknowledge an accomplishment</el-radio>
+                      <el-radio v-model=answerArr[55] label="A" size="medium">(A) To reject a request</el-radio>
+                      <el-radio v-model=answerArr[55] label="B" size="medium">(B) To address a concern</el-radio>
+                      <el-radio v-model=answerArr[55] label="C" size="medium">(C) To complain about a delay</el-radio>
+                      <el-radio v-model=answerArr[55] label="D" size="medium">(D) To acknowledge an accomplishment</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -662,10 +664,10 @@
                     <p><b>Question 56:</b>What type of event are the speakers attending?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A trade show</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A now-hire orientation</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A celebrity interview</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A grand opening</el-radio>
+                      <el-radio v-model=answerArr[56] label="A" size="medium">(A) A trade show</el-radio>
+                      <el-radio v-model=answerArr[56] label="B" size="medium">(B) A now-hire orientation</el-radio>
+                      <el-radio v-model=answerArr[56] label="C" size="medium">(C) A celebrity interview</el-radio>
+                      <el-radio v-model=answerArr[56] label="D" size="medium">(D) A grand opening</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -673,10 +675,10 @@
                     <p><b>Question 57:</b>Where do the men work?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) At a mobile phone manufacturer</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) At a software development company</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) At an appliance repair shop</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) At an advertising agency</el-radio>
+                      <el-radio v-model=answerArr[57] label="A" size="medium">(A) At a mobile phone manufacturer</el-radio>
+                      <el-radio v-model=answerArr[57] label="B" size="medium">(B) At a software development company</el-radio>
+                      <el-radio v-model=answerArr[57] label="C" size="medium">(C) At an appliance repair shop</el-radio>
+                      <el-radio v-model=answerArr[57] label="D" size="medium">(D) At an advertising agency</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -684,10 +686,10 @@
                     <p><b>Question 58:</b>What will the woman most likely do next?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Exchange contact information</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Consult with a colleague</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Check a schedule</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Look at a brochure</el-radio>
+                      <el-radio v-model=answerArr[58] label="A" size="medium">(A) Exchange contact information</el-radio>
+                      <el-radio v-model=answerArr[58] label="B" size="medium">(B) Consult with a colleague</el-radio>
+                      <el-radio v-model=answerArr[58] label="C" size="medium">(C) Check a schedule</el-radio>
+                      <el-radio v-model=answerArr[58] label="D" size="medium">(D) Look at a brochure</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -695,10 +697,10 @@
                     <p><b>Question 59:</b>Why is the man excited?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) He has been promoted</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) His vacation request was approved</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A research article will be published</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A project will receive extra funding</el-radio>
+                      <el-radio v-model=answerArr[59] label="A" size="medium">(A) He has been promoted</el-radio>
+                      <el-radio v-model=answerArr[59] label="B" size="medium">(B) His vacation request was approved</el-radio>
+                      <el-radio v-model=answerArr[59] label="C" size="medium">(C) A research article will be published</el-radio>
+                      <el-radio v-model=answerArr[59] label="D" size="medium">(D) A project will receive extra funding</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -706,10 +708,10 @@
                     <p><b>Question 60:</b>What does the woman mean when she says, our budget's going to be fairly limited"?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) The company's decision is not surprising</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A fund-raiser should be organized</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Some numbers need to be checked</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) The man's suggestion may not work</el-radio>
+                      <el-radio v-model=answerArr[60] label="A" size="medium">(A) The company's decision is not surprising</el-radio>
+                      <el-radio v-model=answerArr[60] label="B" size="medium">(B) A fund-raiser should be organized</el-radio>
+                      <el-radio v-model=answerArr[60] label="C" size="medium">(C) Some numbers need to be checked</el-radio>
+                      <el-radio v-model=answerArr[60] label="D" size="medium">(D) The man's suggestion may not work</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -717,10 +719,10 @@
                     <p><b>Question 61:</b>What does the woman say about local students?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She has worked with them before</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She is tutoring them in science</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) They are participating in a conference</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) They have made several donations</el-radio>
+                      <el-radio v-model=answerArr[61] label="A" size="medium">(A) She has worked with them before</el-radio>
+                      <el-radio v-model=answerArr[61] label="B" size="medium">(B) She is tutoring them in science</el-radio>
+                      <el-radio v-model=answerArr[61] label="C" size="medium">(C) They are participating in a conference</el-radio>
+                      <el-radio v-model=answerArr[61] label="D" size="medium">(D) They have made several donations</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -733,10 +735,10 @@
                     <p><b>Question 62:</b>Look at the graphic. Who placed the order the woman is picking up?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Richard</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Alison</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Tomas</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Janet</el-radio>
+                      <el-radio v-model=answerArr[62] label="A" size="medium">(A) Richard</el-radio>
+                      <el-radio v-model=answerArr[62] label="B" size="medium">(B) Alison</el-radio>
+                      <el-radio v-model=answerArr[62] label="C" size="medium">(C) Tomas</el-radio>
+                      <el-radio v-model=answerArr[62] label="D" size="medium">(D) Janet</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -744,10 +746,10 @@
                     <p><b>Question 63:</b>What event does the woman mention?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A client meeting</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A birthday party</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A retirement luncheon</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) An anniversary celebration</el-radio>
+                      <el-radio v-model=answerArr[63] label="A" size="medium">(A) A client meeting</el-radio>
+                      <el-radio v-model=answerArr[63] label="B" size="medium">(B) A birthday party</el-radio>
+                      <el-radio v-model=answerArr[63] label="C" size="medium">(C) A retirement luncheon</el-radio>
+                      <el-radio v-model=answerArr[63] label="D" size="medium">(D) An anniversary celebration</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -755,10 +757,10 @@
                     <p><b>Question 64:</b>What does the woman ask the man about?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A form of payment</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A delivery service</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A greeting card</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) An ingredient</el-radio>
+                      <el-radio v-model=answerArr[64] label="A" size="medium">(A) A form of payment</el-radio>
+                      <el-radio v-model=answerArr[64] label="B" size="medium">(B) A delivery service</el-radio>
+                      <el-radio v-model=answerArr[64] label="C" size="medium">(C) A greeting card</el-radio>
+                      <el-radio v-model=answerArr[64] label="D" size="medium">(D) An ingredient</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -771,10 +773,10 @@
                     <p><b>Question 65:</b>Why does the woman ask to reschedule her appointment?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She has to have her car repaired</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She is visiting a friend</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) She has a business meeting</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) She needs to go to the bank</el-radio>
+                      <el-radio v-model=answerArr[65] label="A" size="medium">(A) She has to have her car repaired</el-radio>
+                      <el-radio v-model=answerArr[65] label="B" size="medium">(B) She is visiting a friend</el-radio>
+                      <el-radio v-model=answerArr[65] label="C" size="medium">(C) She has a business meeting</el-radio>
+                      <el-radio v-model=answerArr[65] label="D" size="medium">(D) She needs to go to the bank</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -782,10 +784,10 @@
                     <p><b>Question 66:</b>Look at the graphic. Where will the woman most likely go tomorrow?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To location A</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To location B</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To location C</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To location D</el-radio>
+                      <el-radio v-model=answerArr[66] label="A" size="medium">(A) To location A</el-radio>
+                      <el-radio v-model=answerArr[66] label="B" size="medium">(B) To location B</el-radio>
+                      <el-radio v-model=answerArr[66] label="C" size="medium">(C) To location C</el-radio>
+                      <el-radio v-model=answerArr[66] label="D" size="medium">(D) To location D</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -793,10 +795,10 @@
                     <p><b>Question 67:</b>What does the man ask the woman to do?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Pay a fee in advance</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Register online</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Complete a survey</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Come to an office early</el-radio>
+                      <el-radio v-model=answerArr[67] label="A" size="medium">(A) Pay a fee in advance</el-radio>
+                      <el-radio v-model=answerArr[67] label="B" size="medium">(B) Register online</el-radio>
+                      <el-radio v-model=answerArr[67] label="C" size="medium">(C) Complete a survey</el-radio>
+                      <el-radio v-model=answerArr[67] label="D" size="medium">(D) Come to an office early</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -809,10 +811,10 @@
                     <p><b>Question 68:</b>Where do the speakers work?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) At a flower shop</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) At a real estate company</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) At a paint store</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) At a newspaper publisher</el-radio>
+                      <el-radio v-model=answerArr[68] label="A" size="medium">(A) At a flower shop</el-radio>
+                      <el-radio v-model=answerArr[68] label="B" size="medium">(B) At a real estate company</el-radio>
+                      <el-radio v-model=answerArr[68] label="C" size="medium">(C) At a paint store</el-radio>
+                      <el-radio v-model=answerArr[68] label="D" size="medium">(D) At a newspaper publisher</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -820,10 +822,10 @@
                     <p><b>Question 69:</b>What does the woman say about color advertisements?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) They are difficult to design</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) They attract more attention</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) They can be sent electronically</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) They should use specific colors</el-radio>
+                      <el-radio v-model=answerArr[69] label="A" size="medium">(A) They are difficult to design</el-radio>
+                      <el-radio v-model=answerArr[69] label="B" size="medium">(B) They attract more attention</el-radio>
+                      <el-radio v-model=answerArr[69] label="C" size="medium">(C) They can be sent electronically</el-radio>
+                      <el-radio v-model=answerArr[69] label="D" size="medium">(D) They should use specific colors</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -831,10 +833,10 @@
                     <p><b>Question 70:</b>Look at the graphic. How much will the speakers pay for their advertisement?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) $300</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) $500</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) $250</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) $400</el-radio>
+                      <el-radio v-model=answerArr[70] label="A" size="medium">(A) $300</el-radio>
+                      <el-radio v-model=answerArr[70] label="B" size="medium">(B) $500</el-radio>
+                      <el-radio v-model=answerArr[70] label="C" size="medium">(C) $250</el-radio>
+                      <el-radio v-model=answerArr[70] label="D" size="medium">(D) $400</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -859,10 +861,10 @@
                     <p><b>Question 71:</b>What type of product is being discussed?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A coffee maker</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A microwave oven</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A portable heater</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A water filter</el-radio>
+                      <el-radio v-model=answerArr[71] label="A" size="medium">(A) A coffee maker</el-radio>
+                      <el-radio v-model=answerArr[71] label="B" size="medium">(B) A microwave oven</el-radio>
+                      <el-radio v-model=answerArr[71] label="C" size="medium">(C) A portable heater</el-radio>
+                      <el-radio v-model=answerArr[71] label="D" size="medium">(D) A water filter</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -870,10 +872,10 @@
                     <p><b>Question 72:</b>What is the purpose of the advertisement?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To reveal a product release date</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To announce a talent show</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To find volunteers for a focus group</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To explain details of a warranty</el-radio>
+                      <el-radio v-model=answerArr[72] label="A" size="medium">(A) To reveal a product release date</el-radio>
+                      <el-radio v-model=answerArr[72] label="B" size="medium">(B) To announce a talent show</el-radio>
+                      <el-radio v-model=answerArr[72] label="C" size="medium">(C) To find volunteers for a focus group</el-radio>
+                      <el-radio v-model=answerArr[72] label="D" size="medium">(D) To explain details of a warranty</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -881,10 +883,10 @@
                     <p><b>Question 73:</b>What bonus is mentioned?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A raffle ticket</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A coupon</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Travel reimbursement</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Free shipping</el-radio>
+                      <el-radio v-model=answerArr[73] label="A" size="medium">(A) A raffle ticket</el-radio>
+                      <el-radio v-model=answerArr[73] label="B" size="medium">(B) A coupon</el-radio>
+                      <el-radio v-model=answerArr[73] label="C" size="medium">(C) Travel reimbursement</el-radio>
+                      <el-radio v-model=answerArr[73] label="D" size="medium">(D) Free shipping</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -892,10 +894,10 @@
                     <p><b>Question 74:</b>Where is the speaker?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) At a hotel</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) At a travel agency</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) On a train</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) In an airport</el-radio>
+                      <el-radio v-model=answerArr[74] label="A" size="medium">(A) At a hotel</el-radio>
+                      <el-radio v-model=answerArr[74] label="B" size="medium">(B) At a travel agency</el-radio>
+                      <el-radio v-model=answerArr[74] label="C" size="medium">(C) On a train</el-radio>
+                      <el-radio v-model=answerArr[74] label="D" size="medium">(D) In an airport</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -903,10 +905,10 @@
                     <p><b>Question 75:</b>What will happen al the company tomorrow?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) New furniture will arrive</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Some clients will visit</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A new employee will be introduced</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Some computer software will be updated</el-radio>
+                      <el-radio v-model=answerArr[75] label="A" size="medium">(A) New furniture will arrive</el-radio>
+                      <el-radio v-model=answerArr[75] label="B" size="medium">(B) Some clients will visit</el-radio>
+                      <el-radio v-model=answerArr[75] label="C" size="medium">(C) A new employee will be introduced</el-radio>
+                      <el-radio v-model=answerArr[75] label="D" size="medium">(D) Some computer software will be updated</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -914,10 +916,10 @@
                     <p><b>Question 76:</b>Why does the speaker say, "Paul lived in Spain for ten years"?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To recommend a colleague for a task</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To suggest a travel destination</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To express surprise about an anniversary date</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To correct a data-entry error</el-radio>
+                      <el-radio v-model=answerArr[76] label="A" size="medium">(A) To recommend a colleague for a task</el-radio>
+                      <el-radio v-model=answerArr[76] label="B" size="medium">(B) To suggest a travel destination</el-radio>
+                      <el-radio v-model=answerArr[76] label="C" size="medium">(C) To express surprise about an anniversary date</el-radio>
+                      <el-radio v-model=answerArr[76] label="D" size="medium">(D) To correct a data-entry error</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -925,10 +927,10 @@
                     <p><b>Question 77:</b>What is the announcement about?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Anew sales team</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An outdoor work space</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A branch office</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A marketing campaign</el-radio>
+                      <el-radio v-model=answerArr[77] label="A" size="medium">(A) Anew sales team</el-radio>
+                      <el-radio v-model=answerArr[77] label="B" size="medium">(B) An outdoor work space</el-radio>
+                      <el-radio v-model=answerArr[77] label="C" size="medium">(C) A branch office</el-radio>
+                      <el-radio v-model=answerArr[77] label="D" size="medium">(D) A marketing campaign</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -936,10 +938,10 @@
                     <p><b>Question 78:</b>What can the listeners find on the company Web site?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A newspaper article</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A video demonstration</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) An architectural plan</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A revised policy</el-radio>
+                      <el-radio v-model=answerArr[78] label="A" size="medium">(A) A newspaper article</el-radio>
+                      <el-radio v-model=answerArr[78] label="B" size="medium">(B) A video demonstration</el-radio>
+                      <el-radio v-model=answerArr[78] label="C" size="medium">(C) An architectural plan</el-radio>
+                      <el-radio v-model=answerArr[78] label="D" size="medium">(D) A revised policy</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -947,10 +949,10 @@
                     <p><b>Question 79:</b>According to the speaker, what have some people expressed concern about?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A work schedule</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A completion date</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Internet connectivity</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Parking availability</el-radio>
+                      <el-radio v-model=answerArr[79] label="A" size="medium">(A) A work schedule</el-radio>
+                      <el-radio v-model=answerArr[79] label="B" size="medium">(B) A completion date</el-radio>
+                      <el-radio v-model=answerArr[79] label="C" size="medium">(C) Internet connectivity</el-radio>
+                      <el-radio v-model=answerArr[79] label="D" size="medium">(D) Parking availability</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -958,10 +960,10 @@
                     <p><b>Question 80:</b>Where are the listeners?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) At a trade show</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) At a fund-raising banquet</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) On a company retreat</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) On a city tour</el-radio>
+                      <el-radio v-model=answerArr[80] label="A" size="medium">(A) At a trade show</el-radio>
+                      <el-radio v-model=answerArr[80] label="B" size="medium">(B) At a fund-raising banquet</el-radio>
+                      <el-radio v-model=answerArr[80] label="C" size="medium">(C) On a company retreat</el-radio>
+                      <el-radio v-model=answerArr[80] label="D" size="medium">(D) On a city tour</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -969,10 +971,10 @@
                     <p><b>Question 81:</b>What does the speaker imply when she says, "tickets are sold our?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) An event has been rescheduled</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An activity is popular</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A ticket office is closed</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A refund will be issued</el-radio>
+                      <el-radio v-model=answerArr[81] label="A" size="medium">(A) An event has been rescheduled</el-radio>
+                      <el-radio v-model=answerArr[81] label="B" size="medium">(B) An activity is popular</el-radio>
+                      <el-radio v-model=answerArr[81] label="C" size="medium">(C) A ticket office is closed</el-radio>
+                      <el-radio v-model=answerArr[81] label="D" size="medium">(D) A refund will be issued</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -980,10 +982,10 @@
                     <p><b>Question 82:</b>What does the speaker remind the listeners to bring?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) An umbrella</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A pair of comfortable shoes</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) An identification card</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A receipt for payment</el-radio>
+                      <el-radio v-model=answerArr[82] label="A" size="medium">(A) An umbrella</el-radio>
+                      <el-radio v-model=answerArr[82] label="B" size="medium">(B) A pair of comfortable shoes</el-radio>
+                      <el-radio v-model=answerArr[82] label="C" size="medium">(C) An identification card</el-radio>
+                      <el-radio v-model=answerArr[82] label="D" size="medium">(D) A receipt for payment</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -991,10 +993,10 @@
                     <p><b>Question 83:</b>What kind of service is being advertised?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Office cleaning</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Tailoring</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Grocery delivery</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Landscaping</el-radio>
+                      <el-radio v-model=answerArr[83] label="A" size="medium">(A) Office cleaning</el-radio>
+                      <el-radio v-model=answerArr[83] label="B" size="medium">(B) Tailoring</el-radio>
+                      <el-radio v-model=answerArr[83] label="C" size="medium">(C) Grocery delivery</el-radio>
+                      <el-radio v-model=answerArr[83] label="D" size="medium">(D) Landscaping</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1002,10 +1004,10 @@
                     <p><b>Question 84:</b>How can the listeners start using a service?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) By visiting a local shop</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) By scheduling a consultation</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) By calling a telephone number</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) By creating an account online</el-radio>
+                      <el-radio v-model=answerArr[84] label="A" size="medium">(A) By visiting a local shop</el-radio>
+                      <el-radio v-model=answerArr[84] label="B" size="medium">(B) By scheduling a consultation</el-radio>
+                      <el-radio v-model=answerArr[84] label="C" size="medium">(C) By calling a telephone number</el-radio>
+                      <el-radio v-model=answerArr[84] label="D" size="medium">(D) By creating an account online</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1013,10 +1015,10 @@
                     <p><b>Question 85:</b>What special promotion is available?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A free gift</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A money-back guarantee</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A membership upgrade</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A personalized price quote</el-radio>
+                      <el-radio v-model=answerArr[85] label="A" size="medium">(A) A free gift</el-radio>
+                      <el-radio v-model=answerArr[85] label="B" size="medium">(B) A money-back guarantee</el-radio>
+                      <el-radio v-model=answerArr[85] label="C" size="medium">(C) A membership upgrade</el-radio>
+                      <el-radio v-model=answerArr[85] label="D" size="medium">(D) A personalized price quote</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1024,10 +1026,10 @@
                     <p><b>Question 86:</b>What is the purpose of the talk?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To thank project volunteers</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To explain an event schedule</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To introduce a new employee</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To welcome a guest speaker</el-radio>
+                      <el-radio v-model=answerArr[86] label="A" size="medium">(A) To thank project volunteers</el-radio>
+                      <el-radio v-model=answerArr[86] label="B" size="medium">(B) To explain an event schedule</el-radio>
+                      <el-radio v-model=answerArr[86] label="C" size="medium">(C) To introduce a new employee</el-radio>
+                      <el-radio v-model=answerArr[86] label="D" size="medium">(D) To welcome a guest speaker</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1035,10 +1037,10 @@
                     <p><b>Question 87:</b>According to the speaker, why might the listeners be familiar with Ms. Wang?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She starred in a television show</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She won a journalism award</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) She used to be an intern at the company</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) She has relatives who work for the company</el-radio>
+                      <el-radio v-model=answerArr[87] label="A" size="medium">(A) She starred in a television show</el-radio>
+                      <el-radio v-model=answerArr[87] label="B" size="medium">(B) She won a journalism award</el-radio>
+                      <el-radio v-model=answerArr[87] label="C" size="medium">(C) She used to be an intern at the company</el-radio>
+                      <el-radio v-model=answerArr[87] label="D" size="medium">(D) She has relatives who work for the company</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1046,10 +1048,10 @@
                     <p><b>Question 88:</b>What event WA the listeners encouraged to attend?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A board meeting</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A theater performance</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A training session</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A staff luncheon</el-radio>
+                      <el-radio v-model=answerArr[88] label="A" size="medium">(A) A board meeting</el-radio>
+                      <el-radio v-model=answerArr[88] label="B" size="medium">(B) A theater performance</el-radio>
+                      <el-radio v-model=answerArr[88] label="C" size="medium">(C) A training session</el-radio>
+                      <el-radio v-model=answerArr[88] label="D" size="medium">(D) A staff luncheon</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1057,10 +1059,10 @@
                     <p><b>Question 89:</b>Who will be featured at Saturday's event?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Sculptors</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Musicians</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Authors</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Comedians</el-radio>
+                      <el-radio v-model=answerArr[89] label="A" size="medium">(A) Sculptors</el-radio>
+                      <el-radio v-model=answerArr[89] label="B" size="medium">(B) Musicians</el-radio>
+                      <el-radio v-model=answerArr[89] label="C" size="medium">(C) Authors</el-radio>
+                      <el-radio v-model=answerArr[89] label="D" size="medium">(D) Comedians</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1068,10 +1070,10 @@
                     <p><b>Question 90:</b>What is money being raised for?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) An after-school program</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A sports tournament</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A building improvement project</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A health clinic</el-radio>
+                      <el-radio v-model=answerArr[90] label="A" size="medium">(A) An after-school program</el-radio>
+                      <el-radio v-model=answerArr[90] label="B" size="medium">(B) A sports tournament</el-radio>
+                      <el-radio v-model=answerArr[90] label="C" size="medium">(C) A building improvement project</el-radio>
+                      <el-radio v-model=answerArr[90] label="D" size="medium">(D) A health clinic</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1079,10 +1081,10 @@
                     <p><b>Question 91:</b>Why are volunteers needed?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To set up equipment</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To sell tickets</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To donate food</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To direct traffic</el-radio>
+                      <el-radio v-model=answerArr[91] label="A" size="medium">(A) To set up equipment</el-radio>
+                      <el-radio v-model=answerArr[91] label="B" size="medium">(B) To sell tickets</el-radio>
+                      <el-radio v-model=answerArr[91] label="C" size="medium">(C) To donate food</el-radio>
+                      <el-radio v-model=answerArr[91] label="D" size="medium">(D) To direct traffic</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1090,10 +1092,10 @@
                     <p><b>Question 92:</b>Which field does the speaker most likely work in?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Film production</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Interior design</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Computer programming</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Broadcast journalism</el-radio>
+                      <el-radio v-model=answerArr[92] label="A" size="medium">(A) Film production</el-radio>
+                      <el-radio v-model=answerArr[92] label="B" size="medium">(B) Interior design</el-radio>
+                      <el-radio v-model=answerArr[92] label="C" size="medium">(C) Computer programming</el-radio>
+                      <el-radio v-model=answerArr[92] label="D" size="medium">(D) Broadcast journalism</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1101,10 +1103,10 @@
                     <p><b>Question 93:</b>What improvement did the speaker make?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She hired more staff</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She used different software</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) She changed some colors</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) She talked to a specialist</el-radio>
+                      <el-radio v-model=answerArr[93] label="A" size="medium">(A) She hired more staff</el-radio>
+                      <el-radio v-model=answerArr[93] label="B" size="medium">(B) She used different software</el-radio>
+                      <el-radio v-model=answerArr[93] label="C" size="medium">(C) She changed some colors</el-radio>
+                      <el-radio v-model=answerArr[93] label="D" size="medium">(D) She talked to a specialist</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1112,10 +1114,10 @@
                     <p><b>Question 94:</b>Why does the speaker say, "I'm having some trouble uploading the file'?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To request some new equipment</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To complain about a policy</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To ask for help</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To explain a delay</el-radio>
+                      <el-radio v-model=answerArr[94] label="A" size="medium">(A) To request some new equipment</el-radio>
+                      <el-radio v-model=answerArr[94] label="B" size="medium">(B) To complain about a policy</el-radio>
+                      <el-radio v-model=answerArr[94] label="C" size="medium">(C) To ask for help</el-radio>
+                      <el-radio v-model=answerArr[94] label="D" size="medium">(D) To explain a delay</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1128,10 +1130,10 @@
                     <p><b>Question 95:</b>Where does the speaker most likely work?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) At a bookshop</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) At an electronics store</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) At a home-improvement store</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) At a clothing store</el-radio>
+                      <el-radio v-model=answerArr[95] label="A" size="medium">(A) At a bookshop</el-radio>
+                      <el-radio v-model=answerArr[95] label="B" size="medium">(B) At an electronics store</el-radio>
+                      <el-radio v-model=answerArr[95] label="C" size="medium">(C) At a home-improvement store</el-radio>
+                      <el-radio v-model=answerArr[95] label="D" size="medium">(D) At a clothing store</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1139,10 +1141,10 @@
                     <p><b>Question 96:</b>What will happen next Tuesday?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) New inventory will arrive</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) The store will close for a holiday</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) New employees will begin working</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A district manager will visit</el-radio>
+                      <el-radio v-model=answerArr[96] label="A" size="medium">(A) New inventory will arrive</el-radio>
+                      <el-radio v-model=answerArr[96] label="B" size="medium">(B) The store will close for a holiday</el-radio>
+                      <el-radio v-model=answerArr[96] label="C" size="medium">(C) New employees will begin working</el-radio>
+                      <el-radio v-model=answerArr[96] label="D" size="medium">(D) A district manager will visit</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1150,10 +1152,10 @@
                     <p><b>Question 97:</b>Look at the graphic. What job will the speaker do tomorrow?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Greeter</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Sales representative</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Cashier</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Stock clerk</el-radio>
+                      <el-radio v-model=answerArr[97] label="A" size="medium">(A) Greeter</el-radio>
+                      <el-radio v-model=answerArr[97] label="B" size="medium">(B) Sales representative</el-radio>
+                      <el-radio v-model=answerArr[97] label="C" size="medium">(C) Cashier</el-radio>
+                      <el-radio v-model=answerArr[97] label="D" size="medium">(D) Stock clerk</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1166,10 +1168,10 @@
                     <p><b>Question 98:</b>Why is the speaker traveling?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) He is taking a vacation</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) He is making a delivery</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) He is inspecting properties</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) He is conducting training</el-radio>
+                      <el-radio v-model=answerArr[98] label="A" size="medium">(A) He is taking a vacation</el-radio>
+                      <el-radio v-model=answerArr[98] label="B" size="medium">(B) He is making a delivery</el-radio>
+                      <el-radio v-model=answerArr[98] label="C" size="medium">(C) He is inspecting properties</el-radio>
+                      <el-radio v-model=answerArr[98] label="D" size="medium">(D) He is conducting training</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1177,10 +1179,10 @@
                     <p><b>Question 99:</b>Look at the graphic. Which item number should the listener order?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) NT-105</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) FF-200</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A-888</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) C-250</el-radio>
+                      <el-radio v-model=answerArr[99] label="A" size="medium">(A) NT-105</el-radio>
+                      <el-radio v-model=answerArr[99] label="B" size="medium">(B) FF-200</el-radio>
+                      <el-radio v-model=answerArr[99] label="C" size="medium">(C) A-888</el-radio>
+                      <el-radio v-model=answerArr[99] label="D" size="medium">(D) C-250</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1188,10 +1190,10 @@
                     <p><b>Question 100:</b>What does the speaker say will happen next week?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Some prices will be discounted</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Some job applicants will be interviewed</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A new product will be released</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) An office will move to a new location</el-radio>
+                      <el-radio v-model=answerArr[100] label="A" size="medium">(A) Some prices will be discounted</el-radio>
+                      <el-radio v-model=answerArr[100] label="B" size="medium">(B) Some job applicants will be interviewed</el-radio>
+                      <el-radio v-model=answerArr[100] label="C" size="medium">(C) A new product will be released</el-radio>
+                      <el-radio v-model=answerArr[100] label="D" size="medium">(D) An office will move to a new location</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1210,300 +1212,300 @@
                   <div class="question">
                     <p><b>Question 101:</b>Mr. Sokolov _____ a positive review of his stay at the Olana Hotel.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) write</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) wrote</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) writing</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) was written</el-radio>
+                      <el-radio v-model=answerArr[101] label="A" size="medium">(A) write</el-radio>
+                      <el-radio v-model=answerArr[101] label="B" size="medium">(B) wrote</el-radio>
+                      <el-radio v-model=answerArr[101] label="C" size="medium">(C) writing</el-radio>
+                      <el-radio v-model=answerArr[101] label="D" size="medium">(D) was written</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 102:</b>The manager often leads new employees through the safety procedures _____</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) her</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) herself</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) hers</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) she</el-radio>
+                      <el-radio v-model=answerArr[102] label="A" size="medium">(A) her</el-radio>
+                      <el-radio v-model=answerArr[102] label="B" size="medium">(B) herself</el-radio>
+                      <el-radio v-model=answerArr[102] label="C" size="medium">(C) hers</el-radio>
+                      <el-radio v-model=answerArr[102] label="D" size="medium">(D) she</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 103:</b>The corporate fitness center is equipped _____ fourteen stationary hinynles</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) at</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) on</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) with</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) about</el-radio>
+                      <el-radio v-model=answerArr[103] label="A" size="medium">(A) at</el-radio>
+                      <el-radio v-model=answerArr[103] label="B" size="medium">(B) on</el-radio>
+                      <el-radio v-model=answerArr[103] label="C" size="medium">(C) with</el-radio>
+                      <el-radio v-model=answerArr[103] label="D" size="medium">(D) about</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 104:</b>Professor Phuong will go over the use of the laboratory _____ with the interns next week.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) instruments</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) instrumental</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) instrumentally</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) instrumented</el-radio>
+                      <el-radio v-model=answerArr[104] label="A" size="medium">(A) instruments</el-radio>
+                      <el-radio v-model=answerArr[104] label="B" size="medium">(B) instrumental</el-radio>
+                      <el-radio v-model=answerArr[104] label="C" size="medium">(C) instrumentally</el-radio>
+                      <el-radio v-model=answerArr[104] label="D" size="medium">(D) instrumented</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 105:</b>Arnby Cable _____ £25.00 to all Internet subscribers after the weeklong service interruption.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) refunded</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) accepted</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) divided</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) deposited</el-radio>
+                      <el-radio v-model=answerArr[105] label="A" size="medium">(A) refunded</el-radio>
+                      <el-radio v-model=answerArr[105] label="B" size="medium">(B) accepted</el-radio>
+                      <el-radio v-model=answerArr[105] label="C" size="medium">(C) divided</el-radio>
+                      <el-radio v-model=answerArr[105] label="D" size="medium">(D) deposited</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 106:</b>The board of directors will meet next Monday to examine the current hiring _____</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) purpose</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) intent</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) assembly</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) policy</el-radio>
+                      <el-radio v-model=answerArr[106] label="A" size="medium">(A) purpose</el-radio>
+                      <el-radio v-model=answerArr[106] label="B" size="medium">(B) intent</el-radio>
+                      <el-radio v-model=answerArr[106] label="C" size="medium">(C) assembly</el-radio>
+                      <el-radio v-model=answerArr[106] label="D" size="medium">(D) policy</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 107:</b>Passengers shniild not leave their seats _____ a flight attendant gives them permission to do so.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) unless</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) rather</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) instead</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) otherwise</el-radio>
+                      <el-radio v-model=answerArr[107] label="A" size="medium">(A) unless</el-radio>
+                      <el-radio v-model=answerArr[107] label="B" size="medium">(B) rather</el-radio>
+                      <el-radio v-model=answerArr[107] label="C" size="medium">(C) instead</el-radio>
+                      <el-radio v-model=answerArr[107] label="D" size="medium">(D) otherwise</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 108:</b>The goal of the committee was to evaluate the company's bylaws and offer _____ for improvement.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) renewals</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) registrations</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) recommendations</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) reimbursements</el-radio>
+                      <el-radio v-model=answerArr[108] label="A" size="medium">(A) renewals</el-radio>
+                      <el-radio v-model=answerArr[108] label="B" size="medium">(B) registrations</el-radio>
+                      <el-radio v-model=answerArr[108] label="C" size="medium">(C) recommendations</el-radio>
+                      <el-radio v-model=answerArr[108] label="D" size="medium">(D) reimbursements</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 109:</b>The building's new ventilation system circulates heat much _____ than before.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) even</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) most even</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) evenly</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) more evenly</el-radio>
+                      <el-radio v-model=answerArr[109] label="A" size="medium">(A) even</el-radio>
+                      <el-radio v-model=answerArr[109] label="B" size="medium">(B) most even</el-radio>
+                      <el-radio v-model=answerArr[109] label="C" size="medium">(C) evenly</el-radio>
+                      <el-radio v-model=answerArr[109] label="D" size="medium">(D) more evenly</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 110:</b>Glowood Appliances promises customers their money back _____ they are not satisfied with their purchase.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) while</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) and</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) if</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) then</el-radio>
+                      <el-radio v-model=answerArr[110] label="A" size="medium">(A) while</el-radio>
+                      <el-radio v-model=answerArr[110] label="B" size="medium">(B) and</el-radio>
+                      <el-radio v-model=answerArr[110] label="C" size="medium">(C) if</el-radio>
+                      <el-radio v-model=answerArr[110] label="D" size="medium">(D) then</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 111:</b>The theater doors will close and the show will start at precisely 8:00 p.m., so guests are reminded to be _____.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) rapid</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) sudden</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) punctual</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) instant</el-radio>
+                      <el-radio v-model=answerArr[111] label="A" size="medium">(A) rapid</el-radio>
+                      <el-radio v-model=answerArr[111] label="B" size="medium">(B) sudden</el-radio>
+                      <el-radio v-model=answerArr[111] label="C" size="medium">(C) punctual</el-radio>
+                      <el-radio v-model=answerArr[111] label="D" size="medium">(D) instant</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 112:</b>All vacation requests must be made to your supervisor _____ the requested date.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) prior to</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) except for</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) previously</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) because</el-radio>
+                      <el-radio v-model=answerArr[112] label="A" size="medium">(A) prior to</el-radio>
+                      <el-radio v-model=answerArr[112] label="B" size="medium">(B) except for</el-radio>
+                      <el-radio v-model=answerArr[112] label="C" size="medium">(C) previously</el-radio>
+                      <el-radio v-model=answerArr[112] label="D" size="medium">(D) because</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 113:</b>Most banks now offer clients the option of receiving their statements electronically or _____ mail.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) from</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) of</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) in</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) by</el-radio>
+                      <el-radio v-model=answerArr[113] label="A" size="medium">(A) from</el-radio>
+                      <el-radio v-model=answerArr[113] label="B" size="medium">(B) of</el-radio>
+                      <el-radio v-model=answerArr[113] label="C" size="medium">(C) in</el-radio>
+                      <el-radio v-model=answerArr[113] label="D" size="medium">(D) by</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 114:</b>Construction at Langhall Plaza is going so well that shops might open before the expected date.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) completion</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) selectinn</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) decision</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) option</el-radio>
+                      <el-radio v-model=answerArr[114] label="A" size="medium">(A) completion</el-radio>
+                      <el-radio v-model=answerArr[114] label="B" size="medium">(B) selectinn</el-radio>
+                      <el-radio v-model=answerArr[114] label="C" size="medium">(C) decision</el-radio>
+                      <el-radio v-model=answerArr[114] label="D" size="medium">(D) option</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 115:</b>Kohmek, Inc., is seeking a suitable site _____ the construction of its electronics factory.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) for</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) so</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) to</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) more</el-radio>
+                      <el-radio v-model=answerArr[115] label="A" size="medium">(A) for</el-radio>
+                      <el-radio v-model=answerArr[115] label="B" size="medium">(B) so</el-radio>
+                      <el-radio v-model=answerArr[115] label="C" size="medium">(C) to</el-radio>
+                      <el-radio v-model=answerArr[115] label="D" size="medium">(D) more</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 116:</b>Studies show that the average audience forms its _____ of the speaker within the first few seconds of the presentation.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Impress</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) impressive</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) impressively</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) impression</el-radio>
+                      <el-radio v-model=answerArr[116] label="A" size="medium">(A) Impress</el-radio>
+                      <el-radio v-model=answerArr[116] label="B" size="medium">(B) impressive</el-radio>
+                      <el-radio v-model=answerArr[116] label="C" size="medium">(C) impressively</el-radio>
+                      <el-radio v-model=answerArr[116] label="D" size="medium">(D) impression</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 117:</b>Mr. Cutler has been asked to _____ domestic sales of low-calorie beverages.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) oversee</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) possess</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) succeed</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) persist</el-radio>
+                      <el-radio v-model=answerArr[117] label="A" size="medium">(A) oversee</el-radio>
+                      <el-radio v-model=answerArr[117] label="B" size="medium">(B) possess</el-radio>
+                      <el-radio v-model=answerArr[117] label="C" size="medium">(C) succeed</el-radio>
+                      <el-radio v-model=answerArr[117] label="D" size="medium">(D) persist</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 118:</b>Cranford Culinary Academy offers 35 different classes for _____ chefs.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) aspires</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) aspirations</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) aspiring</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) to aspire</el-radio>
+                      <el-radio v-model=answerArr[118] label="A" size="medium">(A) aspires</el-radio>
+                      <el-radio v-model=answerArr[118] label="B" size="medium">(B) aspirations</el-radio>
+                      <el-radio v-model=answerArr[118] label="C" size="medium">(C) aspiring</el-radio>
+                      <el-radio v-model=answerArr[118] label="D" size="medium">(D) to aspire</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 119:</b>_____ , items sold at the Scottville Craft Fair are unique and of very high quality.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Fairly</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Typically</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Simply</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Entirely</el-radio>
+                      <el-radio v-model=answerArr[119] label="A" size="medium">(A) Fairly</el-radio>
+                      <el-radio v-model=answerArr[119] label="B" size="medium">(B) Typically</el-radio>
+                      <el-radio v-model=answerArr[119] label="C" size="medium">(C) Simply</el-radio>
+                      <el-radio v-model=answerArr[119] label="D" size="medium">(D) Entirely</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 120:</b>Mamton Home Furnishings _____ customized furniture in Pennsylvania for more than a century.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) manufactures</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) is manufacturing</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) has manufactured</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) manufacture</el-radio>
+                      <el-radio v-model=answerArr[120] label="A" size="medium">(A) manufactures</el-radio>
+                      <el-radio v-model=answerArr[120] label="B" size="medium">(B) is manufacturing</el-radio>
+                      <el-radio v-model=answerArr[120] label="C" size="medium">(C) has manufactured</el-radio>
+                      <el-radio v-model=answerArr[120] label="D" size="medium">(D) manufacture</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 121:</b>Please hold any phone calls for Ms. Tanaka ______ she will be in meetings all day.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) as</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) but</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) despite</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) similarly</el-radio>
+                      <el-radio v-model=answerArr[121] label="A" size="medium">(A) as</el-radio>
+                      <el-radio v-model=answerArr[121] label="B" size="medium">(B) but</el-radio>
+                      <el-radio v-model=answerArr[121] label="C" size="medium">(C) despite</el-radio>
+                      <el-radio v-model=answerArr[121] label="D" size="medium">(D) similarly</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 122:</b>Dolores Gutierrez excels as an estate planning attorney who helps clients manage their assets _____ .</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) effect</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) effectively</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) effects</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) effective</el-radio>
+                      <el-radio v-model=answerArr[122] label="A" size="medium">(A) effect</el-radio>
+                      <el-radio v-model=answerArr[122] label="B" size="medium">(B) effectively</el-radio>
+                      <el-radio v-model=answerArr[122] label="C" size="medium">(C) effects</el-radio>
+                      <el-radio v-model=answerArr[122] label="D" size="medium">(D) effective</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 123:</b>Mr. Singh was _____ about sales of the fragrance after the first round of customer focus groups.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) extensive</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) distinct</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) optimistic</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) superior</el-radio>
+                      <el-radio v-model=answerArr[123] label="A" size="medium">(A) extensive</el-radio>
+                      <el-radio v-model=answerArr[123] label="B" size="medium">(B) distinct</el-radio>
+                      <el-radio v-model=answerArr[123] label="C" size="medium">(C) optimistic</el-radio>
+                      <el-radio v-model=answerArr[123] label="D" size="medium">(D) superior</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 124:</b>Data from the finance department was used to _____ predict the company's future expenses.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) either</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) ever</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) yet</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) better</el-radio>
+                      <el-radio v-model=answerArr[124] label="A" size="medium">(A) either</el-radio>
+                      <el-radio v-model=answerArr[124] label="B" size="medium">(B) ever</el-radio>
+                      <el-radio v-model=answerArr[124] label="C" size="medium">(C) yet</el-radio>
+                      <el-radio v-model=answerArr[124] label="D" size="medium">(D) better</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 125:</b>Immediately after the decrease in production was announced, everyone began discussing how _____ would impact work schedules.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) us</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) it</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) theirs</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) yours</el-radio>
+                      <el-radio v-model=answerArr[125] label="A" size="medium">(A) us</el-radio>
+                      <el-radio v-model=answerArr[125] label="B" size="medium">(B) it</el-radio>
+                      <el-radio v-model=answerArr[125] label="C" size="medium">(C) theirs</el-radio>
+                      <el-radio v-model=answerArr[125] label="D" size="medium">(D) yours</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 126:</b>Every year Arrow Mill. Inc., processes a _____ amount of grain.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) durable</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) direct</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) resolute</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) substantial</el-radio>
+                      <el-radio v-model=answerArr[126] label="A" size="medium">(A) durable</el-radio>
+                      <el-radio v-model=answerArr[126] label="B" size="medium">(B) direct</el-radio>
+                      <el-radio v-model=answerArr[126] label="C" size="medium">(C) resolute</el-radio>
+                      <el-radio v-model=answerArr[126] label="D" size="medium">(D) substantial</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 127:</b>Tomorrow morning, both escalators in the store will be turned off periodically in order to perform _____ maintenance.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) required</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) require</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) requiring</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) requires</el-radio>
+                      <el-radio v-model=answerArr[127] label="A" size="medium">(A) required</el-radio>
+                      <el-radio v-model=answerArr[127] label="B" size="medium">(B) require</el-radio>
+                      <el-radio v-model=answerArr[127] label="C" size="medium">(C) requiring</el-radio>
+                      <el-radio v-model=answerArr[127] label="D" size="medium">(D) requires</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 128:</b>Those who wish to volunteer at the annual Sebastian Park flower-planting event this Saturday _____ to arrive early.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) asks</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) are asked</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) has been asking</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) to ask</el-radio>
+                      <el-radio v-model=answerArr[128] label="A" size="medium">(A) asks</el-radio>
+                      <el-radio v-model=answerArr[128] label="B" size="medium">(B) are asked</el-radio>
+                      <el-radio v-model=answerArr[128] label="C" size="medium">(C) has been asking</el-radio>
+                      <el-radio v-model=answerArr[128] label="D" size="medium">(D) to ask</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 129:</b>Although Mr. Yanamura's theory is _____ controversial, it does help explain the latest changes in the market.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) neatly</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) urgently</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) gracefully</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) certainly</el-radio>
+                      <el-radio v-model=answerArr[129] label="A" size="medium">(A) neatly</el-radio>
+                      <el-radio v-model=answerArr[129] label="B" size="medium">(B) urgently</el-radio>
+                      <el-radio v-model=answerArr[129] label="C" size="medium">(C) gracefully</el-radio>
+                      <el-radio v-model=answerArr[129] label="D" size="medium">(D) certainly</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 130:</b>A recent _____ found that property values in the Agate Valley region had increased by 3 percent between January and June.</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) assessment</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) assessed</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) assessable</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) to assess</el-radio>
+                      <el-radio v-model=answerArr[130] label="A" size="medium">(A) assessment</el-radio>
+                      <el-radio v-model=answerArr[130] label="B" size="medium">(B) assessed</el-radio>
+                      <el-radio v-model=answerArr[130] label="C" size="medium">(C) assessable</el-radio>
+                      <el-radio v-model=answerArr[130] label="D" size="medium">(D) to assess</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1527,40 +1529,40 @@
                   <div class="question">
                     <p><b>Question 131:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) attracted</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) entered</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) awarded</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) promoted</el-radio>
+                      <el-radio v-model=answerArr[131] label="A" size="medium">(A) attracted</el-radio>
+                      <el-radio v-model=answerArr[131] label="B" size="medium">(B) entered</el-radio>
+                      <el-radio v-model=answerArr[131] label="C" size="medium">(C) awarded</el-radio>
+                      <el-radio v-model=answerArr[131] label="D" size="medium">(D) promoted</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 132:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) they</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) them</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) themselves</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) theirs</el-radio>
+                      <el-radio v-model=answerArr[132] label="A" size="medium">(A) they</el-radio>
+                      <el-radio v-model=answerArr[132] label="B" size="medium">(B) them</el-radio>
+                      <el-radio v-model=answerArr[132] label="C" size="medium">(C) themselves</el-radio>
+                      <el-radio v-model=answerArr[132] label="D" size="medium">(D) theirs</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 133:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) location</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) situation</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) machine</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) schedule</el-radio>
+                      <el-radio v-model=answerArr[133] label="A" size="medium">(A) location</el-radio>
+                      <el-radio v-model=answerArr[133] label="B" size="medium">(B) situation</el-radio>
+                      <el-radio v-model=answerArr[133] label="C" size="medium">(C) machine</el-radio>
+                      <el-radio v-model=answerArr[133] label="D" size="medium">(D) schedule</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 134:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Registration begins on 3 February and continues through 18 March.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) This speaker is well-known throughout the industry.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) The conference was held in New Zealand in previous years.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) We'd like to get your feedback on last year's conference.</el-radio>
+                      <el-radio v-model=answerArr[134] label="A" size="medium">(A) Registration begins on 3 February and continues through 18 March.</el-radio>
+                      <el-radio v-model=answerArr[134] label="B" size="medium">(B) This speaker is well-known throughout the industry.</el-radio>
+                      <el-radio v-model=answerArr[134] label="C" size="medium">(C) The conference was held in New Zealand in previous years.</el-radio>
+                      <el-radio v-model=answerArr[134] label="D" size="medium">(D) We'd like to get your feedback on last year's conference.</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1572,40 +1574,40 @@
                   <div class="question">
                     <p><b>Question 135:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) who</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) accordingly</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) recently</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) where</el-radio>
+                      <el-radio v-model=answerArr[135] label="A" size="medium">(A) who</el-radio>
+                      <el-radio v-model=answerArr[135] label="B" size="medium">(B) accordingly</el-radio>
+                      <el-radio v-model=answerArr[135] label="C" size="medium">(C) recently</el-radio>
+                      <el-radio v-model=answerArr[135] label="D" size="medium">(D) where</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 136:</b></p>
+                    <p><b>Question 135:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) provided</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) will provide</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) will have provided</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) is providing</el-radio>
+                      <el-radio v-model=answerArr[135] label="A" size="medium">(A) provided</el-radio>
+                      <el-radio v-model=answerArr[135] label="B" size="medium">(B) will provide</el-radio>
+                      <el-radio v-model=answerArr[135] label="C" size="medium">(C) will have provided</el-radio>
+                      <el-radio v-model=answerArr[135] label="D" size="medium">(D) is providing</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 137:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Your travel expenses are covered by Wallace & Prence.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) We place clients in apartments throughout the world.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Duties also include supporting clients after their arrival.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Incomplete applications will not be considered.</el-radio>
+                      <el-radio v-model=answerArr[137] label="A" size="medium">(A) Your travel expenses are covered by Wallace & Prence.</el-radio>
+                      <el-radio v-model=answerArr[137] label="B" size="medium">(B) We place clients in apartments throughout the world.</el-radio>
+                      <el-radio v-model=answerArr[137] label="C" size="medium">(C) Duties also include supporting clients after their arrival.</el-radio>
+                      <el-radio v-model=answerArr[137] label="D" size="medium">(D) Incomplete applications will not be considered.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 138:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) questions</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) documents</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) references</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) qualifications</el-radio>
+                      <el-radio v-model=answerArr[138] label="A" size="medium">(A) questions</el-radio>
+                      <el-radio v-model=answerArr[138] label="B" size="medium">(B) documents</el-radio>
+                      <el-radio v-model=answerArr[138] label="C" size="medium">(C) references</el-radio>
+                      <el-radio v-model=answerArr[138] label="D" size="medium">(D) qualifications</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1617,40 +1619,40 @@
                   <div class="question">
                     <p><b>Question 139:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) doubted</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) estimated</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) crowded</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) organized</el-radio>
+                      <el-radio v-model=answerArr[139] label="A" size="medium">(A) doubted</el-radio>
+                      <el-radio v-model=answerArr[139] label="B" size="medium">(B) estimated</el-radio>
+                      <el-radio v-model=answerArr[139] label="C" size="medium">(C) crowded</el-radio>
+                      <el-radio v-model=answerArr[139] label="D" size="medium">(D) organized</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 140:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She usually serves them warm.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She created them when she started the restaurant.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) His family members prefer eating healthy meals.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) His social media campaign has also boosted sales.</el-radio>
+                      <el-radio v-model=answerArr[140] label="A" size="medium">(A) She usually serves them warm.</el-radio>
+                      <el-radio v-model=answerArr[140] label="B" size="medium">(B) She created them when she started the restaurant.</el-radio>
+                      <el-radio v-model=answerArr[140] label="C" size="medium">(C) His family members prefer eating healthy meals.</el-radio>
+                      <el-radio v-model=answerArr[140] label="D" size="medium">(D) His social media campaign has also boosted sales.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 141:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) leave</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) left</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) is leaving</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) have left</el-radio>
+                      <el-radio v-model=answerArr[141] label="A" size="medium">(A) leave</el-radio>
+                      <el-radio v-model=answerArr[141] label="B" size="medium">(B) left</el-radio>
+                      <el-radio v-model=answerArr[141] label="C" size="medium">(C) is leaving</el-radio>
+                      <el-radio v-model=answerArr[141] label="D" size="medium">(D) have left</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 142:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) expansion</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) supervision</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) submission</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) division</el-radio>
+                      <el-radio v-model=answerArr[142] label="A" size="medium">(A) expansion</el-radio>
+                      <el-radio v-model=answerArr[142] label="B" size="medium">(B) supervision</el-radio>
+                      <el-radio v-model=answerArr[142] label="C" size="medium">(C) submission</el-radio>
+                      <el-radio v-model=answerArr[142] label="D" size="medium">(D) division</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1662,40 +1664,40 @@
                   <div class="question">
                     <p><b>Question 143:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) However</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Therefore</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) In addition</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) For example</el-radio>
+                      <el-radio v-model=answerArr[143] label="A" size="medium">(A) However</el-radio>
+                      <el-radio v-model=answerArr[143] label="B" size="medium">(B) Therefore</el-radio>
+                      <el-radio v-model=answerArr[143] label="C" size="medium">(C) In addition</el-radio>
+                      <el-radio v-model=answerArr[143] label="D" size="medium">(D) For example</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 144:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) sent</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) will be sent</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) will have sent</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) had been sent</el-radio>
+                      <el-radio v-model=answerArr[144] label="A" size="medium">(A) sent</el-radio>
+                      <el-radio v-model=answerArr[144] label="B" size="medium">(B) will be sent</el-radio>
+                      <el-radio v-model=answerArr[144] label="C" size="medium">(C) will have sent</el-radio>
+                      <el-radio v-model=answerArr[144] label="D" size="medium">(D) had been sent</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 145:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Support</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Absence</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Failure</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Approval</el-radio>
+                      <el-radio v-model=answerArr[145] label="A" size="medium">(A) Support</el-radio>
+                      <el-radio v-model=answerArr[145] label="B" size="medium">(B) Absence</el-radio>
+                      <el-radio v-model=answerArr[145] label="C" size="medium">(C) Failure</el-radio>
+                      <el-radio v-model=answerArr[145] label="D" size="medium">(D) Approval</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 146:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) I will see you at the meeting.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Write down your new log-in ID.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Let me know when this is done.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Thank you for your cooperation.</el-radio>
+                      <el-radio v-model=answerArr[146] label="A" size="medium">(A) I will see you at the meeting.</el-radio>
+                      <el-radio v-model=answerArr[146] label="B" size="medium">(B) Write down your new log-in ID.</el-radio>
+                      <el-radio v-model=answerArr[146] label="C" size="medium">(C) Let me know when this is done.</el-radio>
+                      <el-radio v-model=answerArr[146] label="D" size="medium">(D) Thank you for your cooperation.</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1719,20 +1721,20 @@
                   <div class="question">
                     <p><b>Question 147:</b>What is indicated about Asherton Manor?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) It is available for private portico.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) It is open daily from 11:00 A.M. to 5:00 P.M.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) It always offers guided tours.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) It is near a train station.</el-radio>
+                      <el-radio v-model=answerArr[147] label="A" size="medium">(A) It is available for private portico.</el-radio>
+                      <el-radio v-model=answerArr[147] label="B" size="medium">(B) It is open daily from 11:00 A.M. to 5:00 P.M.</el-radio>
+                      <el-radio v-model=answerArr[147] label="C" size="medium">(C) It always offers guided tours.</el-radio>
+                      <el-radio v-model=answerArr[147] label="D" size="medium">(D) It is near a train station.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 148:</b>What will NOT be free at the fair?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Games</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Music</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Shuttle rides</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) On-site parking</el-radio>
+                      <el-radio v-model=answerArr[148] label="A" size="medium">(A) Games</el-radio>
+                      <el-radio v-model=answerArr[148] label="B" size="medium">(B) Music</el-radio>
+                      <el-radio v-model=answerArr[148] label="C" size="medium">(C) Shuttle rides</el-radio>
+                      <el-radio v-model=answerArr[148] label="D" size="medium">(D) On-site parking</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1744,20 +1746,20 @@
                   <div class="question">
                     <p><b>Question 149:</b>What is the purpose of the advertisement?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To offer a discount to new clients</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To announce new menu items</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To describe the services of a business</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To explain delivery requirements</el-radio>
+                      <el-radio v-model=answerArr[149] label="A" size="medium">(A) To offer a discount to new clients</el-radio>
+                      <el-radio v-model=answerArr[149] label="B" size="medium">(B) To announce new menu items</el-radio>
+                      <el-radio v-model=answerArr[149] label="C" size="medium">(C) To describe the services of a business</el-radio>
+                      <el-radio v-model=answerArr[149] label="D" size="medium">(D) To explain delivery requirements</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 150:</b>According to the advertisement, what is available by special request?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Food sampling</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Vegetarian meals</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Itemized bills</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Decorations</el-radio>
+                      <el-radio v-model=answerArr[150] label="A" size="medium">(A) Food sampling</el-radio>
+                      <el-radio v-model=answerArr[150] label="B" size="medium">(B) Vegetarian meals</el-radio>
+                      <el-radio v-model=answerArr[150] label="C" size="medium">(C) Itemized bills</el-radio>
+                      <el-radio v-model=answerArr[150] label="D" size="medium">(D) Decorations</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1769,20 +1771,20 @@
                   <div class="question">
                     <p><b>Question 151:</b>According to Ms. Bryant, why might Mr. Wiest not have seen the original document?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She forgot to attach it to her e-mail.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She sent it to a different person.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) It may have gone to the wrong e-mail folder.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) The tile in it may have been too large.</el-radio>
+                      <el-radio v-model=answerArr[151] label="A" size="medium">(A) She forgot to attach it to her e-mail.</el-radio>
+                      <el-radio v-model=answerArr[151] label="B" size="medium">(B) She sent it to a different person.</el-radio>
+                      <el-radio v-model=answerArr[151] label="C" size="medium">(C) It may have gone to the wrong e-mail folder.</el-radio>
+                      <el-radio v-model=answerArr[151] label="D" size="medium">(D) The tile in it may have been too large.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 152:</b>Who most likely is Ms. Bryant?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) An architect</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An apartment-building manager</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A banker</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A property owner</el-radio>
+                      <el-radio v-model=answerArr[152] label="A" size="medium">(A) An architect</el-radio>
+                      <el-radio v-model=answerArr[152] label="B" size="medium">(B) An apartment-building manager</el-radio>
+                      <el-radio v-model=answerArr[152] label="C" size="medium">(C) A banker</el-radio>
+                      <el-radio v-model=answerArr[152] label="D" size="medium">(D) A property owner</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1795,20 +1797,20 @@
                   <div class="question">
                     <p><b>Question 153:</b>What has Mr. Ubari NOT done?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Purchased a new camera</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Connected the camera to the computer</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Restarted the camera</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Restarted the computer</el-radio>
+                      <el-radio v-model=answerArr[153] label="A" size="medium">(A) Purchased a new camera</el-radio>
+                      <el-radio v-model=answerArr[153] label="B" size="medium">(B) Connected the camera to the computer</el-radio>
+                      <el-radio v-model=answerArr[153] label="C" size="medium">(C) Restarted the camera</el-radio>
+                      <el-radio v-model=answerArr[153] label="D" size="medium">(D) Restarted the computer</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 154:</b>At 3:42 P.M., what does Mr. Ubari most likely mean when he writes, "Yes, it's there"?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) He found an icon.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) He moved the camera.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) He uploaded the pictures.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) He sees the instructions.</el-radio>
+                      <el-radio v-model=answerArr[154] label="A" size="medium">(A) He found an icon.</el-radio>
+                      <el-radio v-model=answerArr[154] label="B" size="medium">(B) He moved the camera.</el-radio>
+                      <el-radio v-model=answerArr[154] label="C" size="medium">(C) He uploaded the pictures.</el-radio>
+                      <el-radio v-model=answerArr[154] label="D" size="medium">(D) He sees the instructions.</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1821,30 +1823,30 @@
                   <div class="question">
                     <p><b>Question 155:</b>Who most likely is Mr. Perez?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A factory floor worker</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A food service worker</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) The safety inspector</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) The general manager</el-radio>
+                      <el-radio v-model=answerArr[155] label="A" size="medium">(A) A factory floor worker</el-radio>
+                      <el-radio v-model=answerArr[155] label="B" size="medium">(B) A food service worker</el-radio>
+                      <el-radio v-model=answerArr[155] label="C" size="medium">(C) The safety inspector</el-radio>
+                      <el-radio v-model=answerArr[155] label="D" size="medium">(D) The general manager</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 156:</b>When will the inspection begin?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) At 8:30 A.M.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) At 10:00 A.M.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) At 12:30 P.M.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) At 3:30 P.M.</el-radio>
+                      <el-radio v-model=answerArr[156] label="A" size="medium">(A) At 8:30 A.M.</el-radio>
+                      <el-radio v-model=answerArr[156] label="B" size="medium">(B) At 10:00 A.M.</el-radio>
+                      <el-radio v-model=answerArr[156] label="C" size="medium">(C) At 12:30 P.M.</el-radio>
+                      <el-radio v-model=answerArr[156] label="D" size="medium">(D) At 3:30 P.M.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 157:</b>What does the memo suggest about factory floor workers?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) They must prepare written reports.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) They will be able to leave work early.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Their afternoon work might be interrupted.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Their workstations might be unavailable.</el-radio>
+                      <el-radio v-model=answerArr[157] label="A" size="medium">(A) They must prepare written reports.</el-radio>
+                      <el-radio v-model=answerArr[157] label="B" size="medium">(B) They will be able to leave work early.</el-radio>
+                      <el-radio v-model=answerArr[157] label="C" size="medium">(C) Their afternoon work might be interrupted.</el-radio>
+                      <el-radio v-model=answerArr[157] label="D" size="medium">(D) Their workstations might be unavailable.</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1857,30 +1859,30 @@
                   <div class="question">
                     <p><b>Question 158:</b>Who most likely is Mr. Mayer?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A health professional</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A Healthhome Web-site user</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A Web-site designer</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A Healthhome article contributor</el-radio>
+                      <el-radio v-model=answerArr[158] label="A" size="medium">(A) A health professional</el-radio>
+                      <el-radio v-model=answerArr[158] label="B" size="medium">(B) A Healthhome Web-site user</el-radio>
+                      <el-radio v-model=answerArr[158] label="C" size="medium">(C) A Web-site designer</el-radio>
+                      <el-radio v-model=answerArr[158] label="D" size="medium">(D) A Healthhome article contributor</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 159:</b>The word look" in paragraph 1, line 2. is closest in meaning to</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) search</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) appearance</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) photograph</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) glance</el-radio>
+                      <el-radio v-model=answerArr[159] label="A" size="medium">(A) search</el-radio>
+                      <el-radio v-model=answerArr[159] label="B" size="medium">(B) appearance</el-radio>
+                      <el-radio v-model=answerArr[159] label="C" size="medium">(C) photograph</el-radio>
+                      <el-radio v-model=answerArr[159] label="D" size="medium">(D) glance</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 160:</b>What does the e-mail suggest about the previous With site?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) It did not have an online store.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Some people visited it on a daily basis.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Viewing it on some devices was difficult.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) It featured interactive nutrition quizzes.</el-radio>
+                      <el-radio v-model=answerArr[160] label="A" size="medium">(A) It did not have an online store.</el-radio>
+                      <el-radio v-model=answerArr[160] label="B" size="medium">(B) Some people visited it on a daily basis.</el-radio>
+                      <el-radio v-model=answerArr[160] label="C" size="medium">(C) Viewing it on some devices was difficult.</el-radio>
+                      <el-radio v-model=answerArr[160] label="D" size="medium">(D) It featured interactive nutrition quizzes.</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1893,30 +1895,30 @@
                   <div class="question">
                     <p><b>Question 161:</b>What is the purpose of the article?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To advertise Webmarch's new online streaming service</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To detail a merger between Webmarch and Movieriver</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To profile the history and future of Webmarch</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To report on Webmarch's changes in pricing</el-radio>
+                      <el-radio v-model=answerArr[161] label="A" size="medium">(A) To advertise Webmarch's new online streaming service</el-radio>
+                      <el-radio v-model=answerArr[161] label="B" size="medium">(B) To detail a merger between Webmarch and Movieriver</el-radio>
+                      <el-radio v-model=answerArr[161] label="C" size="medium">(C) To profile the history and future of Webmarch</el-radio>
+                      <el-radio v-model=answerArr[161] label="D" size="medium">(D) To report on Webmarch's changes in pricing</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 162:</b>What is true about Webmarch?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Its competitors offer fewer shows.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Its customer base has tripled in two years.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) It is currently available in 46 countries.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) It offers videos in many languages.</el-radio>
+                      <el-radio v-model=answerArr[162] label="A" size="medium">(A) Its competitors offer fewer shows.</el-radio>
+                      <el-radio v-model=answerArr[162] label="B" size="medium">(B) Its customer base has tripled in two years.</el-radio>
+                      <el-radio v-model=answerArr[162] label="C" size="medium">(C) It is currently available in 46 countries.</el-radio>
+                      <el-radio v-model=answerArr[162] label="D" size="medium">(D) It offers videos in many languages.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 163:</b>In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? "it was an immediate success."</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) [1]</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) [2]</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) [3]</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) [4]</el-radio>
+                      <el-radio v-model=answerArr[163] label="A" size="medium">(A) [1]</el-radio>
+                      <el-radio v-model=answerArr[163] label="B" size="medium">(B) [2]</el-radio>
+                      <el-radio v-model=answerArr[163] label="C" size="medium">(C) [3]</el-radio>
+                      <el-radio v-model=answerArr[163] label="D" size="medium">(D) [4]</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1929,40 +1931,40 @@
                   <div class="question">
                     <p><b>Question 164:</b>For whom are the instructions most likely intended?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Users of Zovtech products</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Salespeople in Zovtech stores</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Designers of Zovtech products</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Writers of Zovtech product manuals</el-radio>
+                      <el-radio v-model=answerArr[164] label="A" size="medium">(A) Users of Zovtech products</el-radio>
+                      <el-radio v-model=answerArr[164] label="B" size="medium">(B) Salespeople in Zovtech stores</el-radio>
+                      <el-radio v-model=answerArr[164] label="C" size="medium">(C) Designers of Zovtech products</el-radio>
+                      <el-radio v-model=answerArr[164] label="D" size="medium">(D) Writers of Zovtech product manuals</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 165:</b>What does Zovtech manufacture?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Appliances</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Automobiles</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Cleaning supplies</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Photography equipment</el-radio>
+                      <el-radio v-model=answerArr[165] label="A" size="medium">(A) Appliances</el-radio>
+                      <el-radio v-model=answerArr[165] label="B" size="medium">(B) Automobiles</el-radio>
+                      <el-radio v-model=answerArr[165] label="C" size="medium">(C) Cleaning supplies</el-radio>
+                      <el-radio v-model=answerArr[165] label="D" size="medium">(D) Photography equipment</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 166:</b>According to the instructions, why are pictures useful?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) They can be understood by people in different countries.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) They clearly show when something is not working properly.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) They reduce the amniint of written text needed.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) They attract more people to a Web site.</el-radio>
+                      <el-radio v-model=answerArr[166] label="A" size="medium">(A) They can be understood by people in different countries.</el-radio>
+                      <el-radio v-model=answerArr[166] label="B" size="medium">(B) They clearly show when something is not working properly.</el-radio>
+                      <el-radio v-model=answerArr[166] label="C" size="medium">(C) They reduce the amniint of written text needed.</el-radio>
+                      <el-radio v-model=answerArr[166] label="D" size="medium">(D) They attract more people to a Web site.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 167:</b>The word "grasp" in paragraph 1, line 10 is closest in meaning to</p>
+                    <p><b>Question 166:</b>The word "grasp" in paragraph 1, line 10 is closest in meaning to</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) hold</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) tighten</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) accomplish</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) understand</el-radio>
+                      <el-radio v-model=answerArr[166] label="A" size="medium">(A) hold</el-radio>
+                      <el-radio v-model=answerArr[166] label="B" size="medium">(B) tighten</el-radio>
+                      <el-radio v-model=answerArr[166] label="C" size="medium">(C) accomplish</el-radio>
+                      <el-radio v-model=answerArr[166] label="D" size="medium">(D) understand</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1973,42 +1975,42 @@
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 168:</b>Who most likely is Ms. Mohlmann?</p>
+                    <p><b>Question 166:</b>Who most likely is Ms. Mohlmann?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A product tester</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An event planner</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A corporate trainer</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A sales representative</el-radio>
+                      <el-radio v-model=answerArr[166] label="A" size="medium">(A) A product tester</el-radio>
+                      <el-radio v-model=answerArr[166] label="B" size="medium">(B) An event planner</el-radio>
+                      <el-radio v-model=answerArr[166] label="C" size="medium">(C) A corporate trainer</el-radio>
+                      <el-radio v-model=answerArr[166] label="D" size="medium">(D) A sales representative</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 169:</b>What is indicated about Ms. Mohlmann?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She travels often for her job.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She prefers paper documents.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) She receives software for free.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) She gives frequent presentations.</el-radio>
+                      <el-radio v-model=answerArr[169] label="A" size="medium">(A) She travels often for her job.</el-radio>
+                      <el-radio v-model=answerArr[169] label="B" size="medium">(B) She prefers paper documents.</el-radio>
+                      <el-radio v-model=answerArr[169] label="C" size="medium">(C) She receives software for free.</el-radio>
+                      <el-radio v-model=answerArr[169] label="D" size="medium">(D) She gives frequent presentations.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 170:</b>Why was Ms. Mohlmann unhappy with S-Tor's customer service?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Her issue took too long to resolve.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) The instructions given were not clear.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Help-desk employees were unfriendly.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) She felt pressured to make a purchase</el-radio>
+                      <el-radio v-model=answerArr[170] label="A" size="medium">(A) Her issue took too long to resolve.</el-radio>
+                      <el-radio v-model=answerArr[170] label="B" size="medium">(B) The instructions given were not clear.</el-radio>
+                      <el-radio v-model=answerArr[170] label="C" size="medium">(C) Help-desk employees were unfriendly.</el-radio>
+                      <el-radio v-model=answerArr[170] label="D" size="medium">(D) She felt pressured to make a purchase</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 171:</b>In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? 'Instructing me to repeat the same steps over and over seemed pointless."</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) [1]</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) [2]</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) [3]</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) [4]</el-radio>
+                      <el-radio v-model=answerArr[171] label="A" size="medium">(A) [1]</el-radio>
+                      <el-radio v-model=answerArr[171] label="B" size="medium">(B) [2]</el-radio>
+                      <el-radio v-model=answerArr[171] label="C" size="medium">(C) [3]</el-radio>
+                      <el-radio v-model=answerArr[171] label="D" size="medium">(D) [4]</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2021,40 +2023,40 @@
                   <div class="question">
                     <p><b>Question 172:</b>Where do the writers most likely work?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) At a tree service company</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) At a real estate agency</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) At a construction firm</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) At an auto repair shop</el-radio>
+                      <el-radio v-model=answerArr[172] label="A" size="medium">(A) At a tree service company</el-radio>
+                      <el-radio v-model=answerArr[172] label="B" size="medium">(B) At a real estate agency</el-radio>
+                      <el-radio v-model=answerArr[172] label="C" size="medium">(C) At a construction firm</el-radio>
+                      <el-radio v-model=answerArr[172] label="D" size="medium">(D) At an auto repair shop</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 173:</b>What does Ms. Mirzoyan expect to do tomorrow?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Purchase a property</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Have visitors at her home</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Hire a new moving company</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Use Ms. McNair's business again</el-radio>
+                      <el-radio v-model=answerArr[173] label="A" size="medium">(A) Purchase a property</el-radio>
+                      <el-radio v-model=answerArr[173] label="B" size="medium">(B) Have visitors at her home</el-radio>
+                      <el-radio v-model=answerArr[173] label="C" size="medium">(C) Hire a new moving company</el-radio>
+                      <el-radio v-model=answerArr[173] label="D" size="medium">(D) Use Ms. McNair's business again</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 174:</b>When will the writers most likely meet at 234 Lakeside Avenue?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) In one hour</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) In two hours</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) In three hours</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) In four hours</el-radio>
+                      <el-radio v-model=answerArr[174] label="A" size="medium">(A) In one hour</el-radio>
+                      <el-radio v-model=answerArr[174] label="B" size="medium">(B) In two hours</el-radio>
+                      <el-radio v-model=answerArr[174] label="C" size="medium">(C) In three hours</el-radio>
+                      <el-radio v-model=answerArr[174] label="D" size="medium">(D) In four hours</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 175:</b>At 12:21 P.M., what does Mr. Davison most likely mean when he writes, its Saturday"?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) He does not have extra time.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) He thinks they should not accept more work.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Grady is not usually available then.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Miles did not make a good decision.</el-radio>
+                      <el-radio v-model=answerArr[175] label="A" size="medium">(A) He does not have extra time.</el-radio>
+                      <el-radio v-model=answerArr[175] label="B" size="medium">(B) He thinks they should not accept more work.</el-radio>
+                      <el-radio v-model=answerArr[175] label="C" size="medium">(C) Grady is not usually available then.</el-radio>
+                      <el-radio v-model=answerArr[175] label="D" size="medium">(D) Miles did not make a good decision.</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2065,52 +2067,52 @@
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 176:</b>What does the mayor suggest people do to thank bus drivers?</p>
+                    <p><b>Question 175:</b>What does the mayor suggest people do to thank bus drivers?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Donate to a fund</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Give the drivers a card</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Post an online greeting to drivers</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Write a letter to the local newspaper</el-radio>
+                      <el-radio v-model=answerArr[175] label="A" size="medium">(A) Donate to a fund</el-radio>
+                      <el-radio v-model=answerArr[175] label="B" size="medium">(B) Give the drivers a card</el-radio>
+                      <el-radio v-model=answerArr[175] label="C" size="medium">(C) Post an online greeting to drivers</el-radio>
+                      <el-radio v-model=answerArr[175] label="D" size="medium">(D) Write a letter to the local newspaper</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 177:</b>According to the article, what group of people has recently become larger?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Football fans</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Train passengers</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Frecosta residents</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Shopping center customers</el-radio>
+                      <el-radio v-model=answerArr[177] label="A" size="medium">(A) Football fans</el-radio>
+                      <el-radio v-model=answerArr[177] label="B" size="medium">(B) Train passengers</el-radio>
+                      <el-radio v-model=answerArr[177] label="C" size="medium">(C) Frecosta residents</el-radio>
+                      <el-radio v-model=answerArr[177] label="D" size="medium">(D) Shopping center customers</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 178:</b>What is true about some of the people who will attend the football game on May 7 ?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) They will travel to the eastern end of Frecosta.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) They must live in the city of Frecosta.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) They must reply to an e-mall from the mayor.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) They may bring only three guests to the game.</el-radio>
+                      <el-radio v-model=answerArr[178] label="A" size="medium">(A) They will travel to the eastern end of Frecosta.</el-radio>
+                      <el-radio v-model=answerArr[178] label="B" size="medium">(B) They must live in the city of Frecosta.</el-radio>
+                      <el-radio v-model=answerArr[178] label="C" size="medium">(C) They must reply to an e-mall from the mayor.</el-radio>
+                      <el-radio v-model=answerArr[178] label="D" size="medium">(D) They may bring only three guests to the game.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 179:</b>What will happen at 1:00 P.M. on May 7 ?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) The stadium will open.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A football game will begin.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Refreshments will be served.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) An awards ceremony will be held</el-radio>
+                      <el-radio v-model=answerArr[179] label="A" size="medium">(A) The stadium will open.</el-radio>
+                      <el-radio v-model=answerArr[179] label="B" size="medium">(B) A football game will begin.</el-radio>
+                      <el-radio v-model=answerArr[179] label="C" size="medium">(C) Refreshments will be served.</el-radio>
+                      <el-radio v-model=answerArr[179] label="D" size="medium">(D) An awards ceremony will be held</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 180:</b>According to the invitation, how can transit workers obtain tickets?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) By visiting the bus station</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) By calling the mayor's office</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) By arriving to the game early</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) By ordering through a Web site</el-radio>
+                      <el-radio v-model=answerArr[180] label="A" size="medium">(A) By visiting the bus station</el-radio>
+                      <el-radio v-model=answerArr[180] label="B" size="medium">(B) By calling the mayor's office</el-radio>
+                      <el-radio v-model=answerArr[180] label="C" size="medium">(C) By arriving to the game early</el-radio>
+                      <el-radio v-model=answerArr[180] label="D" size="medium">(D) By ordering through a Web site</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2123,50 +2125,50 @@
                   <div class="question">
                     <p><b>Question 181:</b>What is the purpose of the memo?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To announce a company reorganization</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To explain new procedures</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To introduce an efficiency expert</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To bring attention to a problem</el-radio>
+                      <el-radio v-model=answerArr[181] label="A" size="medium">(A) To announce a company reorganization</el-radio>
+                      <el-radio v-model=answerArr[181] label="B" size="medium">(B) To explain new procedures</el-radio>
+                      <el-radio v-model=answerArr[181] label="C" size="medium">(C) To introduce an efficiency expert</el-radio>
+                      <el-radio v-model=answerArr[181] label="D" size="medium">(D) To bring attention to a problem</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 182:</b>What step in the shipping process will NOT change?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Looking up addresses using the software</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Using bar code scanners</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Creating bar code stickers for all orders</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Putting priority items on a specific shelf</el-radio>
+                      <el-radio v-model=answerArr[182] label="A" size="medium">(A) Looking up addresses using the software</el-radio>
+                      <el-radio v-model=answerArr[182] label="B" size="medium">(B) Using bar code scanners</el-radio>
+                      <el-radio v-model=answerArr[182] label="C" size="medium">(C) Creating bar code stickers for all orders</el-radio>
+                      <el-radio v-model=answerArr[182] label="D" size="medium">(D) Putting priority items on a specific shelf</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 183:</b>What is implied about Turing Photography?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Its address labels should be highlighted in yellow.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) It purchased software at a reduced price.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) It provides the warehouse with supplies.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) It has received complaints about the scanners.</el-radio>
+                      <el-radio v-model=answerArr[183] label="A" size="medium">(A) Its address labels should be highlighted in yellow.</el-radio>
+                      <el-radio v-model=answerArr[183] label="B" size="medium">(B) It purchased software at a reduced price.</el-radio>
+                      <el-radio v-model=answerArr[183] label="C" size="medium">(C) It provides the warehouse with supplies.</el-radio>
+                      <el-radio v-model=answerArr[183] label="D" size="medium">(D) It has received complaints about the scanners.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 184:</b>What is most likely true about Mr. Mansouri?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) His shift begins at 8 A.M.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) His team is testing out the JLX sottware.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) He prefers using the RERQ system.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) He handles all priority shipping orders.</el-radio>
+                      <el-radio v-model=answerArr[184] label="A" size="medium">(A) His shift begins at 8 A.M.</el-radio>
+                      <el-radio v-model=answerArr[184] label="B" size="medium">(B) His team is testing out the JLX sottware.</el-radio>
+                      <el-radio v-model=answerArr[184] label="C" size="medium">(C) He prefers using the RERQ system.</el-radio>
+                      <el-radio v-model=answerArr[184] label="D" size="medium">(D) He handles all priority shipping orders.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 185:</b>What will Ms. Peralta most likely do after reading the e-mail?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Find a missing package</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Research long-life batteries</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Reschedule a deadline</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Correct an address</el-radio>
+                      <el-radio v-model=answerArr[185] label="A" size="medium">(A) Find a missing package</el-radio>
+                      <el-radio v-model=answerArr[185] label="B" size="medium">(B) Research long-life batteries</el-radio>
+                      <el-radio v-model=answerArr[185] label="C" size="medium">(C) Reschedule a deadline</el-radio>
+                      <el-radio v-model=answerArr[185] label="D" size="medium">(D) Correct an address</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2177,52 +2179,52 @@
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 186:</b>What is indicated about Ohayon Marketing?</p>
+                    <p><b>Question 185:</b>What is indicated about Ohayon Marketing?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) It specializes in family-owned companies.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) It has a diverse client portfolio.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) It mainly supports export firms.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) It earns most of its revenue from the apparel Industry.</el-radio>
+                      <el-radio v-model=answerArr[185] label="A" size="medium">(A) It specializes in family-owned companies.</el-radio>
+                      <el-radio v-model=answerArr[185] label="B" size="medium">(B) It has a diverse client portfolio.</el-radio>
+                      <el-radio v-model=answerArr[185] label="C" size="medium">(C) It mainly supports export firms.</el-radio>
+                      <el-radio v-model=answerArr[185] label="D" size="medium">(D) It earns most of its revenue from the apparel Industry.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 187:</b>For what industry did Ohayon Marketing first consult?</p>
+                    <p><b>Question 185:</b>For what industry did Ohayon Marketing first consult?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Online education</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Specialty Foods</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Apparel</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Technology</el-radio>
+                      <el-radio v-model=answerArr[185] label="A" size="medium">(A) Online education</el-radio>
+                      <el-radio v-model=answerArr[185] label="B" size="medium">(B) Specialty Foods</el-radio>
+                      <el-radio v-model=answerArr[185] label="C" size="medium">(C) Apparel</el-radio>
+                      <el-radio v-model=answerArr[185] label="D" size="medium">(D) Technology</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 188:</b></p>
+                    <p><b>Question 185:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) It has offices in New Delhi.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) It recently hired several new employees.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) It is under new management.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) It recently merged with a larger firm.</el-radio>
+                      <el-radio v-model=answerArr[185] label="A" size="medium">(A) It has offices in New Delhi.</el-radio>
+                      <el-radio v-model=answerArr[185] label="B" size="medium">(B) It recently hired several new employees.</el-radio>
+                      <el-radio v-model=answerArr[185] label="C" size="medium">(C) It is under new management.</el-radio>
+                      <el-radio v-model=answerArr[185] label="D" size="medium">(D) It recently merged with a larger firm.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 189:</b>Who is Mr. Mehta?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) A travel agent</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) An executive recruiter</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A former colleague of Mr. Ohayon's</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) An Ohayon Marketing partner</el-radio>
+                      <el-radio v-model=answerArr[189] label="A" size="medium">(A) A travel agent</el-radio>
+                      <el-radio v-model=answerArr[189] label="B" size="medium">(B) An executive recruiter</el-radio>
+                      <el-radio v-model=answerArr[189] label="C" size="medium">(C) A former colleague of Mr. Ohayon's</el-radio>
+                      <el-radio v-model=answerArr[189] label="D" size="medium">(D) An Ohayon Marketing partner</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 190:</b>Why will Mr. Ohayon most likely contact Ms. Kader?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To remind her to send an itinerary</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To rent a new office location</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To explore business opportunities</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To get sightseeing recommendations</el-radio>
+                      <el-radio v-model=answerArr[190] label="A" size="medium">(A) To remind her to send an itinerary</el-radio>
+                      <el-radio v-model=answerArr[190] label="B" size="medium">(B) To rent a new office location</el-radio>
+                      <el-radio v-model=answerArr[190] label="C" size="medium">(C) To explore business opportunities</el-radio>
+                      <el-radio v-model=answerArr[190] label="D" size="medium">(D) To get sightseeing recommendations</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2235,50 +2237,50 @@
                   <div class="question">
                     <p><b>Question 191:</b>According to the flyer, why should the reader e-mail Steel Wheels Vehicle Insurance?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To inquire about plan coverage</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To obtain a repair estimate</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To schedule an appointment</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To find a participating service center</el-radio>
+                      <el-radio v-model=answerArr[191] label="A" size="medium">(A) To inquire about plan coverage</el-radio>
+                      <el-radio v-model=answerArr[191] label="B" size="medium">(B) To obtain a repair estimate</el-radio>
+                      <el-radio v-model=answerArr[191] label="C" size="medium">(C) To schedule an appointment</el-radio>
+                      <el-radio v-model=answerArr[191] label="D" size="medium">(D) To find a participating service center</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 192:</b>What insurance plan does Mr. Xiong most likely have?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) The Maintenance Plan</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) The Repair Plan</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) The Cleaning Plan</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) The Combination Plan</el-radio>
+                      <el-radio v-model=answerArr[192] label="A" size="medium">(A) The Maintenance Plan</el-radio>
+                      <el-radio v-model=answerArr[192] label="B" size="medium">(B) The Repair Plan</el-radio>
+                      <el-radio v-model=answerArr[192] label="C" size="medium">(C) The Cleaning Plan</el-radio>
+                      <el-radio v-model=answerArr[192] label="D" size="medium">(D) The Combination Plan</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 193:</b>According to the invoice. what could Mr. Xiong have requested on December 13?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) The mechanic's work certificate</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) His car's old parts</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) A full tank of gas</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) A loaner vehicle</el-radio>
+                      <el-radio v-model=answerArr[193] label="A" size="medium">(A) The mechanic's work certificate</el-radio>
+                      <el-radio v-model=answerArr[193] label="B" size="medium">(B) His car's old parts</el-radio>
+                      <el-radio v-model=answerArr[193] label="C" size="medium">(C) A full tank of gas</el-radio>
+                      <el-radio v-model=answerArr[193] label="D" size="medium">(D) A loaner vehicle</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 194:</b>What product did Mr. Xiong most likely purchase?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Goldings synthetic oil</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) A Harmon air filter</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Lift-brite fabric treatment</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Eversweet spray</el-radio>
+                      <el-radio v-model=answerArr[194] label="A" size="medium">(A) Goldings synthetic oil</el-radio>
+                      <el-radio v-model=answerArr[194] label="B" size="medium">(B) A Harmon air filter</el-radio>
+                      <el-radio v-model=answerArr[194] label="C" size="medium">(C) Lift-brite fabric treatment</el-radio>
+                      <el-radio v-model=answerArr[194] label="D" size="medium">(D) Eversweet spray</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 195:</b>According to the online review, what impressed Mr. Xiong about the product?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Its reasonable price</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Its pleasant scent</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Its innovative packaging</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Its sudden popularity</el-radio>
+                      <el-radio v-model=answerArr[195] label="A" size="medium">(A) Its reasonable price</el-radio>
+                      <el-radio v-model=answerArr[195] label="B" size="medium">(B) Its pleasant scent</el-radio>
+                      <el-radio v-model=answerArr[195] label="C" size="medium">(C) Its innovative packaging</el-radio>
+                      <el-radio v-model=answerArr[195] label="D" size="medium">(D) Its sudden popularity</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2291,40 +2293,40 @@
                   <div class="question">
                     <p><b>Question 196:</b>What does the HHNA indicate in the mission statement?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) It is an independently run group.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) It was formed recently.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) It is advised by city officials.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) It charges membership fees.</el-radio>
+                      <el-radio v-model=answerArr[196] label="A" size="medium">(A) It is an independently run group.</el-radio>
+                      <el-radio v-model=answerArr[196] label="B" size="medium">(B) It was formed recently.</el-radio>
+                      <el-radio v-model=answerArr[196] label="C" size="medium">(C) It is advised by city officials.</el-radio>
+                      <el-radio v-model=answerArr[196] label="D" size="medium">(D) It charges membership fees.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 197:</b>Why are residents encouraged to attend a meeting on Monday, April 17 ?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) To receive training in public speaking</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) To show support for some city politicians</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) To get information about a zoning proposal</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) To meet some new neighbors</el-radio>
+                      <el-radio v-model=answerArr[197] label="A" size="medium">(A) To receive training in public speaking</el-radio>
+                      <el-radio v-model=answerArr[197] label="B" size="medium">(B) To show support for some city politicians</el-radio>
+                      <el-radio v-model=answerArr[197] label="C" size="medium">(C) To get information about a zoning proposal</el-radio>
+                      <el-radio v-model=answerArr[197] label="D" size="medium">(D) To meet some new neighbors</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 198:</b>What HHNA goal is most likely being challenged by the Chenaux Company?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) Goal 1</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Goal 2</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Goal 3</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Goal 4</el-radio>
+                      <el-radio v-model=answerArr[198] label="A" size="medium">(A) Goal 1</el-radio>
+                      <el-radio v-model=answerArr[198] label="B" size="medium">(B) Goal 2</el-radio>
+                      <el-radio v-model=answerArr[198] label="C" size="medium">(C) Goal 3</el-radio>
+                      <el-radio v-model=answerArr[198] label="D" size="medium">(D) Goal 4</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 199:</b>What is suggested about Ms. Redman?</p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She spoke at a meeting in April.</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She owned a business in Hulani Harbor.</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) She is responsible for distributing the meeting agendas.</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) She writes articles for a newsletter.</el-radio>
+                      <el-radio v-model=answerArr[199] label="A" size="medium">(A) She spoke at a meeting in April.</el-radio>
+                      <el-radio v-model=answerArr[199] label="B" size="medium">(B) She owned a business in Hulani Harbor.</el-radio>
+                      <el-radio v-model=answerArr[199] label="C" size="medium">(C) She is responsible for distributing the meeting agendas.</el-radio>
+                      <el-radio v-model=answerArr[199] label="D" size="medium">(D) She writes articles for a newsletter.</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2332,10 +2334,10 @@
                     <p><b>Question 200:</b>What does Ms. Redman suggest qualifies her for the representative position?</p>
                     <div class="select">
 
-                      <el-radio v-model="radio" label="1" size="medium">(A) Her university degree</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) Her fresh leadership ideas</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) Her awareness of national issues</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) Her experience in supporting local groups</el-radio>
+                      <el-radio v-model=answerArr[200] label="A" size="medium">(A) Her university degree</el-radio>
+                      <el-radio v-model=answerArr[200] label="B" size="medium">(B) Her fresh leadership ideas</el-radio>
+                      <el-radio v-model=answerArr[200] label="C" size="medium">(C) Her awareness of national issues</el-radio>
+                      <el-radio v-model=answerArr[200] label="D" size="medium">(D) Her experience in supporting local groups</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2350,230 +2352,424 @@
           <div class="point">
             <p id="timer">0{{ hour }} : {{ minutes }} : {{ seconds }}</p>
             <div class="numberAnswer row">
-              <div v-if="answerArr[1] === ''" class="col-md-2 answer">1</div>
-              <div v-if="answerArr[1] != ''" class="col-md-2 answerBackground">1</div>
-              <div v-if="answerArr[2] === ''" class="col-md-2 answer">2</div>
-              <div v-if="answerArr[2] != ''" class="col-md-2 answerBackground">2</div>
-              <div v-if="answerArr[3] === ''" class="col-md-2 answer">3</div>
-              <div v-if="answerArr[3] != ''" class="col-md-2 answerBackground">3</div>
-              <div v-if="answerArr[4] === ''" class="col-md-2 answer">4</div>
-              <div v-if="answerArr[4] != ''" class="col-md-2 answerBackground">4</div>
-              <div v-if="answerArr[5] === ''" class="col-md-2 answer">5</div>
-              <div v-if="answerArr[5] != ''" class="col-md-2 answerBackground">5</div>
-              <div v-if="answerArr[6] === ''" class="col-md-2 answer">6</div>
-              <div v-if="answerArr[6] != ''" class="col-md-2 answerBackground">6</div>
-              <div class="col-md-2 answer">7</div>
-              <div class="col-md-2 answer">8</div>
-              <div class="col-md-2 answer">9</div>
-              <div class="col-md-2 answer">10</div>
+              <div v-if="answerArr[1] === '-'" class="col-md-2 answer">1</div>
+              <div v-if="answerArr[1] != '-'" class="col-md-2 answerBackground">1</div>
+              <div v-if="answerArr[2] === '-'" class="col-md-2 answer">2</div>
+              <div v-if="answerArr[2] != '-'" class="col-md-2 answerBackground">2</div>
+              <div v-if="answerArr[3] === '-'" class="col-md-2 answer">3</div>
+              <div v-if="answerArr[3] != '-'" class="col-md-2 answerBackground">3</div>
+              <div v-if="answerArr[4] === '-'" class="col-md-2 answer">4</div>
+              <div v-if="answerArr[4] != '-'" class="col-md-2 answerBackground">4</div>
+              <div v-if="answerArr[5] === '-'" class="col-md-2 answer">5</div>
+              <div v-if="answerArr[5] != '-'" class="col-md-2 answerBackground">5</div>
+              <div v-if="answerArr[6] === '-'" class="col-md-2 answer">6</div>
+              <div v-if="answerArr[6] != '-'" class="col-md-2 answerBackground">6</div>
 
-              <div class="col-md-2 answer">11</div>
-              <div class="col-md-2 answer">12</div>
-              <div class="col-md-2 answer">13</div>
-              <div class="col-md-2 answer">14</div>
-              <div class="col-md-2 answer">15</div>
-              <div class="col-md-2 answer">16</div>
-              <div class="col-md-2 answer">17</div>
-              <div class="col-md-2 answer">18</div>
-              <div class="col-md-2 answer">19</div>
-              <div class="col-md-2 answer">20</div>
+              <div v-if="answerArr[7] === '-'" class="col-md-2 answer">7</div>
+              <div v-if="answerArr[7] != '-'" class="col-md-2 answerBackground">7</div>
+              <div v-if="answerArr[8] === '-'" class="col-md-2 answer">8</div>
+              <div v-if="answerArr[8] != '-'" class="col-md-2 answerBackground">8</div>
+              <div v-if="answerArr[9] === '-'" class="col-md-2 answer">9</div>
+              <div v-if="answerArr[9] != '-'" class="col-md-2 answerBackground">9</div>
+              <div v-if="answerArr[10] === '-'" class="col-md-2 answer">10</div>
+              <div v-if="answerArr[10] != '-'" class="col-md-2 answerBackground">10</div>
 
-              <div class="col-md-2 answer">21</div>
-              <div class="col-md-2 answer">22</div>
-              <div class="col-md-2 answer">23</div>
-              <div class="col-md-2 answer">24</div>
-              <div class="col-md-2 answer">25</div>
-              <div class="col-md-2 answer">26</div>
-              <div class="col-md-2 answer">27</div>
-              <div class="col-md-2 answer">28</div>
-              <div class="col-md-2 answer">29</div>
-              <div class="col-md-2 answer">30</div>
+              <div v-if="answerArr[11] === '-'" class="col-md-2 answer">11</div>
+              <div v-if="answerArr[11] != '-'" class="col-md-2 answerBackground">11</div>
+              <div v-if="answerArr[12] === '-'" class="col-md-2 answer">12</div>
+              <div v-if="answerArr[12] != '-'" class="col-md-2 answerBackground">12</div>
+              <div v-if="answerArr[13] === '-'" class="col-md-2 answer">13</div>
+              <div v-if="answerArr[13] != '-'" class="col-md-2 answerBackground">13</div>
+              <div v-if="answerArr[14] === '-'" class="col-md-2 answer">14</div>
+              <div v-if="answerArr[14] != '-'" class="col-md-2 answerBackground">14</div>
+              <div v-if="answerArr[15] === '-'" class="col-md-2 answer">15</div>
+              <div v-if="answerArr[15] != '-'" class="col-md-2 answerBackground">15</div>
+              <div v-if="answerArr[16] === '-'" class="col-md-2 answer">16</div>
+              <div v-if="answerArr[16] != '-'" class="col-md-2 answerBackground">16</div>
+              <div v-if="answerArr[17] === '-'" class="col-md-2 answer">17</div>
+              <div v-if="answerArr[17] != '-'" class="col-md-2 answerBackground">17</div>
+              <div v-if="answerArr[18] === '-'" class="col-md-2 answer">18</div>
+              <div v-if="answerArr[18] != '-'" class="col-md-2 answerBackground">18</div>
+              <div v-if="answerArr[19] === '-'" class="col-md-2 answer">19</div>
+              <div v-if="answerArr[19] != '-'" class="col-md-2 answerBackground">19</div>
+              <div v-if="answerArr[20] === '-'" class="col-md-2 answer">20</div>
+              <div v-if="answerArr[20] != '-'" class="col-md-2 answerBackground">20</div>
 
-              <div class="col-md-2 answer">31</div>
-              <div class="col-md-2 answer">32</div>
-              <div class="col-md-2 answer">33</div>
-              <div class="col-md-2 answer">34</div>
-              <div class="col-md-2 answer">35</div>
-              <div class="col-md-2 answer">36</div>
-              <div class="col-md-2 answer">37</div>
-              <div class="col-md-2 answer">38</div>
-              <div class="col-md-2 answer">39</div>
-              <div class="col-md-2 answer">40</div>
+              <div v-if="answerArr[21] === '-'" class="col-md-2 answer">21</div>
+              <div v-if="answerArr[21] != '-'" class="col-md-2 answerBackground">21</div>
+              <div v-if="answerArr[22] === '-'" class="col-md-2 answer">22</div>
+              <div v-if="answerArr[22] != '-'" class="col-md-2 answerBackground">22</div>
+              <div v-if="answerArr[23] === '-'" class="col-md-2 answer">23</div>
+              <div v-if="answerArr[23] != '-'" class="col-md-2 answerBackground">23</div>
+              <div v-if="answerArr[24] === '-'" class="col-md-2 answer">24</div>
+              <div v-if="answerArr[24] != '-'" class="col-md-2 answerBackground">24</div>
+              <div v-if="answerArr[25] === '-'" class="col-md-2 answer">25</div>
+              <div v-if="answerArr[25] != '-'" class="col-md-2 answerBackground">25</div>
+              <div v-if="answerArr[26] === '-'" class="col-md-2 answer">26</div>
+              <div v-if="answerArr[26] != '-'" class="col-md-2 answerBackground">26</div>
+              <div v-if="answerArr[27] === '-'" class="col-md-2 answer">27</div>
+              <div v-if="answerArr[27] != '-'" class="col-md-2 answerBackground">27</div>
+              <div v-if="answerArr[28] === '-'" class="col-md-2 answer">28</div>
+              <div v-if="answerArr[28] != '-'" class="col-md-2 answerBackground">28</div>
+              <div v-if="answerArr[29] === '-'" class="col-md-2 answer">29</div>
+              <div v-if="answerArr[29] != '-'" class="col-md-2 answerBackground">29</div>
+              <div v-if="answerArr[30] === '-'" class="col-md-2 answer">30</div>
+              <div v-if="answerArr[30] != '-'" class="col-md-2 answerBackground">30</div>
 
-              <div class="col-md-2 answer">41</div>
-              <div class="col-md-2 answer">42</div>
-              <div class="col-md-2 answer">43</div>
-              <div class="col-md-2 answer">44</div>
-              <div class="col-md-2 answer">45</div>
-              <div class="col-md-2 answer">46</div>
-              <div class="col-md-2 answer">47</div>
-              <div class="col-md-2 answer">48</div>
-              <div class="col-md-2 answer">49</div>
-              <div class="col-md-2 answer">50</div>
+              <div v-if="answerArr[31] === '-'" class="col-md-2 answer">31</div>
+              <div v-if="answerArr[31] != '-'" class="col-md-2 answerBackground">31</div>
+              <div v-if="answerArr[32] === '-'" class="col-md-2 answer">32</div>
+              <div v-if="answerArr[32] != '-'" class="col-md-2 answerBackground">32</div>
+              <div v-if="answerArr[33] === '-'" class="col-md-2 answer">33</div>
+              <div v-if="answerArr[33] != '-'" class="col-md-2 answerBackground">33</div>
+              <div v-if="answerArr[34] === '-'" class="col-md-2 answer">34</div>
+              <div v-if="answerArr[34] != '-'" class="col-md-2 answerBackground">34</div>
+              <div v-if="answerArr[35] === '-'" class="col-md-2 answer">35</div>
+              <div v-if="answerArr[35] != '-'" class="col-md-2 answerBackground">35</div>
+              <div v-if="answerArr[36] === '-'" class="col-md-2 answer">36</div>
+              <div v-if="answerArr[36] != '-'" class="col-md-2 answerBackground">36</div>
+              <div v-if="answerArr[37] === '-'" class="col-md-2 answer">37</div>
+              <div v-if="answerArr[37] != '-'" class="col-md-2 answerBackground">37</div>
+              <div v-if="answerArr[38] === '-'" class="col-md-2 answer">38</div>
+              <div v-if="answerArr[38] != '-'" class="col-md-2 answerBackground">38</div>
+              <div v-if="answerArr[39] === '-'" class="col-md-2 answer">39</div>
+              <div v-if="answerArr[39] != '-'" class="col-md-2 answerBackground">39</div>
+              <div v-if="answerArr[40] === '-'" class="col-md-2 answer">40</div>
+              <div v-if="answerArr[40] != '-'" class="col-md-2 answerBackground">40</div>
 
-              <div class="col-md-2 answer">51</div>
-              <div class="col-md-2 answer">52</div>
-              <div class="col-md-2 answer">53</div>
-              <div class="col-md-2 answer">54</div>
-              <div class="col-md-2 answer">55</div>
-              <div class="col-md-2 answer">56</div>
-              <div class="col-md-2 answer">57</div>
-              <div class="col-md-2 answer">58</div>
-              <div class="col-md-2 answer">59</div>
-              <div class="col-md-2 answer">60</div>
+              <div v-if="answerArr[41] === '-'" class="col-md-2 answer">41</div>
+              <div v-if="answerArr[41] != '-'" class="col-md-2 answerBackground">41</div>
+              <div v-if="answerArr[42] === '-'" class="col-md-2 answer">42</div>
+              <div v-if="answerArr[42] != '-'" class="col-md-2 answerBackground">42</div>
+              <div v-if="answerArr[43] === '-'" class="col-md-2 answer">43</div>
+              <div v-if="answerArr[43] != '-'" class="col-md-2 answerBackground">43</div>
+              <div v-if="answerArr[44] === '-'" class="col-md-2 answer">44</div>
+              <div v-if="answerArr[44] != '-'" class="col-md-2 answerBackground">44</div>
+              <div v-if="answerArr[45] === '-'" class="col-md-2 answer">45</div>
+              <div v-if="answerArr[45] != '-'" class="col-md-2 answerBackground">45</div>
+              <div v-if="answerArr[46] === '-'" class="col-md-2 answer">46</div>
+              <div v-if="answerArr[46] != '-'" class="col-md-2 answerBackground">46</div>
+              <div v-if="answerArr[47] === '-'" class="col-md-2 answer">47</div>
+              <div v-if="answerArr[47] != '-'" class="col-md-2 answerBackground">47</div>
+              <div v-if="answerArr[48] === '-'" class="col-md-2 answer">48</div>
+              <div v-if="answerArr[48] != '-'" class="col-md-2 answerBackground">48</div>
+              <div v-if="answerArr[49] === '-'" class="col-md-2 answer">49</div>
+              <div v-if="answerArr[49] != '-'" class="col-md-2 answerBackground">49</div>
+              <div v-if="answerArr[50] === '-'" class="col-md-2 answer">50</div>
+              <div v-if="answerArr[50] != '-'" class="col-md-2 answerBackground">50</div>
 
-              <div class="col-md-2 answer">61</div>
-              <div class="col-md-2 answer">62</div>
-              <div class="col-md-2 answer">63</div>
-              <div class="col-md-2 answer">64</div>
-              <div class="col-md-2 answer">65</div>
-              <div class="col-md-2 answer">66</div>
-              <div class="col-md-2 answer">67</div>
-              <div class="col-md-2 answer">68</div>
-              <div class="col-md-2 answer">69</div>
-              <div class="col-md-2 answer">70</div>
+              <div v-if="answerArr[51] === '-'" class="col-md-2 answer">51</div>
+              <div v-if="answerArr[51] != '-'" class="col-md-2 answerBackground">51</div>
+              <div v-if="answerArr[52] === '-'" class="col-md-2 answer">52</div>
+              <div v-if="answerArr[52] != '-'" class="col-md-2 answerBackground">52</div>
+              <div v-if="answerArr[53] === '-'" class="col-md-2 answer">53</div>
+              <div v-if="answerArr[53] != '-'" class="col-md-2 answerBackground">53</div>
+              <div v-if="answerArr[54] === '-'" class="col-md-2 answer">54</div>
+              <div v-if="answerArr[54] != '-'" class="col-md-2 answerBackground">54</div>
+              <div v-if="answerArr[55] === '-'" class="col-md-2 answer">55</div>
+              <div v-if="answerArr[55] != '-'" class="col-md-2 answerBackground">55</div>
+              <div v-if="answerArr[56] === '-'" class="col-md-2 answer">56</div>
+              <div v-if="answerArr[57] != '-'" class="col-md-2 answerBackground">57</div>
+              <div v-if="answerArr[57] === '-'" class="col-md-2 answer">57</div>
+              <div v-if="answerArr[58] != '-'" class="col-md-2 answerBackground">58</div>
+              <div v-if="answerArr[58] === '-'" class="col-md-2 answer">58</div>
+              <div v-if="answerArr[59] != '-'" class="col-md-2 answerBackground">59</div>
+              <div v-if="answerArr[59] === '-'" class="col-md-2 answer">59</div>
+              <div v-if="answerArr[60] === '-'" class="col-md-2 answer">60</div>
+              <div v-if="answerArr[60] != '-'" class="col-md-2 answerBackground">60</div>
 
-              <div class="col-md-2 answer">71</div>
-              <div class="col-md-2 answer">72</div>
-              <div class="col-md-2 answer">73</div>
-              <div class="col-md-2 answer">74</div>
-              <div class="col-md-2 answer">75</div>
-              <div class="col-md-2 answer">76</div>
-              <div class="col-md-2 answer">77</div>
-              <div class="col-md-2 answer">78</div>
-              <div class="col-md-2 answer">79</div>
-              <div class="col-md-2 answer">80</div>
+              <div v-if="answerArr[61] === '-'" class="col-md-2 answer">61</div>
+              <div v-if="answerArr[61] != '-'" class="col-md-2 answerBackground">61</div>
+              <div v-if="answerArr[62] === '-'" class="col-md-2 answer">62</div>
+              <div v-if="answerArr[62] != '-'" class="col-md-2 answerBackground">62</div>
+              <div v-if="answerArr[63] === '-'" class="col-md-2 answer">63</div>
+              <div v-if="answerArr[63] != '-'" class="col-md-2 answerBackground">63</div>
+              <div v-if="answerArr[64] === '-'" class="col-md-2 answer">64</div>
+              <div v-if="answerArr[64] != '-'" class="col-md-2 answerBackground">64</div>
+              <div v-if="answerArr[65] === '-'" class="col-md-2 answer">65</div>
+              <div v-if="answerArr[65] != '-'" class="col-md-2 answerBackground">65</div>
+              <div v-if="answerArr[66] === '-'" class="col-md-2 answer">66</div>
+              <div v-if="answerArr[66] != '-'" class="col-md-2 answerBackground">66</div>
+              <div v-if="answerArr[67] === '-'" class="col-md-2 answer">67</div>
+              <div v-if="answerArr[67] != '-'" class="col-md-2 answerBackground">67</div>
+              <div v-if="answerArr[68] === '-'" class="col-md-2 answer">68</div>
+              <div v-if="answerArr[68] != '-'" class="col-md-2 answerBackground">68</div>
+              <div v-if="answerArr[69] === '-'" class="col-md-2 answer">69</div>
+              <div v-if="answerArr[69] != '-'" class="col-md-2 answerBackground">69</div>
+              <div v-if="answerArr[70] === '-'" class="col-md-2 answer">70</div>
+              <div v-if="answerArr[70] != '-'" class="col-md-2 answerBackground">70</div>
 
-              <div class="col-md-2 answer">82</div>
-              <div class="col-md-2 answer">83</div>
-              <div class="col-md-2 answer">84</div>
-              <div class="col-md-2 answer">85</div>
-              <div class="col-md-2 answer">86</div>
-              <div class="col-md-2 answer">87</div>
-              <div class="col-md-2 answer">88</div>
-              <div class="col-md-2 answer">89</div>
-              <div class="col-md-2 answer">90</div>
+              <div v-if="answerArr[71] === '-'" class="col-md-2 answer">71</div>
+              <div v-if="answerArr[71] != '-'" class="col-md-2 answerBackground">71</div>
+              <div v-if="answerArr[72] === '-'" class="col-md-2 answer">72</div>
+              <div v-if="answerArr[72] != '-'" class="col-md-2 answerBackground">72</div>
+              <div v-if="answerArr[73] === '-'" class="col-md-2 answer">73</div>
+              <div v-if="answerArr[73] != '-'" class="col-md-2 answerBackground">73</div>
+              <div v-if="answerArr[74] === '-'" class="col-md-2 answer">74</div>
+              <div v-if="answerArr[74] != '-'" class="col-md-2 answerBackground">74</div>
+              <div v-if="answerArr[75] === '-'" class="col-md-2 answer">75</div>
+              <div v-if="answerArr[75] != '-'" class="col-md-2 answerBackground">75</div>
+              <div v-if="answerArr[76] === '-'" class="col-md-2 answer">76</div>
+              <div v-if="answerArr[76] != '-'" class="col-md-2 answerBackground">76</div>
+              <div v-if="answerArr[77] === '-'" class="col-md-2 answer">77</div>
+              <div v-if="answerArr[77] != '-'" class="col-md-2 answerBackground">77</div>
+              <div v-if="answerArr[78] === '-'" class="col-md-2 answer">78</div>
+              <div v-if="answerArr[78] != '-'" class="col-md-2 answerBackground">78</div>
+              <div v-if="answerArr[79] === '-'" class="col-md-2 answer">79</div>
+              <div v-if="answerArr[79] != '-'" class="col-md-2 answerBackground">79</div>
+              <div v-if="answerArr[80] === '-'" class="col-md-2 answer">80</div>
+              <div v-if="answerArr[80] != '-'" class="col-md-2 answerBackground">80</div>
 
-              <div class="col-md-2 answer">91</div>
-              <div class="col-md-2 answer">92</div>
-              <div class="col-md-2 answer">93</div>
-              <div class="col-md-2 answer">94</div>
-              <div class="col-md-2 answer">95</div>
-              <div class="col-md-2 answer">96</div>
-              <div class="col-md-2 answer">97</div>
-              <div class="col-md-2 answer">98</div>
-              <div class="col-md-2 answer">99</div>
-              <div class="col-md-2 answer">100</div>
+              <div v-if="answerArr[82] === '-'" class="col-md-2 answer">82</div>
+              <div v-if="answerArr[82] != '-'" class="col-md-2 answerBackground">82</div>
+              <div v-if="answerArr[83] === '-'" class="col-md-2 answer">83</div>
+              <div v-if="answerArr[83] != '-'" class="col-md-2 answerBackground">83</div>
+              <div v-if="answerArr[84] === '-'" class="col-md-2 answer">84</div>
+              <div v-if="answerArr[84] != '-'" class="col-md-2 answerBackground">84</div>
+              <div v-if="answerArr[85] === '-'" class="col-md-2 answer">85</div>
+              <div v-if="answerArr[85] != '-'" class="col-md-2 answerBackground">85</div>
+              <div v-if="answerArr[86] === '-'" class="col-md-2 answer">86</div>
+              <div v-if="answerArr[86] != '-'" class="col-md-2 answerBackground">86</div>
+              <div v-if="answerArr[87] === '-'" class="col-md-2 answer">87</div>
+              <div v-if="answerArr[87] != '-'" class="col-md-2 answerBackground">87</div>
+              <div v-if="answerArr[88] === '-'" class="col-md-2 answer">88</div>
+              <div v-if="answerArr[88] != '-'" class="col-md-2 answerBackground">88</div>
+              <div v-if="answerArr[89] === '-'" class="col-md-2 answer">89</div>
+              <div v-if="answerArr[89] != '-'" class="col-md-2 answerBackground">89</div>
+              <div v-if="answerArr[90] === '-'" class="col-md-2 answer">90</div>
+              <div v-if="answerArr[90] != '-'" class="col-md-2 answerBackground">90</div>
 
-              <div class="col-md-2 answer">101</div>
-              <div class="col-md-2 answer">102</div>
-              <div class="col-md-2 answer">103</div>
-              <div class="col-md-2 answer">104</div>
-              <div class="col-md-2 answer">105</div>
-              <div class="col-md-2 answer">106</div>
-              <div class="col-md-2 answer">107</div>
-              <div class="col-md-2 answer">108</div>
-              <div class="col-md-2 answer">109</div>
-              <div class="col-md-2 answer">110</div>
+              <div v-if="answerArr[91] === '-'" class="col-md-2 answer">91</div>
+              <div v-if="answerArr[91] != '-'" class="col-md-2 answerBackground">91</div>
+              <div v-if="answerArr[92] === '-'" class="col-md-2 answer">92</div>
+              <div v-if="answerArr[92] != '-'" class="col-md-2 answerBackground">92</div>
+              <div v-if="answerArr[93] === '-'" class="col-md-2 answer">93</div>
+              <div v-if="answerArr[93] != '-'" class="col-md-2 answerBackground">93</div>
+              <div v-if="answerArr[94] === '-'" class="col-md-2 answer">94</div>
+              <div v-if="answerArr[94] != '-'" class="col-md-2 answerBackground">94</div>
+              <div v-if="answerArr[95] === '-'" class="col-md-2 answer">95</div>
+              <div v-if="answerArr[95] != '-'" class="col-md-2 answerBackground">95</div>
+              <div v-if="answerArr[96] === '-'" class="col-md-2 answer">96</div>
+              <div v-if="answerArr[96] != '-'" class="col-md-2 answerBackground">96</div>
+              <div v-if="answerArr[97] === '-'" class="col-md-2 answer">97</div>
+              <div v-if="answerArr[97] != '-'" class="col-md-2 answerBackground">97</div>
+              <div v-if="answerArr[98] === '-'" class="col-md-2 answer">98</div>
+              <div v-if="answerArr[98] != '-'" class="col-md-2 answerBackground">98</div>
+              <div v-if="answerArr[99] === '-'" class="col-md-2 answer">99</div>
+              <div v-if="answerArr[99] != '-'" class="col-md-2 answerBackground">99</div>
+              <div v-if="answerArr[100] === '-'" class="col-md-2 answer">100</div>
+              <div v-if="answerArr[100] != '-'" class="col-md-2 answerBackground">100</div>
 
-              <div class="col-md-2 answer">111</div>
-              <div class="col-md-2 answer">112</div>
-              <div class="col-md-2 answer">113</div>
-              <div class="col-md-2 answer">114</div>
-              <div class="col-md-2 answer">115</div>
-              <div class="col-md-2 answer">116</div>
-              <div class="col-md-2 answer">117</div>
-              <div class="col-md-2 answer">118</div>
-              <div class="col-md-2 answer">119</div>
-              <div class="col-md-2 answer">120</div>
 
-              <div class="col-md-2 answer">121</div>
-              <div class="col-md-2 answer">122</div>
-              <div class="col-md-2 answer">123</div>
-              <div class="col-md-2 answer">124</div>
-              <div class="col-md-2 answer">125</div>
-              <div class="col-md-2 answer">126</div>
-              <div class="col-md-2 answer">127</div>
-              <div class="col-md-2 answer">128</div>
-              <div class="col-md-2 answer">129</div>
-              <div class="col-md-2 answer">130</div>
+              <div v-if="answerArr[101] === '-'" class="col-md-2 answer">101</div>
+              <div v-if="answerArr[101] != '-'" class="col-md-2 answerBackground">101</div>
+              <div v-if="answerArr[102] === '-'" class="col-md-2 answer">102</div>
+              <div v-if="answerArr[102] != '-'" class="col-md-2 answerBackground">102</div>
+              <div v-if="answerArr[103] === '-'" class="col-md-2 answer">103</div>
+              <div v-if="answerArr[103] != '-'" class="col-md-2 answerBackground">103</div>
+              <div v-if="answerArr[104] === '-'" class="col-md-2 answer">104</div>
+              <div v-if="answerArr[104] != '-'" class="col-md-2 answerBackground">104</div>
+              <div v-if="answerArr[105] === '-'" class="col-md-2 answer">105</div>
+              <div v-if="answerArr[105] != '-'" class="col-md-2 answerBackground">105</div>
+              <div v-if="answerArr[106] === '-'" class="col-md-2 answer">106</div>
+              <div v-if="answerArr[106] != '-'" class="col-md-2 answerBackground">106</div>
+              <div v-if="answerArr[107] === '-'" class="col-md-2 answer">107</div>
+              <div v-if="answerArr[107] != '-'" class="col-md-2 answerBackground">107</div>
+              <div v-if="answerArr[108] === '-'" class="col-md-2 answer">108</div>
+              <div v-if="answerArr[108] != '-'" class="col-md-2 answerBackground">108</div>
+              <div v-if="answerArr[109] === '-'" class="col-md-2 answer">109</div>
+              <div v-if="answerArr[109] != '-'" class="col-md-2 answerBackground">109</div>
+              <div v-if="answerArr[110] === '-'" class="col-md-2 answer">110</div>
+              <div v-if="answerArr[110] != '-'" class="col-md-2 answerBackground">110</div>
 
-              <div class="col-md-2 answer">131</div>
-              <div class="col-md-2 answer">132</div>
-              <div class="col-md-2 answer">133</div>
-              <div class="col-md-2 answer">134</div>
-              <div class="col-md-2 answer">135</div>
-              <div class="col-md-2 answer">136</div>
-              <div class="col-md-2 answer">137</div>
-              <div class="col-md-2 answer">138</div>
-              <div class="col-md-2 answer">139</div>
-              <div class="col-md-2 answer">140</div>
+              <div v-if="answerArr[111] === '-'" class="col-md-2 answer">111</div>
+              <div v-if="answerArr[111] != '-'" class="col-md-2 answerBackground">111</div>
+              <div v-if="answerArr[112] === '-'" class="col-md-2 answer">112</div>
+              <div v-if="answerArr[112] != '-'" class="col-md-2 answerBackground">112</div>
+              <div v-if="answerArr[113] === '-'" class="col-md-2 answer">113</div>
+              <div v-if="answerArr[113] != '-'" class="col-md-2 answerBackground">113</div>
+              <div v-if="answerArr[114] === '-'" class="col-md-2 answer">114</div>
+              <div v-if="answerArr[114] != '-'" class="col-md-2 answerBackground">114</div>
+              <div v-if="answerArr[115] === '-'" class="col-md-2 answer">115</div>
+              <div v-if="answerArr[116] != '-'" class="col-md-2 answerBackground">116</div>
+              <div v-if="answerArr[116] === '-'" class="col-md-2 answer">116</div>
+              <div v-if="answerArr[117] != '-'" class="col-md-2 answerBackground">117</div>
+              <div v-if="answerArr[117] === '-'" class="col-md-2 answer">117</div>
+              <div v-if="answerArr[118] === '-'" class="col-md-2 answer">118</div>
+              <div v-if="answerArr[118] != '-'" class="col-md-2 answerBackground">118</div>
+              <div v-if="answerArr[119] === '-'" class="col-md-2 answer">119</div>
+              <div v-if="answerArr[119] != '-'" class="col-md-2 answerBackground">119</div>
+              <div v-if="answerArr[120] === '-'" class="col-md-2 answer">120</div>
+              <div v-if="answerArr[120] != '-'" class="col-md-2 answerBackground">120</div>
 
-              <div class="col-md-2 answer">141</div>
-              <div class="col-md-2 answer">142</div>
-              <div class="col-md-2 answer">143</div>
-              <div class="col-md-2 answer">144</div>
-              <div class="col-md-2 answer">145</div>
-              <div class="col-md-2 answer">146</div>
-              <div class="col-md-2 answer">147</div>
-              <div class="col-md-2 answer">148</div>
-              <div class="col-md-2 answer">149</div>
-              <div class="col-md-2 answer">150</div>
+              <div v-if="answerArr[121] === '-'" class="col-md-2 answer">121</div>
+              <div v-if="answerArr[121] != '-'" class="col-md-2 answerBackground">121</div>
+              <div v-if="answerArr[122] === '-'" class="col-md-2 answer">122</div>
+              <div v-if="answerArr[122] != '-'" class="col-md-2 answerBackground">122</div>
+              <div v-if="answerArr[123] === '-'" class="col-md-2 answer">123</div>
+              <div v-if="answerArr[123] != '-'" class="col-md-2 answerBackground">123</div>
+              <div v-if="answerArr[124] === '-'" class="col-md-2 answer">124</div>
+              <div v-if="answerArr[124] != '-'" class="col-md-2 answerBackground">124</div>
+              <div v-if="answerArr[125] === '-'" class="col-md-2 answer">125</div>
+              <div v-if="answerArr[125] != '-'" class="col-md-2 answerBackground">125</div>
+              <div v-if="answerArr[126] === '-'" class="col-md-2 answer">126</div>
+              <div v-if="answerArr[126] != '-'" class="col-md-2 answerBackground">126</div>
+              <div v-if="answerArr[127] === '-'" class="col-md-2 answer">127</div>
+              <div v-if="answerArr[127] != '-'" class="col-md-2 answerBackground">127</div>
+              <div v-if="answerArr[128] === '-'" class="col-md-2 answer">128</div>
+              <div v-if="answerArr[128] != '-'" class="col-md-2 answerBackground">128</div>
+              <div v-if="answerArr[129] === '-'" class="col-md-2 answer">129</div>
+              <div v-if="answerArr[129] != '-'" class="col-md-2 answerBackground">129</div>
+              <div v-if="answerArr[130] === '-'" class="col-md-2 answer">130</div>
+              <div v-if="answerArr[130] != '-'" class="col-md-2 answerBackground">130</div>
 
-              <div class="col-md-2 answer">151</div>
-              <div class="col-md-2 answer">152</div>
-              <div class="col-md-2 answer">153</div>
-              <div class="col-md-2 answer">154</div>
-              <div class="col-md-2 answer">155</div>
-              <div class="col-md-2 answer">156</div>
-              <div class="col-md-2 answer">157</div>
-              <div class="col-md-2 answer">158</div>
-              <div class="col-md-2 answer">159</div>
-              <div class="col-md-2 answer">160</div>
+              <div v-if="answerArr[131] === '-'" class="col-md-2 answer">131</div>
+              <div v-if="answerArr[131] != '-'" class="col-md-2 answerBackground">131</div>
+              <div v-if="answerArr[132] === '-'" class="col-md-2 answer">132</div>
+              <div v-if="answerArr[132] != '-'" class="col-md-2 answerBackground">132</div>
+              <div v-if="answerArr[133] === '-'" class="col-md-2 answer">133</div>
+              <div v-if="answerArr[133] != '-'" class="col-md-2 answerBackground">133</div>
+              <div v-if="answerArr[134] === '-'" class="col-md-2 answer">134</div>
+              <div v-if="answerArr[134] != '-'" class="col-md-2 answerBackground">134</div>
+              <div v-if="answerArr[135] === '-'" class="col-md-2 answer">135</div>
+              <div v-if="answerArr[135] != '-'" class="col-md-2 answerBackground">135</div>
+              <div v-if="answerArr[136] === '-'" class="col-md-2 answer">136</div>
+              <div v-if="answerArr[136] != '-'" class="col-md-2 answerBackground">136</div>
+              <div v-if="answerArr[137] === '-'" class="col-md-2 answer">137</div>
+              <div v-if="answerArr[137] != '-'" class="col-md-2 answerBackground">137</div>
+              <div v-if="answerArr[138] === '-'" class="col-md-2 answer">138</div>
+              <div v-if="answerArr[138] != '-'" class="col-md-2 answerBackground">138</div>
+              <div v-if="answerArr[139] === '-'" class="col-md-2 answer">139</div>
+              <div v-if="answerArr[139] != '-'" class="col-md-2 answerBackground">139</div>
+              <div v-if="answerArr[140] === '-'" class="col-md-2 answer">140</div>
+              <div v-if="answerArr[140] != '-'" class="col-md-2 answerBackground">140</div>
 
-              <div class="col-md-2 answer">161</div>
-              <div class="col-md-2 answer">162</div>
-              <div class="col-md-2 answer">163</div>
-              <div class="col-md-2 answer">164</div>
-              <div class="col-md-2 answer">165</div>
-              <div class="col-md-2 answer">166</div>
-              <div class="col-md-2 answer">167</div>
-              <div class="col-md-2 answer">168</div>
-              <div class="col-md-2 answer">169</div>
-              <div class="col-md-2 answer">170</div>
+              <div v-if="answerArr[141] === '-'" class="col-md-2 answer">141</div>
+              <div v-if="answerArr[141] != '-'" class="col-md-2 answerBackground">141</div>
+              <div v-if="answerArr[142] === '-'" class="col-md-2 answer">142</div>
+              <div v-if="answerArr[142] != '-'" class="col-md-2 answerBackground">142</div>
+              <div v-if="answerArr[143] === '-'" class="col-md-2 answer">143</div>
+              <div v-if="answerArr[143] != '-'" class="col-md-2 answerBackground">143</div>
+              <div v-if="answerArr[144] === '-'" class="col-md-2 answer">144</div>
+              <div v-if="answerArr[144] != '-'" class="col-md-2 answerBackground">144</div>
+              <div v-if="answerArr[145] === '-'" class="col-md-2 answer">145</div>
+              <div v-if="answerArr[145] != '-'" class="col-md-2 answerBackground">145</div>
+              <div v-if="answerArr[146] === '-'" class="col-md-2 answer">146</div>
+              <div v-if="answerArr[146] != '-'" class="col-md-2 answerBackground">146</div>
+              <div v-if="answerArr[147] === '-'" class="col-md-2 answer">147</div>
+              <div v-if="answerArr[147] != '-'" class="col-md-2 answerBackground">147</div>
+              <div v-if="answerArr[148] === '-'" class="col-md-2 answer">148</div>
+              <div v-if="answerArr[148] != '-'" class="col-md-2 answerBackground">148</div>
+              <div v-if="answerArr[149] === '-'" class="col-md-2 answer">149</div>
+              <div v-if="answerArr[149] != '-'" class="col-md-2 answerBackground">149</div>
+              <div v-if="answerArr[150] === '-'" class="col-md-2 answer">150</div>
+              <div v-if="answerArr[150] != '-'" class="col-md-2 answerBackground">150</div>
 
-              <div class="col-md-2 answer">171</div>
-              <div class="col-md-2 answer">172</div>
-              <div class="col-md-2 answer">173</div>
-              <div class="col-md-2 answer">174</div>
-              <div class="col-md-2 answer">175</div>
-              <div class="col-md-2 answer">176</div>
-              <div class="col-md-2 answer">177</div>
-              <div class="col-md-2 answer">178</div>
-              <div class="col-md-2 answer">179</div>
-              <div class="col-md-2 answer">180</div>
+              <div v-if="answerArr[151] === '-'" class="col-md-2 answer">151</div>
+              <div v-if="answerArr[151] != '-'" class="col-md-2 answerBackground">151</div>
+              <div v-if="answerArr[152] === '-'" class="col-md-2 answer">152</div>
+              <div v-if="answerArr[152] != '-'" class="col-md-2 answerBackground">152</div>
+              <div v-if="answerArr[153] === '-'" class="col-md-2 answer">153</div>
+              <div v-if="answerArr[153] != '-'" class="col-md-2 answerBackground">153</div>
+              <div v-if="answerArr[154] === '-'" class="col-md-2 answer">154</div>
+              <div v-if="answerArr[154] != '-'" class="col-md-2 answerBackground">154</div>
+              <div v-if="answerArr[155] === '-'" class="col-md-2 answer">155</div>
+              <div v-if="answerArr[155] != '-'" class="col-md-2 answerBackground">155</div>
+              <div v-if="answerArr[156] === '-'" class="col-md-2 answer">156</div>
+              <div v-if="answerArr[156] != '-'" class="col-md-2 answerBackground">156</div>
+              <div v-if="answerArr[157] === '-'" class="col-md-2 answer">157</div>
+              <div v-if="answerArr[157] != '-'" class="col-md-2 answerBackground">157</div>
+              <div v-if="answerArr[158] === '-'" class="col-md-2 answer">158</div>
+              <div v-if="answerArr[158] != '-'" class="col-md-2 answerBackground">158</div>
+              <div v-if="answerArr[159] === '-'" class="col-md-2 answer">159</div>
+              <div v-if="answerArr[159] != '-'" class="col-md-2 answerBackground">159</div>
+              <div v-if="answerArr[160] === '-'" class="col-md-2 answer">160</div>
+              <div v-if="answerArr[160] != '-'" class="col-md-2 answerBackground">160</div>
 
-              <div class="col-md-2 answer">181</div>
-              <div class="col-md-2 answer">182</div>
-              <div class="col-md-2 answer">183</div>
-              <div class="col-md-2 answer">184</div>
-              <div class="col-md-2 answer">185</div>
-              <div class="col-md-2 answer">186</div>
-              <div class="col-md-2 answer">187</div>
-              <div class="col-md-2 answer">188</div>
-              <div class="col-md-2 answer">189</div>
-              <div class="col-md-2 answer">190</div>
 
-              <div class="col-md-2 answer">191</div>
-              <div class="col-md-2 answer">192</div>
-              <div class="col-md-2 answer">193</div>
-              <div class="col-md-2 answer">194</div>
-              <div class="col-md-2 answer">195</div>
-              <div class="col-md-2 answer">196</div>
-              <div class="col-md-2 answer">197</div>
-              <div class="col-md-2 answer">198</div>
-              <div class="col-md-2 answer">199</div>
-              <div class="col-md-2 answer">200</div>
+              <div v-if="answerArr[161] === '-'" class="col-md-2 answer">161</div>
+              <div v-if="answerArr[161] != '-'" class="col-md-2 answerBackground">161</div>
+              <div v-if="answerArr[162] === '-'" class="col-md-2 answer">162</div>
+              <div v-if="answerArr[162] != '-'" class="col-md-2 answerBackground">162</div>
+              <div v-if="answerArr[163] === '-'" class="col-md-2 answer">163</div>
+              <div v-if="answerArr[163] != '-'" class="col-md-2 answerBackground">163</div>
+              <div v-if="answerArr[164] === '-'" class="col-md-2 answer">164</div>
+              <div v-if="answerArr[164] != '-'" class="col-md-2 answerBackground">164</div>
+              <div v-if="answerArr[165] === '-'" class="col-md-2 answer">165</div>
+              <div v-if="answerArr[165] != '-'" class="col-md-2 answerBackground">165</div>
+              <div v-if="answerArr[166] === '-'" class="col-md-2 answer">166</div>
+              <div v-if="answerArr[166] != '-'" class="col-md-2 answerBackground">166</div>
+              <div v-if="answerArr[167] === '-'" class="col-md-2 answer">167</div>
+              <div v-if="answerArr[167] != '-'" class="col-md-2 answerBackground">167</div>
+              <div v-if="answerArr[168] === '-'" class="col-md-2 answer">168</div>
+              <div v-if="answerArr[168] != '-'" class="col-md-2 answerBackground">168</div>
+              <div v-if="answerArr[169] === '-'" class="col-md-2 answer">169</div>
+              <div v-if="answerArr[169] != '-'" class="col-md-2 answerBackground">169</div>
+              <div v-if="answerArr[170] === '-'" class="col-md-2 answer">170</div>
+              <div v-if="answerArr[170] != '-'" class="col-md-2 answerBackground">170</div>
+
+              <div v-if="answerArr[171] === '-'" class="col-md-2 answer">171</div>
+              <div v-if="answerArr[171] != '-'" class="col-md-2 answerBackground">171</div>
+              <div v-if="answerArr[172] === '-'" class="col-md-2 answer">172</div>
+              <div v-if="answerArr[172] != '-'" class="col-md-2 answerBackground">172</div>
+              <div v-if="answerArr[173] === '-'" class="col-md-2 answer">173</div>
+              <div v-if="answerArr[173] != '-'" class="col-md-2 answerBackground">173</div>
+              <div v-if="answerArr[174] === '-'" class="col-md-2 answer">174</div>
+              <div v-if="answerArr[174] != '-'" class="col-md-2 answerBackground">174</div>
+              <div v-if="answerArr[175] === '-'" class="col-md-2 answer">175</div>
+              <div v-if="answerArr[175] != '-'" class="col-md-2 answerBackground">175</div>
+              <div v-if="answerArr[176] === '-'" class="col-md-2 answer">176</div>
+              <div v-if="answerArr[176] != '-'" class="col-md-2 answerBackground">176</div>
+              <div v-if="answerArr[177] === '-'" class="col-md-2 answer">177</div>
+              <div v-if="answerArr[177] != '-'" class="col-md-2 answerBackground">177</div>
+              <div v-if="answerArr[178] === '-'" class="col-md-2 answer">178</div>
+              <div v-if="answerArr[178] != '-'" class="col-md-2 answerBackground">178</div>
+              <div v-if="answerArr[179] === '-'" class="col-md-2 answer">179</div>
+              <div v-if="answerArr[179] != '-'" class="col-md-2 answerBackground">179</div>
+              <div v-if="answerArr[180] === '-'" class="col-md-2 answer">180</div>
+              <div v-if="answerArr[180] != '-'" class="col-md-2 answerBackground">180</div>
+
+              <div v-if="answerArr[181] === '-'" class="col-md-2 answer">181</div>
+              <div v-if="answerArr[181] != '-'" class="col-md-2 answerBackground">181</div>
+              <div v-if="answerArr[182] === '-'" class="col-md-2 answer">182</div>
+              <div v-if="answerArr[182] != '-'" class="col-md-2 answerBackground">182</div>
+              <div v-if="answerArr[183] === '-'" class="col-md-2 answer">183</div>
+              <div v-if="answerArr[183] != '-'" class="col-md-2 answerBackground">183</div>
+              <div v-if="answerArr[184] === '-'" class="col-md-2 answer">184</div>
+              <div v-if="answerArr[184] != '-'" class="col-md-2 answerBackground">184</div>
+              <div v-if="answerArr[185] === '-'" class="col-md-2 answer">185</div>
+              <div v-if="answerArr[185] != '-'" class="col-md-2 answerBackground">185</div>
+              <div v-if="answerArr[186] === '-'" class="col-md-2 answer">186</div>
+              <div v-if="answerArr[186] != '-'" class="col-md-2 answerBackground">186</div>
+              <div v-if="answerArr[187] === '-'" class="col-md-2 answer">187</div>
+              <div v-if="answerArr[187] != '-'" class="col-md-2 answerBackground">187</div>
+              <div v-if="answerArr[188] === '-'" class="col-md-2 answer">188</div>
+              <div v-if="answerArr[188] != '-'" class="col-md-2 answerBackground">188</div>
+              <div v-if="answerArr[189] === '-'" class="col-md-2 answer">189</div>
+              <div v-if="answerArr[189] != '-'" class="col-md-2 answerBackground">189</div>
+              <div v-if="answerArr[190] === '-'" class="col-md-2 answer">190</div>
+              <div v-if="answerArr[190] != '-'" class="col-md-2 answerBackground">190</div>
+
+              <div v-if="answerArr[191] === '-'" class="col-md-2 answer">191</div>
+              <div v-if="answerArr[191] != '-'" class="col-md-2 answerBackground">191</div>
+              <div v-if="answerArr[192] === '-'" class="col-md-2 answer">192</div>
+              <div v-if="answerArr[192] != '-'" class="col-md-2 answerBackground">192</div>
+              <div v-if="answerArr[193] === '-'" class="col-md-2 answer">193</div>
+              <div v-if="answerArr[193] != '-'" class="col-md-2 answerBackground">193</div>
+              <div v-if="answerArr[194] === '-'" class="col-md-2 answer">194</div>
+              <div v-if="answerArr[194] != '-'" class="col-md-2 answerBackground">194</div>
+              <div v-if="answerArr[195] === '-'" class="col-md-2 answer">195</div>
+              <div v-if="answerArr[195] != '-'" class="col-md-2 answerBackground">195</div>
+              <div v-if="answerArr[196] === '-'" class="col-md-2 answer">196</div>
+              <div v-if="answerArr[196] != '-'" class="col-md-2 answerBackground">196</div>
+              <div v-if="answerArr[197] === '-'" class="col-md-2 answer">197</div>
+              <div v-if="answerArr[197] != '-'" class="col-md-2 answerBackground">197</div>
+              <div v-if="answerArr[198] === '-'" class="col-md-2 answer">198</div>
+              <div v-if="answerArr[198] != '-'" class="col-md-2 answerBackground">198</div>
+              <div v-if="answerArr[198] === '-'" class="col-md-2 answer">199</div>
+              <div v-if="answerArr[198] != '-'" class="col-md-2 answerBackground">199</div>
+              <div v-if="answerArr[200] === '-'" class="col-md-2 answer">200</div>
+              <div v-if="answerArr[200] != '-'" class="col-md-2 answerBackground">200</div>
 
             </div>
             <div class="btn-submit">
@@ -2597,18 +2793,7 @@ export default {
     return {
       activeName: 'first',
       radio: '',
-      radio1: '',
-      radio2: '',
-      radio3: '',
-      radio4: '',
-      radio5: '',
-      radio6: '',
-      radio7: '',
-      radio8: '',
-      radio9: '',
-      radio10: '',
-      radio11: '',
-      answerArr: Array(205).fill(''),
+      answerArr: Array(205).fill('-'),
       userId: 1,
       userName: 'John Doe',
       hour: 2,

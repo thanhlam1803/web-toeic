@@ -51,19 +51,19 @@
             </td>
             <td>
               <ul>
-                <li>100</li>
-                <li>100</li>
+                <li>{{calulateScore($route.query.answerArr,rightAnswers)[0]}}</li>
+                <li>{{calulateScore($route.query.answerArr,rightAnswers)[2]}}</li>
               </ul>
             </td>
             <td>
               <ul>
-                <li>495</li>
-                <li>495</li>
+                <li>{{calulateScore($route.query.answerArr,rightAnswers)[1]}}</li>
+                <li>{{calulateScore($route.query.answerArr,rightAnswers)[3]}}</li>
               </ul>
             </td>
             <td>
               <ul>
-                <li rowspan="2">990</li>
+                <li rowspan="2">{{calulateScore($route.query.answerArr,rightAnswers)[4]}}</li>
               </ul>
             </td>
           </tr>
@@ -146,118 +146,20 @@
             </td>
             <td>
               <ul>
-<!--                <li>C</li>-->
-<!--                <li>A</li>-->
-<!--                <li>D</li>-->
-<!--                <li>B</li>-->
-                <li v-if = "$route.query.answerArr[1] != 'C'" class = "answerBackground"> {{ $route.query.answerArr[1] }} </li>
-                <li v-if = "$route.query.answerArr[1] === 'C'"> {{ $route.query.answerArr[1] }} </li>
-                <li v-if = "$route.query.answerArr[2] != 'A'" class = "answerBackground"> {{ $route.query.answerArr[2] }} </li>
-                <li v-if = "$route.query.answerArr[2] === 'A'"> $route.query.answerArr[2] </li>
-                <li v-if = "$route.query.answerArr[3] != 'D'" class = "answerBackground"> {{ $route.query.answerArr[3] }} </li>
-                <li v-if = "$route.query.answerArr[3] === 'D'"> $route.query.answerArr[3] </li>
-                <li v-if = "$route.query.answerArr[4] != 'B'" class = "answerBackground"> {{ $route.query.answerArr[4] }} </li>
-                <li v-if = "$route.query.answerArr[4] === 'B'"> {{ $route.query.answerArr[4] }} </li>
-                <li>C</li>
-                <li>C</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>D</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>D</li>
-                <li>D</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>A</li>
+<!--                <li v-if = "$route.query.answerArr[1] != 'C'" class = "answerBackground"> {{ $route.query.answerArr[1] }} </li>-->
+<!--                <li v-if = "$route.query.answerArr[1] === 'C'"> {{ $route.query.answerArr[1] }} </li>-->
+<!--                <li v-if = "$route.query.answerArr[1] === ''"> - </li>-->
+<!--                <li v-if = "$route.query.answerArr[1] != ''" > {{ $route.query.answerArr[1] }} </li>-->
+                <li v-for="(item,index) in $route.query.answerArr" v-if=" index >=1 && index <= 50">
+                  {{ item }}
+                </li>
               </ul>
             </td>
             <td>
               <ul>
-                <li>C</li>
-                <li>A</li>
-                <li>D</li>
-                <li>B</li>
-                <li>C</li>
-                <li>C</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>D</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>D</li>
-                <li>D</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>A</li>
+                <li v-for="(item,index) in rightAnswers" v-if=" index >=1 && index <= 50">
+                  {{ item }}
+                </li>
               </ul>
             </td>
             <td>
@@ -316,110 +218,17 @@
             </td>
             <td>
               <ul>
-                <li>C</li>
-                <li>A</li>
-                <li>D</li>
-                <li>B</li>
-                <li>C</li>
-                <li>C</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>D</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>D</li>
-                <li>D</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>A</li>
+                <li v-for="(item,index) in $route.query.answerArr" v-if=" index >=51 && index <= 100">
+                  {{ item }}
+                </li>
               </ul>
             </td>
             <td>
               <ul>
-                <li>C</li>
-                <li>A</li>
-                <li>D</li>
-                <li>B</li>
-                <li>C</li>
-                <li>C</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>D</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>D</li>
-                <li>D</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>A</li>
+                <li v-for="(item,index) in rightAnswers" v-if=" index >=51 && index <= 100">
+                  {{ item }}
+                </li>
+
               </ul>
             </td>
             <td>
@@ -478,110 +287,16 @@
             </td>
             <td>
               <ul>
-                <li>C</li>
-                <li>A</li>
-                <li>D</li>
-                <li>B</li>
-                <li>C</li>
-                <li>C</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>D</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>D</li>
-                <li>D</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>A</li>
+                <li v-for="(item,index) in $route.query.answerArr" v-if=" index >=101 && index <= 150">
+                  {{ item }}
+                </li>
               </ul>
             </td>
             <td>
               <ul>
-                <li>C</li>
-                <li>A</li>
-                <li>D</li>
-                <li>B</li>
-                <li>C</li>
-                <li>C</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>D</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>D</li>
-                <li>D</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>A</li>
+                <li v-for="(item,index) in rightAnswers" v-if=" index >=101 && index <= 150">
+                  {{ item }}
+                </li>
               </ul>
             </td>
             <td>
@@ -640,110 +355,16 @@
             </td>
             <td>
               <ul>
-                <li>C</li>
-                <li>A</li>
-                <li>D</li>
-                <li>B</li>
-                <li>C</li>
-                <li>C</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>D</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>D</li>
-                <li>D</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>A</li>
+                <li v-for="(item,index) in $route.query.answerArr" v-if=" index >=151 && index <= 200">
+                  {{ item }}
+                </li>
               </ul>
             </td>
             <td>
               <ul>
-                <li>C</li>
-                <li>A</li>
-                <li>D</li>
-                <li>B</li>
-                <li>C</li>
-                <li>C</li>
-                <li>A</li>
-                <li>A</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
-                <li>A</li>
-                <li>B</li>
-                <li>A</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>A</li>
-                <li>A</li>
-                <li>C</li>
-                <li>D</li>
-                <li>C</li>
-                <li>A</li>
-                <li>C</li>
-                <li>B</li>
-                <li>B</li>
-                <li>D</li>
-                <li>D</li>
-                <li>B</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>B</li>
-                <li>D</li>
-                <li>A</li>
-                <li>A</li>
+                <li v-for="(item,index) in rightAnswers" v-if=" index >=151 && index <= 200">
+                  {{ item }}
+                </li>
               </ul>
             </td>
           </tr>
@@ -766,6 +387,68 @@
 
 <script lang="ts" src="./toeicResult.component.ts"></script>
 
+<script>
+  export default {
+    data() {
+      return {
+        rightAnswers: ["-","C", "A", "D", "B", "C", "C", "A", "A", "A", "B", "A", "A", "C", "B", "B", "A", "C", "C", "B", "B", "A", "B", "C", "A", "B", "A", "C", "A", "C", "B", "A", "A", "C", "D", "C", "A", "C", "B", "B", "D", "D", "B", "A", "B", "D", "A", "B", "D", "A", "A", "C", "A", "A", "A", "A", "B", "A", "A", "B", "B", "A", "C", "C", "B", "B", "A", "B", "C", "A", "B", "D", "B", "C", "C", "A", "C", "A", "C", "B", "A", "B", "A", "C", "D", "C", "A", "C", "B", "B", "D", "A", "B", "D", "A", "A", "C", "B", "A", "D", "D", "A", "B", "A", "A", "C", "A", "D", "B", "C", "C", "A", "A", "C", "B", "B", "A", "C", "C", "B", "B", "A", "B", "C", "A", "C", "D", "C", "A", "C", "B", "B", "D", "D", "B", "A", "A", "C", "B", "A", "B", "D", "A", "B", "D", "A", "A", "A", "B", "A", "C", "B", "A", "C", "C", "A", "D", "B", "A", "C", "A", "C", "B", "C", "C", "A", "A", "A", "B", "A", "A", "C", "B", "C", "B", "B", "A", "B", "C", "A", "B", "A", "A", "C", "D", "C", "A", "C", "B", "B", "D", "D", "A", "B", "D", "A", "A", "B", "A", "B", "D"]
+      }
+    },
+    methods: {
+      calulateScore(answer, rightAnswers) {
+        let listenCount = 0;
+        let readingCount = 0;
+        let listenScore = 0;
+        let readingScore = 0;
+        let totalScore = 0;
+
+        // console.log(answer);
+        // console.log(rightAnswers);
+        for (let i = 1; i <= 200; i++) {
+          if (answer[i] === rightAnswers[i]) {
+            if (i <= 100) {
+              listenCount++;
+            } else {
+              readingCount++;
+            }
+          }
+        }
+
+        if (listenCount <= 15) {
+          listenScore = 5;
+        } else if (listenCount > 15 && listenCount <= 25) {
+          listenScore = 235;
+        } else if (listenCount > 25 && listenCount <= 50) {
+          listenScore = 260;
+        } else if (listenCount > 50 && listenCount <= 75) {
+          listenScore = 385;
+        } else if (listenCount >= 75 && listenCount < 95) {
+          listenScore = 490;
+        } else if (listenCount >= 95) {
+          listenScore = 495;
+        }
+
+        if (readingCount <= 10) {
+          readingScore = 5;
+        } else if (readingCount > 10 && readingCount <= 25) {
+          readingScore = 235;
+        } else if (readingCount > 25 && readingCount <= 50) {
+          readingScore = 260;
+        } else if (readingCount > 50 && readingCount <= 75) {
+          readingScore = 385;
+        } else if (readingCount >= 75 && readingCount < 95) {
+          readingScore = 490;
+        } else if (readingCount >= 95) {
+          readingScore = 495;
+        }
+
+        totalScore = listenScore + readingScore;
+
+        return [listenCount, listenScore, readingCount, readingScore, totalScore];
+      }
+    }
+  }
+</script>
 
 <style scoped>
 /**/

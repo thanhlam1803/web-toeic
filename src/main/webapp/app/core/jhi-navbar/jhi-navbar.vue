@@ -54,14 +54,14 @@
           </span>
         </b-nav-item>
         <!--Thuc the-->
-<!--        <b-nav-item-dropdown right id="entity-menu" v-if="authenticated" active-class="active" class="pointer" data-cy="entity">-->
-<!--          <span slot="button-content" class="navbar-dropdown-menu">-->
-<!--            <font-awesome-icon icon="th-list" />-->
-<!--            <span class="no-bold" v-text="$t('global.menu.entities.main')">Entities</span>-->
-<!--          </span>-->
-<!--          <entities-menu></entities-menu>-->
-<!--          &lt;!&ndash; jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here &ndash;&gt;-->
-<!--        </b-nav-item-dropdown>-->
+        <b-nav-item-dropdown right id="entity-menu" v-if="hasAnyAuthority('ROLE_ADMIN') && authenticated" active-class="active" class="pointer" data-cy="entity">
+          <span slot="button-content" class="navbar-dropdown-menu">
+            <font-awesome-icon icon="th-list" />
+            <span class="no-bold" v-text="$t('global.menu.entities.main')">Entities</span>
+          </span>
+          <entities-menu></entities-menu>
+          <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
+        </b-nav-item-dropdown>
         <!--Quan tri-->
         <b-nav-item-dropdown
           right
@@ -119,7 +119,7 @@
         <b-nav-item-dropdown id="languagesnavBarDropdown" right v-if="languages && Object.keys(languages).length > 1">
           <span slot="button-content">
             <font-awesome-icon icon="flag" />
-            <span class="no-bold" v-text="$t('global.menu.language')">Language</span>
+            <span v-text="$t('global.menu.language')">Language</span>
           </span>
           <b-dropdown-item
             v-for="(value, key) in languages"
@@ -142,7 +142,7 @@
         >
           <span slot="button-content" class="navbar-dropdown-menu">
             <font-awesome-icon icon="user" />
-            <span class="no-bold" v-text="$t('global.menu.account.main')"> Account </span>
+            <span v-text="$t('global.menu.account.main')"> Account </span>
           </span>
           <b-dropdown-item data-cy="settings" to="/account/settings" tag="b-dropdown-item" v-if="authenticated" active-class="active">
             <font-awesome-icon icon="wrench" />

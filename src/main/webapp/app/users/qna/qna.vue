@@ -32,7 +32,10 @@
         </div>
         <div>
           <el-row>
-            <el-button class="qna-btn" type="primary" v-on:click="openLogin()" round plain>Send questions</el-button>
+            <el-button class="qna-btn" type="primary" v-on:click="openLogin()" round plain>
+              <router-link class="alert-link join" to="/question" >Questions</router-link>
+
+            </el-button>
           </el-row>
         </div>
       </div>

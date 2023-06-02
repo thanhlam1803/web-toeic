@@ -1,9 +1,10 @@
 <template>
+
   <div class="contact row">
 
     <!--tieu de-->
     <div class="title">
-      <h1 class="display-4" v-text="$t('home.contact.title')">Contact us</h1>
+      <h1 class="display-4" v-text="$t('home.qna.title')">Contact us</h1>
       <div>
         <div class="el-breadcrumb">
           <span class="el-breadcrumb__item">
@@ -11,7 +12,7 @@
             <span class="el-breadcrumb__separator">/</span>
           </span>
           <span class="el-breadcrumb__item">
-            <router-link class="item" to="/contact" v-text="$t('home.contact.contactus')">Contact</router-link>
+            <router-link class="item" to="/question" v-text="$t('home.qna.title')">Question and Answer</router-link>
             <span class="el-breadcrumb__separator">/</span>
           </span>
         </div>
@@ -21,43 +22,28 @@
     <!---->
     <div class="container detail-contact">
       <div class="col-md-8">
-        <h4 v-text="$t('home.contact.content')">Get in Touch</h4>
-
+        <h4>Question</h4>
         <div class="detail-form">
           <el-form label-position="top" :model="ruleForm" :rules="rules" ref="ruleForm" label-width="auto" class="demo-ruleForm">
             <el-form-item label="Subject" placeholder="Enter Subject" prop="subject">
-              <el-input v-model="ruleForm.subject"></el-input>
+              <el-input v-model = "subject" ></el-input>
             </el-form-item>
 
-            <el-form-item label="Message" placeholder="Enter Message" prop="desc">
-              <el-input type="textarea" v-model="ruleForm.desc"></el-input>
+            <el-form-item label="Question" placeholder="Enter Message" prop="desc">
+              <el-input type="textarea" v-model = "question"></el-input>
             </el-form-item>
 
-            <el-form-item label="Activity name" placeholder="Enter your name" prop="name">
-              <el-input v-model="ruleForm.name"></el-input>
-            </el-form-item>
-
-            <el-form-item
-              prop="email"
-              label="Email"
-              placeholder="Enter your email"
-              :rules="[
-                  { required: true, message: 'Please input email address', trigger: 'blur' },
-                  { type: 'email', message: 'Please input correct email address', trigger: ['blur', 'change'] }
-                ]"
-            >
-              <el-input v-model="ruleForm.email"></el-input>
-            </el-form-item>
+<!--            <el-form-item label="Username"  placeholder="Enter your name" prop="name">-->
+<!--              <el-input v-model = "username" ></el-input>-->
+<!--            </el-form-item>-->
 
             <el-form-item>
               <el-button type="primary" @click="submitForm('ruleForm')">
-                <router-link class="alert-link join" to="/contact/send" style=" color:white ">SEND</router-link>
+                <router-link class="alert-link join" to="/question/send" style=" color:white ">Send Question</router-link>
               </el-button>
             </el-form-item>
           </el-form>
         </div>
-
-
       </div>
 
       <div class="col-md-4">
@@ -104,7 +90,20 @@
   </div>
 </template>
 
-<script  lang="ts" src="./contact.component.ts"></script>
+<script lang="ts" src="./question.component.ts">
+</script>
+
+<script>
+export default {
+  data() {
+    return {
+      subject: '',
+      question: '',
+      username: ''
+    }
+  },
+}
+</script>
 
 <style scoped>
 /**/

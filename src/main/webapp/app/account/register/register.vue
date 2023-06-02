@@ -5,7 +5,7 @@
         <h1 v-text="$t('register.title')" id="register-title" data-cy="registerTitle">Registration</h1>
 
         <div class="alert alert-success" role="alert" v-if="success" v-html="$t('register.messages.success')">
-          <strong>Registration saved!</strong> Please check your email for confirmation.
+          <strong>Registration saved!</strong> Please login for confirmation.
         </div>
 
         <div class="alert alert-danger" role="alert" v-if="error" v-html="$t('register.messages.error.fail')">

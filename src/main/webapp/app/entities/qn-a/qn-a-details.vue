@@ -13,7 +13,7 @@
             <span>{{ qnA.userId }}</span>
           </dd>
           <dt>
-            <span v-text="$t('finalProjectApp.qnA.email')">Email</span>
+            <span v-text="$t('Question')">Question</span>
           </dt>
           <dd>
             <span>{{ qnA.email }}</span>

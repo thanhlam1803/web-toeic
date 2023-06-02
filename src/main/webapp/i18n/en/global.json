@@ -12,7 +12,7 @@
       "contact": "Contact",
       "jhipster-needle-menu-add-element": "TOEICsv will add additional menu entries here (do not translate!)",
       "entities": {
-        "main": "Entities",
+        "main": "Management",
         "answerQuestion": "Answer Question",
         "parts": "Parts",
         "toeicUser": "Toeic User",

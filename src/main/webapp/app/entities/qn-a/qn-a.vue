@@ -32,7 +32,7 @@
               <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'userId'"></jhi-sort-indicator>
             </th>
             <th scope="row" v-on:click="changeOrder('email')">
-              <span v-text="$t('finalProjectApp.qnA.email')">Email</span>
+              <span v-text="$t('Question')">Question</span>
               <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'email'"></jhi-sort-indicator>
             </th>
             <th scope="row" v-on:click="changeOrder('status')">

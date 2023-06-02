@@ -36,7 +36,7 @@
             </div>
           </div>
           <div class="form-group">
-            <label class="form-control-label" v-text="$t('finalProjectApp.qnA.email')" for="qn-a-email">Email</label>
+      <label class="form-control-label" v-text="$t('Question')" for="qn-a-email">Question</label>
             <input
               type="text"
               class="form-control"

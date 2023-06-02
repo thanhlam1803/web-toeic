@@ -11,7 +11,12 @@ const Home = () => import('@/core/home/home.vue');
 const Error = () => import('@/core/error/error.vue');
 const About = () => import('@/users/about/about.vue');
 const Contact = () => import('@/users/contact/contact.vue');
+
+const ContactSend = () => import('@/users/contact/contactSend.vue')
 const QnA = () => import('@/users/qna/qna.vue');
+const Question = () => import('@/users/qna/question.vue');
+const QuestionSend = () => import('@/users/qna/questionSend.vue');
+
 import account from '@/router/account';
 import admin from '@/router/admin';
 import entities from '@/router/entities';
@@ -52,10 +57,26 @@ const router = new Router({
       component: Contact,
     },
     {
+      path: '/contact/send',
+      name: 'ContactSend',
+      component: ContactSend,
+    },
+    {
       path: '/qna',
       name: 'QnA',
       component: QnA,
     },
+    {
+      path: '/question',
+      name: 'question',
+      component: Question,
+    },
+    {
+      path: '/question/send',
+      name: 'questionsend',
+      component: QuestionSend,
+    },
+
     ...account,
     ...admin,
     entities,
