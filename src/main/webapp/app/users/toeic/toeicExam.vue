@@ -51,11 +51,11 @@
                     <p><b>Question 1:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/1.jpg" class="image">
                     <div class="select">
-                      <div>
+                      <div style="display:flex; flex-direction: column">
                         <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
                         <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
                       </div>
-                      <div>
+                      <div style="display:flex; flex-direction: column">
                         <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
                         <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
                       </div>
@@ -66,10 +66,14 @@
                     <p><b>Question 2:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/2.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
@@ -77,10 +81,14 @@
                     <p><b>Question 3:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/3.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
@@ -88,10 +96,14 @@
                     <p><b>Question 4:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/4.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
@@ -99,10 +111,14 @@
                     <p><b>Question 5:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/5.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
@@ -110,10 +126,14 @@
                     <p><b>Question 6:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/6.jpg" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
@@ -136,248 +156,347 @@
                   <div class="question">
                     <p><b>Question 7:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 8:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 9:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 10:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 11:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 12:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 13:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 14:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 15:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 16:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <div class="question">
                     <p><b>Question 17:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 18:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 19:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 20:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <div class="question">
                     <p><b>Question 21:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 22:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 23:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 24:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 25:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 26:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 27:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 28:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 29:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 30:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
                     <p><b>Question 31:</b></p>
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A)</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B)</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C)</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D)</el-radio>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -510,10 +629,14 @@
                     <p><b>Question 42:</b>What does the man say about his friend?</p>
                     <img src="" class="image">
                     <div class="select">
-                      <el-radio v-model="radio" label="1" size="medium">(A) She works in his office</el-radio>
-                      <el-radio v-model="radio" label="2" size="medium">(B) She benefited from a certificate program</el-radio>
-                      <el-radio v-model="radio" label="3" size="medium">(C) She runs a successful accounting firm</el-radio>
-                      <el-radio v-model="radio" label="4" size="medium">(D) She wrote a positive review</el-radio>
+                      <div  style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="1" size="medium">(A) She works in his office</el-radio>
+                        <el-radio v-model="radio" label="2" size="medium">(B) She benefited from a certificate program</el-radio>
+                      </div>
+                      <div style="display:flex; flex-direction: column">
+                        <el-radio v-model="radio" label="3" size="medium">(C) She runs a successful accounting firm</el-radio>
+                        <el-radio v-model="radio" label="4" size="medium">(D) She wrote a positive review</el-radio>
+                      </div>
                     </div>
                   </div>
                   <hr>
@@ -2635,7 +2758,7 @@ export default {
   color: #ffffff;
   width: 100%;
   height: 150px;
-  background-image: linear-gradient(to bottom right, #003c72, #c000de);
+  background-image: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   padding-top: 30px;
   padding-left: 100px;
 }
@@ -2694,9 +2817,9 @@ h2 {
 .part1 .question img.image {
 
 }
-.part1 .select {
+.select {
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
 }
 .part1 .select .select-sub {
 
@@ -2726,8 +2849,9 @@ h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-.btn-submit {
-
+.btn-submit p:hover{
+  background-image: linear-gradient(to bottom right, #ffffff, #1BCEDF);
+  color: black;
 }
 .btn-submit p {
   text-align: center;
@@ -2739,7 +2863,7 @@ h2 {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 30px;
-  background: linear-gradient(to bottom right, #003c72, #c000de);
+  background: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   color: #ffffff;
 }
 

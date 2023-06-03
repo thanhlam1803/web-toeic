@@ -53,16 +53,16 @@
             <span v-text="$t('global.menu.toeic')">Toeic</span>
           </span>
         </b-nav-item>
-        <!--Thuc the-->
-<!--        <b-nav-item-dropdown right id="entity-menu" v-if="authenticated" active-class="active" class="pointer" data-cy="entity">-->
-<!--          <span slot="button-content" class="navbar-dropdown-menu">-->
-<!--            <font-awesome-icon icon="th-list" />-->
-<!--            <span class="no-bold" v-text="$t('global.menu.entities.main')">Entities</span>-->
-<!--          </span>-->
-<!--          <entities-menu></entities-menu>-->
-<!--          &lt;!&ndash; jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here &ndash;&gt;-->
-<!--        </b-nav-item-dropdown>-->
-        <!--Quan tri-->
+<!--        Thuc the-->
+        <b-nav-item-dropdown right id="entity-menu" v-if="authenticated" active-class="active" class="pointer" data-cy="entity">
+          <span slot="button-content" class="navbar-dropdown-menu">
+            <font-awesome-icon icon="th-list" />
+            <span class="no-bold" v-text="$t('global.menu.entities.main')">Entities</span>
+          </span>
+          <entities-menu></entities-menu>
+          <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
+        </b-nav-item-dropdown>
+<!--        Quan tri-->
         <b-nav-item-dropdown
           right
           id="admin-menu"
@@ -213,11 +213,11 @@
 }
 
 .jh-navbar ul.navbar-nav {
-  padding: 0.5em;
+  padding: 5px;
 }
 
 .jh-navbar .navbar-nav .nav-item {
-  margin-left: 1.5rem;
+  margin-left: 5px;
 }
 
 .jh-navbar a.nav-link{
@@ -273,7 +273,7 @@
   height: 45px;
   display: inline-block;
   vertical-align: middle;
-  width: 70px;
+  width: 60px;
 }
 
 .logo-img {

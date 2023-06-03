@@ -157,7 +157,7 @@ ul li:hover {
   width: 100%;
   height: 35px;
   border-radius: 20px;
-  background-image: linear-gradient(to bottom right, #003c72, #c000de);
+  background-image: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   margin-top: 10px;
   color: #ffffff;
 }

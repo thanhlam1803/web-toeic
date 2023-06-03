@@ -30,7 +30,7 @@
               <el-col :span="8">
                 <div class="test-item grid-content bg-purple">
                   <el-row>
-                    <el-card :body-style="{ padding: '0px' }">
+                    <el-card :body-style="{ padding: '0px', height:'550px' }">
                       <img src="../../../content/images/vocabulary.jpg" class="image">
                       <div style="padding: 14px;">
                         <span v-text="$t('home.test.vocabulary')">VOCABULARY</span>
@@ -41,7 +41,7 @@
                             <li v-text="$t('home.test.voca03')">Vocabulary is the core of English when communicating.</li>
                             <li v-text="$t('home.test.voca04')">Vocabulary is the foundation for development skills.</li>
                           </ul>
-                          <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                          <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')" style="margin-top: 70px">JOIN</router-link>
                         </div>
                       </div>
                     </el-card>
@@ -189,7 +189,7 @@
   .alert-success {
     border-color: #79b5e8;
     color: #ffffff;
-    background-image: linear-gradient(to bottom right, #003c72, #c000de);
+    background-image: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   }
 
   .diss {
@@ -210,8 +210,10 @@
   .test .el-row {
     margin-bottom: 20px;
   }
+
   .test .el-row:last-child {
     margin-bottom: 0;
+    text-align:justify;
   }
   .test .el-col {
     border-radius: 4px;
