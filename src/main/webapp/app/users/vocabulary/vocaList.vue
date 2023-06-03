@@ -49,7 +49,7 @@
                   <div style="padding: 14px;">
                     <span>Marketing</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -64,7 +64,7 @@
                   <div style="padding: 14px;">
                     <span>Warranties</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -79,7 +79,7 @@
                   <div style="padding: 14px;">
                     <span>Business Planning</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -94,7 +94,7 @@
                   <div style="padding: 14px;">
                     <span>Conferences</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -109,7 +109,7 @@
                   <div style="padding: 14px;">
                     <span>Computers</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -125,7 +125,7 @@
                   <div style="padding: 14px;">
                     <span>Office Technology</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -140,7 +140,7 @@
                   <div style="padding: 14px;">
                     <span>Office Procedures</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -155,7 +155,7 @@
                   <div style="padding: 14px;">
                     <span>Electronics</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -170,7 +170,7 @@
                   <div style="padding: 14px;">
                     <span>Correspondence</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -183,9 +183,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Job Advertising and Recruiting</span>
+                    <span>School</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -198,9 +198,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Applying and Interviewing</span>
+                    <span>Health</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -214,9 +214,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Hiring and Training</span>
+                    <span>Direction</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -229,9 +229,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Salaries and Benefits</span>
+                    <span>Food</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -244,9 +244,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Promotions, Pensions, and Awards</span>
+                    <span>Awards</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -261,7 +261,7 @@
                   <div style="padding: 14px;">
                     <span>Shopping</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -276,7 +276,7 @@
                   <div style="padding: 14px;">
                     <span>Ordering Supplies</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -291,7 +291,7 @@
                   <div style="padding: 14px;">
                     <span>Shipping</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -305,9 +305,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Hiring and Training</span>
+                    <span>Sports</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -320,9 +320,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Salaries and Benefits</span>
+                    <span>Traffic</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -335,9 +335,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Promotions, Pensions, and Awards</span>
+                    <span>Weather</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -350,9 +350,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Shopping</span>
+                    <span>Jobs</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -365,9 +365,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Ordering Supplies</span>
+                    <span>Home</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -380,9 +380,9 @@
                 <el-card :body-style="{ padding: '0px' }">
                   <img src="../../../content/images/icon02.jpg" class="image">
                   <div style="padding: 14px;">
-                    <span>Shipping</span>
+                    <span>Number</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -409,7 +409,7 @@
   color: #ffffff;
   width: 100%;
   height: 150px;
-  background-image: linear-gradient(to bottom right, #003c72, #c000de);
+  background-image: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   padding-top: 30px;
   padding-left: 100px;
 }

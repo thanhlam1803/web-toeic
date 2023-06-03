@@ -20,7 +20,7 @@
 
 <!--muc-->
     <div class="container">
-      <div class="alert alert-success bg-test diss">
+      <div class="alert alert-success bg-test diss" style="display: block">
         <div class="test-title">
           <h3 v-text="$t('home.test.title')">Our three key points</h3>
         </div>
@@ -29,7 +29,7 @@
             <el-col :span="8">
               <div class="test-item grid-content bg-purple">
                 <el-row>
-                  <el-card :body-style="{ padding: '0px' }">
+                  <el-card :body-style="{ padding: '0px', height:'510px'}">
                     <img src="../../../content/images/vocabulary.jpg" class="image">
                     <div style="padding: 14px;">
                       <span v-text="$t('home.test.vocabulary')">VOCABULARY</span>
@@ -40,7 +40,7 @@
                           <li v-text="$t('home.test.voca03')">Vocabulary is the core of English when communicating.</li>
                           <li v-text="$t('home.test.voca04')">Vocabulary is the foundation for development skills. Hehe</li>
                         </ul>
-                        <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')">JOIN</router-link>
+                        <router-link class="alert-link join" to="/users/vocabulary" v-text="$t('home.join')" style="margin-top: 50px">JOIN</router-link>
                       </div>
                     </div>
                   </el-card>
@@ -50,7 +50,7 @@
             <el-col :span="8">
               <div class="test-item grid-content bg-purple">
                 <el-row>
-                  <el-card :body-style="{ padding: '0px' }">
+                  <el-card :body-style="{ padding: '0px', height:'510px' }">
                     <img src="../../../content/images/grammar02.jpg" class="image">
                     <div style="padding: 14px;">
                       <span v-text="$t('home.test.grammar')">GRAMMAR</span>
@@ -70,7 +70,7 @@
             <el-col :span="8">
               <div class="test-item grid-content bg-purple">
                 <el-row>
-                  <el-card :body-style="{ padding: '0px' }">
+                  <el-card :body-style="{ padding: '0px', height:'510px' }">
                     <img src="../../../content/images/toeic01.jpg" class="image">
                     <div style="padding: 14px;">
                       <span v-text="$t('home.test.toeic')">TOEIC</span>
@@ -81,7 +81,7 @@
                           <li v-text="$t('home.test.toeic03')">TOEIC is a measure of large companies and corporations.</li>
                           <li v-text="$t('home.test.toeic04')">TOEIC helps you more confident, Western cultural exchange.</li>
                         </ul>
-                        <router-link class="alert-link join" to="/users/toeic" v-text="$t('home.join')">JOIN</router-link>
+                        <router-link class="alert-link join" to="/users/toeic" v-text="$t('home.join')" >JOIN</router-link>
                       </div>
                     </div>
                   </el-card>
@@ -168,7 +168,7 @@
   color: #ffffff;
   width: 100%;
   height: 150px;
-  background-image: linear-gradient(to bottom right, #003c72, #c000de);
+  background-image: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   padding-top: 30px;
   padding-left: 100px;
 }
@@ -224,6 +224,7 @@
 }
 .test .el-row {
   margin-bottom: 20px;
+  text-align: justify;
 }
 .test .el-row:last-child {
   margin-bottom: 0;
@@ -301,6 +302,7 @@
   padding-top: 30px;
   width: auto;
   background-color: #ffffff;
+  text-align: justify;
 }
 .contact-us .text h3 {
   font-weight: bold;

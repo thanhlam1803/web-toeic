@@ -373,8 +373,9 @@
         <div class="btn-footer">
           <div class="btn-quiz">
             <el-row>
-              <router-link class="alert-link" to="" style="width: 300px; font-weight: bold; font-size: 18px;">Link video giải đề ETS 2021 test 01</router-link>
-              <router-link class="alert-link" to="/users/grammar/gramTopic/gramQuiz" style="width: 300px; font-weight: bold; font-size: 18px;">Link chữa đề ETS 2021 test 01</router-link>
+              <a class="alert-link" target="_blank" style="width: 300px; font-weight: bold; font-size: 18px;" href = "https://kimnhungtoeic.com/dap-an-ets-2021/"> Link chữa đề </a>
+<!--              <router-link class="alert-link" to="https://kimnhungtoeic.com/dap-an-ets-2021/" style="width: 300px; font-weight: bold; font-size: 18px;">Link video giải đề </router-link>-->
+<!--              <router-link class="alert-link" to="/users/grammar/gramTopic/gramQuiz" style="width: 300px; font-weight: bold; font-size: 18px;">Link chữa đề</router-link>-->
             </el-row>
           </div>
         </div>
@@ -456,7 +457,7 @@
   color: #ffffff;
   width: 100%;
   height: 150px;
-  background-image: linear-gradient(to bottom right, #003c72, #c000de);
+  background-image: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   padding-top: 30px;
   padding-left: 100px;
 }

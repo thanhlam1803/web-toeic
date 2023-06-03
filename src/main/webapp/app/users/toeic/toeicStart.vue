@@ -25,16 +25,11 @@
     <!-- start -->
     <div class="container">
       <div class="start">
-        <h2 v-text="$t('finalProjectApp.userToeicList.toeic.topic01.title')">ETS_2021_Test_01</h2>
         <div class="btn-start">
           <router-link class="alert-link join" to="/users/toeic/toeicStart/toeicExam" type="primary">
             <i class="el-icon-video-play"></i>
             <p v-text="$t('finalProjectApp.userToeicList.toeic.start')">START</p>
           </router-link>
-<!--          <el-link href="/users/toeic/toeicStart/toeicExam" type="primary">-->
-<!--            <i class="el-icon-video-play"></i>-->
-<!--            <p>START</p>-->
-<!--          </el-link>-->
         </div>
         <p>Bấm <span v-text="$t('finalProjectApp.userToeicList.toeic.start')">START</span> để bắt đầu làm bài nhé ^^</p>
       </div>
@@ -55,7 +50,7 @@
   color: #ffffff;
   width: 100%;
   height: 150px;
-  background-image: linear-gradient(to bottom right, #003c72, #c000de);
+  background-image: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   padding-top: 30px;
   padding-left: 100px;
 }
@@ -107,7 +102,12 @@
   font-size: 50px;
   font-weight: bolder;
 }
-
+.start {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  flex-direction: column;
+}
 
 
 </style>

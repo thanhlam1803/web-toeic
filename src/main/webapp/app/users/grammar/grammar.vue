@@ -85,7 +85,7 @@
                         <li><i class="el-icon-view"></i>200</li>
                         <li><i class="el-icon-user-solid"></i>100</li>
                       </ul>
-                      <router-link class="alert-link join" to="/users/grammar/gramTopicNouns" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/grammar/gramTopicNouns" v-text="$t('home.join')" style="margin-top: 27px">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -105,7 +105,7 @@
                         <li><i class="el-icon-view"></i>200</li>
                         <li><i class="el-icon-user-solid"></i>212</li>
                       </ul>
-                      <router-link class="alert-link join" to="/users/grammar/gramTopic" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/grammar/gramTopic" v-text="$t('home.join')" style="margin-top: 27px">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -129,7 +129,7 @@
   color: #ffffff;
   width: 100%;
   height: 150px;
-  background-image: linear-gradient(to bottom right, #003c72, #c000de);
+  background-image: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   padding-top: 30px;
   padding-left: 100px;
 }
@@ -168,11 +168,10 @@
 }
 .content p {
   font-size: 16px;
-  text-align: left;
+  text-align: justify;
   text-indent: 30px;
   margin-bottom: 15px;
   font-style: italic;
-  font-weight: bold;
   line-height: 25px;
 }
 

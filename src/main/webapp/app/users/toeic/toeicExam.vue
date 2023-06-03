@@ -15,7 +15,7 @@
             <span class="el-breadcrumb__separator">/</span>
           </span>
           <span class="el-breadcrumb__item">
-            <router-link class="item" to="/users/toeic/toeicStart" v-text="$t('finalProjectApp.userToeicList.toeic.topic01.title')">ETS_2021_Test_01</router-link>
+            <router-link class="item" to="/users/toeic/toeicStart" v-text="$t('Toeic Exam')">Toeic Exam</router-link>
             <span class="el-breadcrumb__separator">/</span>
           </span>
         </div>
@@ -24,7 +24,7 @@
 
     <!-- bai test-->
     <div class="container">
-      <h2 v-text="$t('finalProjectApp.userToeicList.toeic.topic01.title')">ETS_2021_Test_01</h2>
+      <h2 v-text="$t('Toeic Exam')">Toeic Exam</h2>
     </div>
 
     <div class="container-fluid">
@@ -51,14 +51,10 @@
                     <p><b>Question 1:</b></p>
                     <img src="../../../content/images/ets2021test01/part1/1.jpg" class="image">
                     <div class="select">
-                      <div>
-                        <el-radio v-model="answerArr[1]" label="A" size="medium">(A)</el-radio>
-                        <el-radio v-model="answerArr[1]" label="B" size="medium">(B)</el-radio>
-                      </div>
-                      <div>
-                        <el-radio v-model="answerArr[1]" label="C" size="medium">(C)</el-radio>
-                        <el-radio v-model="answerArr[1]" label="D" size="medium">(D)</el-radio>
-                      </div>
+                      <el-radio v-model="answerArr[1]" label="A" size="medium">(A)</el-radio>
+                      <el-radio v-model="answerArr[1]" label="B" size="medium">(B)</el-radio>
+                      <el-radio v-model="answerArr[1]" label="C" size="medium">(C)</el-radio>
+                      <el-radio v-model="answerArr[1]" label="D" size="medium">(D)</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1959,12 +1955,12 @@
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 166:</b>The word "grasp" in paragraph 1, line 10 is closest in meaning to</p>
+                    <p><b>Question 167:</b>The word "grasp" in paragraph 1, line 10 is closest in meaning to</p>
                     <div class="select">
-                      <el-radio v-model=answerArr[166] label="A" size="medium">(A) hold</el-radio>
-                      <el-radio v-model=answerArr[166] label="B" size="medium">(B) tighten</el-radio>
-                      <el-radio v-model=answerArr[166] label="C" size="medium">(C) accomplish</el-radio>
-                      <el-radio v-model=answerArr[166] label="D" size="medium">(D) understand</el-radio>
+                      <el-radio v-model=answerArr[167] label="A" size="medium">(A) hold</el-radio>
+                      <el-radio v-model=answerArr[167] label="B" size="medium">(B) tighten</el-radio>
+                      <el-radio v-model=answerArr[167] label="C" size="medium">(C) accomplish</el-radio>
+                      <el-radio v-model=answerArr[167] label="D" size="medium">(D) understand</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -1975,12 +1971,12 @@
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 166:</b>Who most likely is Ms. Mohlmann?</p>
+                    <p><b>Question 168:</b>Who most likely is Ms. Mohlmann?</p>
                     <div class="select">
-                      <el-radio v-model=answerArr[166] label="A" size="medium">(A) A product tester</el-radio>
-                      <el-radio v-model=answerArr[166] label="B" size="medium">(B) An event planner</el-radio>
-                      <el-radio v-model=answerArr[166] label="C" size="medium">(C) A corporate trainer</el-radio>
-                      <el-radio v-model=answerArr[166] label="D" size="medium">(D) A sales representative</el-radio>
+                      <el-radio v-model=answerArr[168] label="A" size="medium">(A) A product tester</el-radio>
+                      <el-radio v-model=answerArr[168] label="B" size="medium">(B) An event planner</el-radio>
+                      <el-radio v-model=answerArr[168] label="C" size="medium">(C) A corporate trainer</el-radio>
+                      <el-radio v-model=answerArr[168] label="D" size="medium">(D) A sales representative</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2067,12 +2063,12 @@
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 175:</b>What does the mayor suggest people do to thank bus drivers?</p>
+                    <p><b>Question 176:</b>What does the mayor suggest people do to thank bus drivers?</p>
                     <div class="select">
-                      <el-radio v-model=answerArr[175] label="A" size="medium">(A) Donate to a fund</el-radio>
-                      <el-radio v-model=answerArr[175] label="B" size="medium">(B) Give the drivers a card</el-radio>
-                      <el-radio v-model=answerArr[175] label="C" size="medium">(C) Post an online greeting to drivers</el-radio>
-                      <el-radio v-model=answerArr[175] label="D" size="medium">(D) Write a letter to the local newspaper</el-radio>
+                      <el-radio v-model=answerArr[176] label="A" size="medium">(A) Donate to a fund</el-radio>
+                      <el-radio v-model=answerArr[176] label="B" size="medium">(B) Give the drivers a card</el-radio>
+                      <el-radio v-model=answerArr[176] label="C" size="medium">(C) Post an online greeting to drivers</el-radio>
+                      <el-radio v-model=answerArr[176] label="D" size="medium">(D) Write a letter to the local newspaper</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2179,32 +2175,32 @@
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 185:</b>What is indicated about Ohayon Marketing?</p>
+                    <p><b>Question 186:</b>What is indicated about Ohayon Marketing?</p>
                     <div class="select">
-                      <el-radio v-model=answerArr[185] label="A" size="medium">(A) It specializes in family-owned companies.</el-radio>
-                      <el-radio v-model=answerArr[185] label="B" size="medium">(B) It has a diverse client portfolio.</el-radio>
-                      <el-radio v-model=answerArr[185] label="C" size="medium">(C) It mainly supports export firms.</el-radio>
-                      <el-radio v-model=answerArr[185] label="D" size="medium">(D) It earns most of its revenue from the apparel Industry.</el-radio>
+                      <el-radio v-model=answerArr[186] label="A" size="medium">(A) It specializes in family-owned companies.</el-radio>
+                      <el-radio v-model=answerArr[186] label="B" size="medium">(B) It has a diverse client portfolio.</el-radio>
+                      <el-radio v-model=answerArr[186] label="C" size="medium">(C) It mainly supports export firms.</el-radio>
+                      <el-radio v-model=answerArr[186] label="D" size="medium">(D) It earns most of its revenue from the apparel Industry.</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 185:</b>For what industry did Ohayon Marketing first consult?</p>
+                    <p><b>Question 187:</b>For what industry did Ohayon Marketing first consult?</p>
                     <div class="select">
-                      <el-radio v-model=answerArr[185] label="A" size="medium">(A) Online education</el-radio>
-                      <el-radio v-model=answerArr[185] label="B" size="medium">(B) Specialty Foods</el-radio>
-                      <el-radio v-model=answerArr[185] label="C" size="medium">(C) Apparel</el-radio>
-                      <el-radio v-model=answerArr[185] label="D" size="medium">(D) Technology</el-radio>
+                      <el-radio v-model=answerArr[187] label="A" size="medium">(A) Online education</el-radio>
+                      <el-radio v-model=answerArr[187] label="B" size="medium">(B) Specialty Foods</el-radio>
+                      <el-radio v-model=answerArr[187] label="C" size="medium">(C) Apparel</el-radio>
+                      <el-radio v-model=answerArr[187] label="D" size="medium">(D) Technology</el-radio>
                     </div>
                   </div>
                   <hr>
                   <div class="question">
-                    <p><b>Question 185:</b></p>
+                    <p><b>Question 188:</b></p>
                     <div class="select">
-                      <el-radio v-model=answerArr[185] label="A" size="medium">(A) It has offices in New Delhi.</el-radio>
-                      <el-radio v-model=answerArr[185] label="B" size="medium">(B) It recently hired several new employees.</el-radio>
-                      <el-radio v-model=answerArr[185] label="C" size="medium">(C) It is under new management.</el-radio>
-                      <el-radio v-model=answerArr[185] label="D" size="medium">(D) It recently merged with a larger firm.</el-radio>
+                      <el-radio v-model=answerArr[188] label="A" size="medium">(A) It has offices in New Delhi.</el-radio>
+                      <el-radio v-model=answerArr[188] label="B" size="medium">(B) It recently hired several new employees.</el-radio>
+                      <el-radio v-model=answerArr[188] label="C" size="medium">(C) It is under new management.</el-radio>
+                      <el-radio v-model=answerArr[188] label="D" size="medium">(D) It recently merged with a larger firm.</el-radio>
                     </div>
                   </div>
                   <hr>
@@ -2560,6 +2556,16 @@
               <div v-if="answerArr[100] === '-'" class="col-md-2 answer">100</div>
               <div v-if="answerArr[100] != '-'" class="col-md-2 answerBackground">100</div>
 
+              <div class="col-md-2 answer">101</div>
+              <div class="col-md-2 answer">102</div>
+              <div class="col-md-2 answer">103</div>
+              <div class="col-md-2 answer">104</div>
+              <div class="col-md-2 answer">105</div>
+              <div class="col-md-2 answer">106</div>
+              <div class="col-md-2 answer">107</div>
+              <div class="col-md-2 answer">108</div>
+              <div class="col-md-2 answer">109</div>
+              <div class="col-md-2 answer">110</div>
 
               <div v-if="answerArr[101] === '-'" class="col-md-2 answer">101</div>
               <div v-if="answerArr[101] != '-'" class="col-md-2 answerBackground">101</div>
@@ -2686,6 +2692,16 @@
               <div v-if="answerArr[160] === '-'" class="col-md-2 answer">160</div>
               <div v-if="answerArr[160] != '-'" class="col-md-2 answerBackground">160</div>
 
+              <div class="col-md-2 answer">171</div>
+              <div class="col-md-2 answer">172</div>
+              <div class="col-md-2 answer">173</div>
+              <div class="col-md-2 answer">174</div>
+              <div class="col-md-2 answer">175</div>
+              <div class="col-md-2 answer">176</div>
+              <div class="col-md-2 answer">177</div>
+              <div class="col-md-2 answer">178</div>
+              <div class="col-md-2 answer">179</div>
+              <div class="col-md-2 answer">180</div>
 
               <div v-if="answerArr[161] === '-'" class="col-md-2 answer">161</div>
               <div v-if="answerArr[161] != '-'" class="col-md-2 answerBackground">161</div>
@@ -2837,7 +2853,7 @@ export default {
   color: #ffffff;
   width: 100%;
   height: 150px;
-  background-image: linear-gradient(to bottom right, #003c72, #c000de);
+  background-image: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   padding-top: 30px;
   padding-left: 100px;
 }
@@ -2896,9 +2912,10 @@ h2 {
 .part1 .question img.image {
 
 }
-.part1 .select {
+.select {
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
+  margin-top: 15px;
 }
 .part1 .select .select-sub {
 
@@ -2938,8 +2955,9 @@ h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-.btn-submit {
-
+.btn-submit p:hover{
+  background-image: linear-gradient(to bottom right, #ffffff, #1BCEDF);
+  color: black;
 }
 .btn-submit p {
   text-align: center;
@@ -2951,8 +2969,9 @@ h2 {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 30px;
-  background: linear-gradient(to bottom right, #003c72, #c000de);
+  background: linear-gradient(to bottom right, #5B247A, #1BCEDF);
   color: #ffffff;
 }
+
 
 </style>

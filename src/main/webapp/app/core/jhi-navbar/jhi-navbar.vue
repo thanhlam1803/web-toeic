@@ -119,7 +119,7 @@
         <b-nav-item-dropdown id="languagesnavBarDropdown" right v-if="languages && Object.keys(languages).length > 1">
           <span slot="button-content">
             <font-awesome-icon icon="flag" />
-            <span v-text="$t('global.menu.language')">Language</span>
+            <span class="no-bold" v-text="$t('global.menu.language')">Language</span>
           </span>
           <b-dropdown-item
             v-for="(value, key) in languages"
@@ -213,11 +213,11 @@
 }
 
 .jh-navbar ul.navbar-nav {
-  padding: 0.5em;
+  padding: 5px;
 }
 
 .jh-navbar .navbar-nav .nav-item {
-  margin-left: 1.5rem;
+  margin-left: 5px;
 }
 
 .jh-navbar a.nav-link{
@@ -273,7 +273,7 @@
   height: 45px;
   display: inline-block;
   vertical-align: middle;
-  width: 70px;
+  width: 60px;
 }
 
 .logo-img {
