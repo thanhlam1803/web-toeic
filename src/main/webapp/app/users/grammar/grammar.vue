@@ -65,7 +65,7 @@
                         <li><i class="el-icon-view"></i>200</li>
                         <li><i class="el-icon-user-solid"></i>180</li>
                       </ul>
-                      <router-link class="alert-link join" to="/users/grammar/gramTopic" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/grammar/gramTopicPass" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
@@ -85,7 +85,7 @@
                         <li><i class="el-icon-view"></i>200</li>
                         <li><i class="el-icon-user-solid"></i>100</li>
                       </ul>
-                      <router-link class="alert-link join" to="/users/grammar/gramTopic" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" to="/users/grammar/gramTopicNouns" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>

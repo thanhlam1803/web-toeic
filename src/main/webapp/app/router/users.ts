@@ -8,6 +8,8 @@ const JhiVocaResultComponent = () => import('@/users/vocabulary/vocaResult.vue')
 
 const JhiGrammarComponent = () => import('@/users/grammar/grammar.vue');
 const JhiGramTopicComponent = () => import('@/users/grammar/gramTopic.vue');
+const JhiGramTopicPassComponent = () => import('@/users/grammar/gramTopicPass.vue');
+const JhiGramTopicNounsComponent = () => import('@/users/grammar/gramTopicNouns.vue');
 const JhiGramQuizComponent = () => import('@/users/grammar/gramQuiz.vue');
 const JhiGramResultComponent = () => import('@/users/grammar/gramResult.vue');
 
@@ -57,6 +59,18 @@ export default [
     path: '/users/grammar/gramTopic',
     name: 'JhiGramTopicComponent',
     component: JhiGramTopicComponent,
+    meta: { authorities: [Authority.USER] },
+  },
+  {
+    path: '/users/grammar/gramTopicPass',
+    name: 'JhiGramTopicPassComponent',
+    component: JhiGramTopicPassComponent,
+    meta: { authorities: [Authority.USER] },
+  },
+  {
+    path: '/users/grammar/gramTopicNouns',
+    name: 'JhiGramTopicNounsComponent',
+    component: JhiGramTopicNounsComponent,
     meta: { authorities: [Authority.USER] },
   },
   {
