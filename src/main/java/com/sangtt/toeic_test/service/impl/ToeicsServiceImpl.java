@@ -5,6 +5,9 @@ import com.sangtt.toeic_test.repository.ToeicsRepository;
 import com.sangtt.toeic_test.service.ToeicsService;
 import com.sangtt.toeic_test.service.dto.ToeicsDTO;
 import com.sangtt.toeic_test.service.mapper.ToeicsMapper;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,6 +38,18 @@ public class ToeicsServiceImpl implements ToeicsService {
     public ToeicsDTO save(ToeicsDTO toeicsDTO) {
         log.debug("Request to save Toeics : {}", toeicsDTO);
         Toeics toeics = toeicsMapper.toEntity(toeicsDTO);
+
+//        Toeics toeics = new Toeics();
+//        toeics.setNameToeic(toeicsDTO.getNameToeic());
+//        toeics.setDescription(toeicsDTO.getDescription());
+//        toeics.setNumber(toeicsDTO.getNumber());
+//        toeics.view(toeicsDTO.getView());
+//        toeics.test(toeicsDTO.getTest());
+//        toeics.setLinkDetail(toeicsDTO.getLinkDetail());
+        toeics.setCreatedAt(LocalDate.now());
+        toeics.setUpdatedAt(LocalDate.now());
+
+
         toeics = toeicsRepository.save(toeics);
         return toeicsMapper.toDto(toeics);
     }

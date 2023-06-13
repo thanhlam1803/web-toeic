@@ -30,9 +30,9 @@
         </div>
 
         <!-- -->
-        <div class="quiz-main" v-for="(question,index) in questions.slice(a,b)" :key="index" v-show="quiz">
+        <div class="quiz-main" v-for="(question,index) in questionApi.slice(a,b)" :key="index" v-show="quiz">
           <div class="box-question">
-            <h2>Question {{b}}/{{questions.length}}</h2>
+            <h2>Question {{b}}/{{questionApi.length}}</h2>
             <p>{{question.question}}</p>
           </div>
           <div class="box-suggestions">
@@ -53,7 +53,7 @@
 
         <div class="box-score" v-if="score_show">
           <h2>Your score is</h2>
-          <h2>{{score}}/{{questions.length}}</h2>
+          <h2>{{score}}/{{questionApi.length}}</h2>
           <div class="btn-restart">
             <router-link class="alert-link join" to="/users/grammar/gramTopic">
               <button @click="restartQuiz()">Restart</button>
@@ -81,192 +81,194 @@
 
 <script lang="ts" src="./gramQuiz.component.ts"></script>
 <script>
+import axios from "axios";
+
 export default {
   data() {
     return {
-      questions: [
-        {
-          question:'My parents normally __________ breakfast at 7:00 a.m',
-          propositions: [
-            {props:'eat',correct:true},
-            {props:'eats',},
-            {props:'are eating',},
-            {props:'is eating',},
-          ]
-        },
-        {
-          question:'This week Barbara is away on business so Tom ________________ dinner for himself',
-          propositions: [
-            {props:'cook',},
-            {props:'cooks',},
-            {props:'are cooking',},
-            {props:'is cooking',correct:true},
-          ]
-        },
-        {
-          question:'Barbara usually _____________ dinner for her husband after work',
-          propositions: [
-            {props:'cook',},
-            {props:'cooks',correct:true},
-            {props:'are cooking',},
-            {props:'is cooking',},
-          ]
-        },
-        {
-          question:'John always __________ on time for meetings.',
-          propositions: [
-            {props:'arrive',},
-            {props:'arrives',correct:true},
-            {props:'are arriving',},
-            {props:'is arriving',},
-          ]
-        },
-        {
-          question:'John __________ at this moment',
-          propositions: [
-            {props:'arrive',},
-            {props:'arrives',},
-            {props:'are arriving',},
-            {props:'is arriving',correct:true},
-          ]
-        },
-        {
-          question:'We often _________ tests at our school',
-          propositions: [
-            {props:'do',correct:true},
-            {props:'dose',},
-            {props:'is doing',},
-            {props:'are doing',},
-          ]
-        },
-        {
-          question:'I ________ to my teacher now.',
-          propositions: [
-            {props:'talk',},
-            {props:'talks',},
-            {props:'am talking',correct:true},
-            {props:'is talking',},
-          ]
-        },
-        {
-          question:'Look! Mandy and Susan _______a film on TV.',
-          propositions: [
-            {props:'watches',},
-            {props:'is watching',},
-            {props:'am watching',},
-            {props:'are watching',correct:true},
-          ]
-        },
-        {
-          question:'Listen! The band _______the new guitar',
-          propositions: [
-            {props:'test',},
-            {props:'am testing',},
-            {props:'is testing',correct:true},
-            {props:'are testing',},
-          ]
-        },
-        {
-          question:'First I ______, then I dress.',
-          propositions: [
-            {props:'wash',correct:true},
-            {props:'washes',},
-            {props:'am washing',},
-            {props:'are washing',},
-          ]
-        },
-        {
-          question:'Quiet please! I ________ a test.',
-          propositions: [
-            {props:'do',},
-            {props:'am doing',correct:true},
-            {props:'is doing',},
-            {props:'are doing',},
-          ]
-        },
-        {
-          question:'At the moment, the two kids _________on the floor.',
-          propositions: [
-            {props:'sit',},
-            {props:'sits',},
-            {props:'are sitting',correct:true},
-            {props:'is sitting',},
-          ]
-        },
-        {
-          question:'Jeff ________ a book right now, he _______ a story to Linda.',
-          propositions: [
-            {props:'hold – read',},
-            {props:'holds – reads',},
-            {props:'is holding - is reading',correct:true},
-            {props:'are holding - are reading',},
-          ]
-        },
-        {
-          question:'Linda ________ Jeff’s stories.',
-          propositions: [
-            {props:'love',},
-            {props:'loves',correct:true},
-            {props:'am loving',},
-            {props:'is loving',},
-          ]
-        },
-        {
-          question:'He ______a story to her every day',
-          propositions: [
-            {props:'read',},
-            {props:'reads',correct:true},
-            {props:'am reading',},
-            {props:'is reading',},
-          ]
-        },
-        {
-          question:'Jenny usually __________ to school, but today she _________ the bus because it _______.',
-          propositions: [
-            {props:'cycle - take – rain',},
-            {props:'cycles - takes – rains',},
-            {props:'cycles - takes - is raining',},
-            {props:'cycles - is taking - is raining',correct:true},
-          ]
-        },
-        {
-          question:'The train always __________ on time.',
-          propositions: [
-            {props:'leave',},
-            {props:'leaves',correct:true},
-            {props:'is leaving',},
-            {props:'are leaving',},
-          ]
-        },
-        {
-          question:'“What’s the matter? Why ____________?”',
-          propositions: [
-            {props:'do you cry',},
-            {props:'you are crying',},
-            {props:'is you crying',},
-            {props:'are you crying',correct:true},
-          ]
-        },
-        {
-          question:'I never ________ to the swimming pool',
-          propositions: [
-            {props:'go',correct:true},
-            {props:'goes',},
-            {props:'is going',},
-            {props:'am going',},
-          ]
-        },
-        {
-          question:'What will happen if we __________ water?',
-          propositions: [
-            {props:'not conserve',},
-            {props:'are not conserve',},
-            {props:'do not conserve',correct:true},
-            {props:'does not conserve',},
-          ]
-        },
-      ],
-
+      // questions: [
+      //   {
+      //     question:'My parents normally __________ breakfast at 7:00 a.m',
+      //     propositions: [
+      //       {props:'eat',correct:true},
+      //       {props:'eats',},
+      //       {props:'are eating',},
+      //       {props:'is eating',},
+      //     ]
+      //   },
+      //   {
+      //     question:'This week Barbara is away on business so Tom ________________ dinner for himself',
+      //     propositions: [
+      //       {props:'cook',},
+      //       {props:'cooks',},
+      //       {props:'are cooking',},
+      //       {props:'is cooking',correct:true},
+      //     ]
+      //   },
+      //   {
+      //     question:'Barbara usually _____________ dinner for her husband after work',
+      //     propositions: [
+      //       {props:'cook',},
+      //       {props:'cooks',correct:true},
+      //       {props:'are cooking',},
+      //       {props:'is cooking',},
+      //     ]
+      //   },
+      //   {
+      //     question:'John always __________ on time for meetings.',
+      //     propositions: [
+      //       {props:'arrive',},
+      //       {props:'arrives',correct:true},
+      //       {props:'are arriving',},
+      //       {props:'is arriving',},
+      //     ]
+      //   },
+      //   {
+      //     question:'John __________ at this moment',
+      //     propositions: [
+      //       {props:'arrive',},
+      //       {props:'arrives',},
+      //       {props:'are arriving',},
+      //       {props:'is arriving',correct:true},
+      //     ]
+      //   },
+      //   {
+      //     question:'We often _________ tests at our school',
+      //     propositions: [
+      //       {props:'do',correct:true},
+      //       {props:'dose',},
+      //       {props:'is doing',},
+      //       {props:'are doing',},
+      //     ]
+      //   },
+      //   {
+      //     question:'I ________ to my teacher now.',
+      //     propositions: [
+      //       {props:'talk',},
+      //       {props:'talks',},
+      //       {props:'am talking',correct:true},
+      //       {props:'is talking',},
+      //     ]
+      //   },
+      //   {
+      //     question:'Look! Mandy and Susan _______a film on TV.',
+      //     propositions: [
+      //       {props:'watches',},
+      //       {props:'is watching',},
+      //       {props:'am watching',},
+      //       {props:'are watching',correct:true},
+      //     ]
+      //   },
+      //   {
+      //     question:'Listen! The band _______the new guitar',
+      //     propositions: [
+      //       {props:'test',},
+      //       {props:'am testing',},
+      //       {props:'is testing',correct:true},
+      //       {props:'are testing',},
+      //     ]
+      //   },
+      //   {
+      //     question:'First I ______, then I dress.',
+      //     propositions: [
+      //       {props:'wash',correct:true},
+      //       {props:'washes',},
+      //       {props:'am washing',},
+      //       {props:'are washing',},
+      //     ]
+      //   },
+      //   {
+      //     question:'Quiet please! I ________ a test.',
+      //     propositions: [
+      //       {props:'do',},
+      //       {props:'am doing',correct:true},
+      //       {props:'is doing',},
+      //       {props:'are doing',},
+      //     ]
+      //   },
+      //   {
+      //     question:'At the moment, the two kids _________on the floor.',
+      //     propositions: [
+      //       {props:'sit',},
+      //       {props:'sits',},
+      //       {props:'are sitting',correct:true},
+      //       {props:'is sitting',},
+      //     ]
+      //   },
+      //   {
+      //     question:'Jeff ________ a book right now, he _______ a story to Linda.',
+      //     propositions: [
+      //       {props:'hold – read',},
+      //       {props:'holds – reads',},
+      //       {props:'is holding - is reading',correct:true},
+      //       {props:'are holding - are reading',},
+      //     ]
+      //   },
+      //   {
+      //     question:'Linda ________ Jeff’s stories.',
+      //     propositions: [
+      //       {props:'love',},
+      //       {props:'loves',correct:true},
+      //       {props:'am loving',},
+      //       {props:'is loving',},
+      //     ]
+      //   },
+      //   {
+      //     question:'He ______a story to her every day',
+      //     propositions: [
+      //       {props:'read',},
+      //       {props:'reads',correct:true},
+      //       {props:'am reading',},
+      //       {props:'is reading',},
+      //     ]
+      //   },
+      //   {
+      //     question:'Jenny usually __________ to school, but today she _________ the bus because it _______.',
+      //     propositions: [
+      //       {props:'cycle - take – rain',},
+      //       {props:'cycles - takes – rains',},
+      //       {props:'cycles - takes - is raining',},
+      //       {props:'cycles - is taking - is raining',correct:true},
+      //     ]
+      //   },
+      //   {
+      //     question:'The train always __________ on time.',
+      //     propositions: [
+      //       {props:'leave',},
+      //       {props:'leaves',correct:true},
+      //       {props:'is leaving',},
+      //       {props:'are leaving',},
+      //     ]
+      //   },
+      //   {
+      //     question:'“What’s the matter? Why ____________?”',
+      //     propositions: [
+      //       {props:'do you cry',},
+      //       {props:'you are crying',},
+      //       {props:'is you crying',},
+      //       {props:'are you crying',correct:true},
+      //     ]
+      //   },
+      //   {
+      //     question:'I never ________ to the swimming pool',
+      //     propositions: [
+      //       {props:'go',correct:true},
+      //       {props:'goes',},
+      //       {props:'is going',},
+      //       {props:'am going',},
+      //     ]
+      //   },
+      //   {
+      //     question:'What will happen if we __________ water?',
+      //     propositions: [
+      //       {props:'not conserve',},
+      //       {props:'are not conserve',},
+      //       {props:'do not conserve',correct:true},
+      //       {props:'does not conserve',},
+      //     ]
+      //   },
+      // ],
+      questionApi: [],
       a:0,
       b:1,
       next:true,
@@ -280,7 +282,19 @@ export default {
 
   name: 'vocaQuiz',
 
+  mounted() {
+    this.fetchData();
+  },
+
   methods: {
+
+    async fetchData() {
+      await axios.get('http://localhost:9000/api/grammar-questions/topic/1').then(
+        res=>{
+          this.questionApi=res.data
+          console.log('check',this.questionApi)
+        })
+    },
 
     selectResponse(e) {
       this.correct = true;
@@ -302,8 +316,8 @@ export default {
       if(this.next) {
         return;
       }
-      this.progress = this.progress + (100/this.questions.length);
-      if(this.questions.length - 1 == this.a) {
+      this.progress = this.progress + (100/this.questionApi.length);
+      if(this.questionApi.length - 1 == this.a) {
         this.score_show = true;
         this.quiz = false;
       }else {
@@ -318,8 +332,8 @@ export default {
       if(!this.next) {
         return;
       }
-      this.progress = this.progress + (100/this.questions.length);
-      if(this.questions.length - 1 == this.a) {
+      this.progress = this.progress + (100/this.questionApi.length);
+      if(this.questionApi.length - 1 == this.a) {
         this.score_show = true;
         this.quiz = false;
       }else {

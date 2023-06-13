@@ -34,18 +34,21 @@ const validations: any = {
     },
     linkDetail: {},
     createdAt: {
-      required,
+
     },
     updatedAt: {
-      required,
+
     },
   },
 };
+
 
 @Component({
   validations,
 })
 export default class ToeicsUpdate extends Vue {
+
+
   @Inject('toeicsService') private toeicsService: () => ToeicsService;
   @Inject('alertService') private alertService: () => AlertService;
 

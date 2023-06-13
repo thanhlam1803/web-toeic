@@ -1,7 +1,11 @@
 package com.sangtt.toeic_test.service;
 
 import com.sangtt.toeic_test.service.dto.GrammarQuestionDTO;
+
+import java.util.List;
 import java.util.Optional;
+
+import com.sangtt.toeic_test.service.model.QuestionModel;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -47,4 +51,6 @@ public interface GrammarQuestionService {
      * @param id the id of the entity.
      */
     void delete(Long id);
+
+    List<QuestionModel> findGrammarTopic(Long id);
 }

@@ -3,6 +3,7 @@ package com.sangtt.toeic_test.web.rest;
 import com.sangtt.toeic_test.repository.GrammarQuestionRepository;
 import com.sangtt.toeic_test.service.GrammarQuestionService;
 import com.sangtt.toeic_test.service.dto.GrammarQuestionDTO;
+import com.sangtt.toeic_test.service.model.QuestionModel;
 import com.sangtt.toeic_test.web.rest.errors.BadRequestAlertException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -183,4 +184,13 @@ public class GrammarQuestionResource {
             .headers(HeaderUtil.createEntityDeletionAlert(applicationName, true, ENTITY_NAME, id.toString()))
             .build();
     }
+    @GetMapping("/grammar-questions/topic/{id}")
+    public ResponseEntity<List<QuestionModel>> getGrammarQuestionTopic(@PathVariable Long id) {
+        log.debug("REST request to get GrammarQuestionTopi : {}", id);
+        List<QuestionModel> grammarQuestionDTO = grammarQuestionService.findGrammarTopic(id);
+        return ResponseEntity.ok(grammarQuestionDTO);
+    }
+
+
+
 }

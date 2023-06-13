@@ -45,12 +45,10 @@ public class Toeics implements Serializable {
     @Column(name = "link_detail")
     private String linkDetail;
 
-    @NotNull
-    @Column(name = "created_at", nullable = false)
+    @Column(name = "created_at")
     private LocalDate createdAt;
 
-    @NotNull
-    @Column(name = "updated_at", nullable = false)
+    @Column(name = "updated_at")
     private LocalDate updatedAt;
 
     @OneToMany(mappedBy = "toeics")

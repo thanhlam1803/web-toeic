@@ -29,10 +29,8 @@ public class ToeicsDTO implements Serializable {
 
     private String linkDetail;
 
-    @NotNull
     private LocalDate createdAt;
 
-    @NotNull
     private LocalDate updatedAt;
 
     public Long getId() {

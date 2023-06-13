@@ -120,13 +120,46 @@
         </el-row>
       </div>
     </div>
+    <div>
+      <input type="text" v-model="testInput">
+      <p>{{testInput}}</p>
+    </div>
+    <div v-for="(ele,index) in vocabulary">
+      <p v-if="index===1">{{ele}}</p>
+      <p v-else-if="index===2">uiasdhaisudhuashui</p>
+    </div>
 
   </div>
 </template>
 
 
 <script lang="ts" src="./vocabulary.component.ts"></script>
+<script>
+import axios from 'axios'
+export default {
+  data() {
+    return {
+      vocabulary:null,
+      testInput:"",
+    }
+  },
 
+  name: 'vocaQuiz',
+  mounted() {
+    this.fetchData();
+  },
+
+  methods: {
+    async fetchData() {
+      await axios.get('http://localhost:9000/api/vocabularies?sort=id,asc&page=0&size=20').then(
+        res=>{
+          this.vocabulary=res.data
+          console.log('check',this.vocabulary)
+        })
+    }
+  }
+}
+</script>
 
 <style scoped>
 /**/

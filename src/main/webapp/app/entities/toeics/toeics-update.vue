@@ -150,8 +150,7 @@
                 class="form-control"
                 name="createdAt"
                 :class="{ valid: !$v.toeics.createdAt.$invalid, invalid: $v.toeics.createdAt.$invalid }"
-                v-model="$v.toeics.createdAt.$model"
-                required
+                v-model="new Date().toISOString().substr(0, 10)"
               />
             </b-input-group>
             <div v-if="$v.toeics.createdAt.$anyDirty && $v.toeics.createdAt.$invalid">
