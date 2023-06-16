@@ -1,7 +1,12 @@
 package com.sangtt.toeic_test.service;
 
+import com.sangtt.toeic_test.domain.Vocabulary;
 import com.sangtt.toeic_test.service.dto.VocabularyDTO;
+
+import java.util.List;
 import java.util.Optional;
+
+import com.sangtt.toeic_test.service.model.QuestionModel;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -15,7 +20,7 @@ public interface VocabularyService {
      * @param vocabularyDTO the entity to save.
      * @return the persisted entity.
      */
-    VocabularyDTO save(VocabularyDTO vocabularyDTO);
+    VocabularyDTO save(Vocabulary vocabularyDTO);
 
     /**
      * Partially updates a vocabulary.
@@ -31,7 +36,7 @@ public interface VocabularyService {
      * @param pageable the pagination information.
      * @return the list of entities.
      */
-    Page<VocabularyDTO> findAll(Pageable pageable);
+    Page<Vocabulary> findAll(Pageable pageable);
 
     /**
      * Get the "id" vocabulary.
@@ -47,4 +52,8 @@ public interface VocabularyService {
      * @param id the id of the entity.
      */
     void delete(Long id);
+
+    List<QuestionModel> findQuestionTopic(Long id);
+
+    List<Vocabulary> findAllById(Long id);
 }

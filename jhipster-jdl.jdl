@@ -33,6 +33,13 @@ entity Vocabulary {
     updatedAt LocalDate required
 }
 
+entity VocabularyAnswer {
+	answerA String required,
+    answerB String required,
+    answerC String required,
+    answerD String required,
+}
+
 // GRAMMAR
 // bang phu
 entity GrammarUser {
@@ -180,6 +187,10 @@ relationship OneToMany {
 
 relationship OneToOne {
 	GrammarQuestion{grammarAnswer} to GrammarAnswer
+}
+
+relationship OneToOne {
+	Vocabulary{vocabularyAnswer} to VocabularyAnswer
 }
 
 relationship OneToMany {

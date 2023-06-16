@@ -40,6 +40,22 @@
               <span v-text="$t('finalProjectApp.vocabulary.mean')">Mean</span>
               <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'mean'"></jhi-sort-indicator>
             </th>
+            <th scope="row" v-on:click="changeOrder('answerA')">
+              <span v-text="$t('AnswerA')">AnswerA</span>
+              <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'answerA'"></jhi-sort-indicator>
+            </th>
+            <th scope="row" v-on:click="changeOrder('answerB')">
+              <span v-text="$t('AnswerB')">AnswerB</span>
+              <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'answerB'"></jhi-sort-indicator>
+            </th>
+            <th scope="row" v-on:click="changeOrder('answerC')">
+              <span v-text="$t('AnswerC')">AnswerC</span>
+              <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'answerC'"></jhi-sort-indicator>
+            </th>
+            <th scope="row" v-on:click="changeOrder('answerD')">
+              <span v-text="$t('AnswerD')">AnswerD</span>
+              <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'answerD'"></jhi-sort-indicator>
+            </th>
             <th scope="row" v-on:click="changeOrder('createdAt')">
               <span v-text="$t('finalProjectApp.vocabulary.createdAt')">Created At</span>
               <jhi-sort-indicator :current-order="propOrder" :reverse="reverse" :field-name="'createdAt'"></jhi-sort-indicator>
@@ -62,6 +78,10 @@
             </td>
             <td>{{ vocabulary.word }}</td>
             <td>{{ vocabulary.mean }}</td>
+            <td>{{ vocabulary.answerA }}</td>
+            <td>{{ vocabulary.answerB }}</td>
+            <td>{{ vocabulary.answerC }}</td>
+            <td>{{ vocabulary.answerD }}</td>
             <td>{{ vocabulary.createdAt }}</td>
             <td>{{ vocabulary.updatedAt }}</td>
             <td>

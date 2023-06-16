@@ -1,8 +1,10 @@
 package com.sangtt.toeic_test.web.rest;
 
+import com.sangtt.toeic_test.domain.Vocabulary;
 import com.sangtt.toeic_test.repository.VocabularyRepository;
 import com.sangtt.toeic_test.service.VocabularyService;
 import com.sangtt.toeic_test.service.dto.VocabularyDTO;
+import com.sangtt.toeic_test.service.model.QuestionModel;
 import com.sangtt.toeic_test.web.rest.errors.BadRequestAlertException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -56,7 +58,7 @@ public class VocabularyResource {
      * @throws URISyntaxException if the Location URI syntax is incorrect.
      */
     @PostMapping("/vocabularies")
-    public ResponseEntity<VocabularyDTO> createVocabulary(@Valid @RequestBody VocabularyDTO vocabularyDTO) throws URISyntaxException {
+    public ResponseEntity<VocabularyDTO> createVocabulary(@Valid @RequestBody Vocabulary vocabularyDTO) throws URISyntaxException {
         log.debug("REST request to save Vocabulary : {}", vocabularyDTO);
         if (vocabularyDTO.getId() != null) {
             throw new BadRequestAlertException("A new vocabulary cannot already have an ID", ENTITY_NAME, "idexists");
@@ -81,7 +83,7 @@ public class VocabularyResource {
     @PutMapping("/vocabularies/{id}")
     public ResponseEntity<VocabularyDTO> updateVocabulary(
         @PathVariable(value = "id", required = false) final Long id,
-        @Valid @RequestBody VocabularyDTO vocabularyDTO
+        @Valid @RequestBody Vocabulary vocabularyDTO
     ) throws URISyntaxException {
         log.debug("REST request to update Vocabulary : {}, {}", id, vocabularyDTO);
         if (vocabularyDTO.getId() == null) {
@@ -145,9 +147,9 @@ public class VocabularyResource {
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the list of vocabularies in body.
      */
     @GetMapping("/vocabularies")
-    public ResponseEntity<List<VocabularyDTO>> getAllVocabularies(@org.springdoc.api.annotations.ParameterObject Pageable pageable) {
+    public ResponseEntity<List<Vocabulary>> getAllVocabularies(@org.springdoc.api.annotations.ParameterObject Pageable pageable) {
         log.debug("REST request to get a page of Vocabularies");
-        Page<VocabularyDTO> page = vocabularyService.findAll(pageable);
+        Page<Vocabulary> page = vocabularyService.findAll(pageable);
         HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(ServletUriComponentsBuilder.fromCurrentRequest(), page);
         return ResponseEntity.ok().headers(headers).body(page.getContent());
     }
@@ -180,4 +182,19 @@ public class VocabularyResource {
             .headers(HeaderUtil.createEntityDeletionAlert(applicationName, true, ENTITY_NAME, id.toString()))
             .build();
     }
+
+    @GetMapping("/vocabularies/topic/{id}")
+    public ResponseEntity<List<QuestionModel>> getVocabulariesQuestion(@PathVariable Long id) {
+        log.debug("REST request to get getVocabulariesQuestion : {}", id);
+        List<QuestionModel> vocabQuestionDTO = vocabularyService.findQuestionTopic(id);
+        return ResponseEntity.ok(vocabQuestionDTO);
+    }
+
+    @GetMapping("/vocabularies/all/{id}")
+    public ResponseEntity<List<Vocabulary>> getAllById(@PathVariable Long id) {
+        log.debug("REST request to get getAllById : {}", id);
+        List<Vocabulary> vocabQuestionDTO = vocabularyService.findAllById(id);
+        return ResponseEntity.ok(vocabQuestionDTO);
+    }
+
 }

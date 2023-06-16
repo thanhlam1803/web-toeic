@@ -18,6 +18,18 @@ const validations: any = {
     mean: {
       required,
     },
+    answerA: {
+      // required,
+    },
+    answerB: {
+      // required,
+    },
+    answerC: {
+      // required,
+    },
+    answerD: {
+      // required,
+    },
     createdAt: {
       required,
     },

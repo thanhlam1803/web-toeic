@@ -26,369 +26,23 @@
     <div class="container">
       <div class="list">
         <el-row :gutter="20">
-          <el-col :span="4">
+
+          <el-col :span="4" v-for="(item,index) in vocabularyList" :key="index">
             <div class="test-item grid-content bg-purple">
               <el-row>
                 <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
+                  <img :src="item.description" class="image">
                   <div style="padding: 14px;">
-                    <span>Contracts</span>
+                    <span>{{item.nameTopic}}</span>
                     <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" :to="{path: '/users/vocabulary/vocaList/vocaTopic', query: { topic: item.id }}" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
               </el-row>
             </div>
           </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Marketing</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Warranties</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Business Planning</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Conferences</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Computers</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <!-- ******************************************************************************************************** -->
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Office Technology</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Office Procedures</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Electronics</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Correspondence</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>School</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Health</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <!-- ******************************************************************************************************** -->
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Direction</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Food</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Awards</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Shopping</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Ordering Supplies</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Shipping</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <!-- ******************************************************************************************************** -->
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Sports</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Traffic</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Weather</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Jobs</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Home</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="4">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/icon02.jpg" class="image">
-                  <div style="padding: 14px;">
-                    <span>Number</span>
-                    <div class="bottom clearfix">
-                      <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
+
         </el-row>
       </div>
     </div>
@@ -399,6 +53,36 @@
 
 <script lang="ts" src="./vocaList.component.ts"></script>
 
+<script>
+import axios from "axios";
+
+export default {
+
+  data() {
+    return {
+      vocabularyList: [],
+    }
+  },
+
+  name: 'vocaTopic',
+
+  mounted() {
+    this.fetchData();
+  },
+
+  methods: {
+
+    async fetchData() {
+      await axios.get('http://localhost:9000/api/vocabulary-topics').then(
+        res=>{
+          this.vocabularyList=res.data
+          console.log('vocabulary List',this.vocabularyList)
+        })
+    },
+
+  }
+}
+</script>
 
 <style scoped>
 /**/

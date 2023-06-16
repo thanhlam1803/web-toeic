@@ -19,6 +19,12 @@
             <span>{{ vocabulary.mean }}</span>
           </dd>
           <dt>
+            <span v-text="$t('answerA')">answerA</span>
+          </dt>
+          <dd>
+            <span>{{ vocabulary.answerA }}</span>
+          </dd>
+          <dt>
             <span v-text="$t('finalProjectApp.vocabulary.createdAt')">Created At</span>
           </dt>
           <dd>

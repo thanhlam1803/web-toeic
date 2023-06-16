@@ -1,6 +1,6 @@
 <template>
   <div id="footer" class="footer">
-    <p v-text="$t('footer')">--- UTC - Bùi Thị Thanh Lam - 191203978 ---</p>
+    <p v-text="$t('footer')" style = "text-align: center;">--- UTC - Bùi Thị Thanh Lam - 191203978 ---</p>
   </div>
 </template>
 
@@ -23,6 +23,6 @@
 
 p {
   line-height: 40px;
-  text-align: center;
+  /*text-align: center;*/
 }
 </style>

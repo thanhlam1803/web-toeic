@@ -18,6 +18,8 @@ public class VocabularyDTO implements Serializable {
     @NotNull
     private String mean;
 
+    private String answerA;
+
     @NotNull
     private LocalDate createdAt;
 
@@ -25,6 +27,14 @@ public class VocabularyDTO implements Serializable {
     private LocalDate updatedAt;
 
     private VocabularyTopicDTO vocabularyTopic;
+
+    public String getAnswerA() {
+        return answerA;
+    }
+
+    public void setAnswerA(String answerA) {
+        this.answerA = answerA;
+    }
 
     public Long getId() {
         return id;

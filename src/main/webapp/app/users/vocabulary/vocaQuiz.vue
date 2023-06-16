@@ -34,9 +34,9 @@
         </div>
 
         <!-- -->
-        <div class="quiz-main" v-for="(question,index) in questions.slice(a,b)" :key="index" v-show="quiz">
+        <div class="quiz-main" v-for="(question,index) in vocabulary.slice(a,b)" :key="index" v-show="quiz">
           <div class="box-question">
-            <h2>Question {{b}}/{{questions.length}}</h2>
+            <h2>Question {{b}}/{{vocabulary.length}}</h2>
             <p>{{question.question}}</p>
           </div>
           <div class="box-suggestions">
@@ -45,11 +45,9 @@
                 v-for="(proposition,index) in question.propositions"
                 :key="index"
                 @click="selectResponse(proposition,index)"
-                :class=" correct ? check(proposition) : ''"
+                :class="correct ? proposition.correct ? 'correct': index===pickedAnswer ?'incorrect':'' : ''"
               >
                 {{proposition.props}}
-                <div class="fas fa-check" v-if="correct ?  proposition.correct: ''"></div>
-                <div class="fas fa-times" v-if="correct ?  !proposition.correct: ''"></div>
               </li>
             </ul>
           </div>
@@ -57,7 +55,7 @@
 
         <div class="box-score" v-if="score_show">
           <h2>Your score is</h2>
-          <h2>{{score}}/{{questions.length}}</h2>
+          <h2>{{score}}/{{vocabulary.length}}</h2>
           <div class="btn-restart">
             <router-link class="alert-link join" to="/users/vocabulary/vocaList/vocaTopic">
               <button @click="restartQuiz()">Restart</button>
@@ -80,14 +78,17 @@
 
 <script lang="ts" src="./vocaQuiz.component.ts"></script>
 <script>
+import axios from "axios";
+
 export default {
+
   data() {
     return {
       questions: [
         {
           question:'Abide by',
           propositions: [
-            {props:'(v) Chứng minh, giải thích',},
+            { props:'(v) Chứng minh, giải thích',},
             {props:'(v) Tuân thủ, tuân theo',correct:true},
             {props:'(n) Sự tổ chức sắp xếp',},
             {props:'(v) Tập hợp, thu thập',},
@@ -193,7 +194,7 @@ export default {
           ]
         },
       ],
-
+      vocabulary: [],
       a:0,
       b:1,
       next:true,
@@ -202,22 +203,39 @@ export default {
       score:0,
       correct:false,
       progress:0,
+      pickedAnswer:'',
     }
   },
 
   name: 'vocaQuiz',
 
+  mounted() {
+    this.fetchData();
+  },
+
   methods: {
 
-    selectResponse(e) {
+    async fetchData() {
+      console.log("vocab query",'http://localhost:9000/api/vocabularies/topic/'  + "/" + this.$route.query.topic);
+      await axios.get('http://localhost:9000/api/vocabularies/topic/'  + "/" + this.$route.query.topic).then(
+        res=>{
+          this.vocabulary=res.data
+          console.log('vocabulary',this.vocabulary)
+        })
+    },
+
+    selectResponse(proposition,index) {
+      this.pickedAnswer=index
+      console.log(" asdasdasdasdas ", proposition,index);
       this.correct = true;
       this.next = false;
-      if(e.correct) {
+      if(proposition.correct) {
         this.score++;
       }
     },
 
     check(status) {
+      console.log("status", status);
       if(status.correct) {
         return 'correct'
       }else {
@@ -229,8 +247,8 @@ export default {
       if(this.next) {
         return;
       }
-      this.progress = this.progress + (100/this.questions.length);
-      if(this.questions.length - 1 == this.a) {
+      this.progress = this.progress + (100/this.vocabulary.length);
+      if(this.vocabulary.length - 1 == this.a) {
         this.score_show = true;
         this.quiz = false;
       }else {
@@ -245,8 +263,8 @@ export default {
       if(!this.next) {
         return;
       }
-      this.progress = this.progress + (100/this.questions.length);
-      if(this.questions.length - 1 == this.a) {
+      this.progress = this.progress + (100/this.vocabulary.length);
+      if(this.vocabulary.length - 1 == this.a) {
         this.score_show = true;
         this.quiz = false;
       }else {
@@ -297,6 +315,9 @@ export default {
   margin: 0 9px;
   font-weight: 700;
   color: #c0c4cc;
+}
+.fa-fail{
+  background-color: #ffffff;
 }
 
 /**/
@@ -373,20 +394,20 @@ ul li {
   cursor: pointer;
 }
 ul li:hover {
-  background-color: #78b1e0;
-  /*color: #ffffff;*/
+  background-color: #0ee6de;
+  color: #ffffff;
 }
 
 li.correct {
-  border: 1px solid rgb(22, 50, 115);
-  background-color: rgb(22, 50, 115);
+  border: 1px solid green;
+  background-color: green;
   color: white;
   font-weight: 600;
 }
 
 li.incorrect {
-  border: 1px solid rgb(177, 145, 234);
-  background-color: rgb(177, 145, 234);
+  border: 1px solid red;
+  background-color: red;
   color: white;
   font-weight: 600;
 }

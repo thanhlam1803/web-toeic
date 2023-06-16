@@ -30,66 +30,13 @@
     <div class="container">
       <div class="list">
         <el-row :gutter="20">
-          <el-col :span="12">
+
+          <el-col :span="12" v-for="(item,index) in vocabularyList" :key="index">
             <div class="grid-content bg-purple">
-              <p><strong>Abide by</strong>(v) tuân thủ, tuân theo</p>
+              <p><strong>{{item.word}}</strong>{{item.mean}}</p>
             </div>
           </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Agreement</strong>(n) Sự thỏa thuận</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Assurance</strong>(n) Bảo đảm, chắc chắn</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Cancellation</strong>(n) sự hủy bỏ</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Determine</strong>(v) Giải quyết vấn đề</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Engage</strong>(v) Thuê, mướn</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Establish</strong>(v) Thành lập</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Obligate</strong>(v) bắt buộc, ép buộc</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Party</strong>(n) Nhóm làm việc chung</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Provision</strong>(n) Sự cung cấp</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Resolve</strong>(v) Kiên quyết, quyết định</p>
-            </div>
-          </el-col>
-          <el-col :span="12">
-            <div class="grid-content bg-purple">
-              <p><strong>Specify</strong>(v) định rõ, ghi rõ</p>
-            </div>
-          </el-col>
+
         </el-row>
       </div>
     </div>
@@ -97,8 +44,7 @@
     <div class="container">
       <div class="btn-quiz">
         <el-row>
-          <router-link class="alert-link" to="/users/vocabulary/vocaList/vocaTopic/vocaQuiz" style="width: 300px; font-weight: bold; font-size: 18px;">Quiz</router-link>
-<!--          <el-button style="width: 300px; font-weight: bold; font-size: 18px;" type="primary" round>Quizz</el-button>-->
+          <router-link class="alert-link" :to="{path: '/users/vocabulary/vocaList/vocaTopic/vocaQuiz', query: { topic: this.$route.query.topic }}" style="width: 300px; font-weight: bold; font-size: 18px;">Quiz</router-link>
         </el-row>
       </div>
     </div>
@@ -109,6 +55,38 @@
 
 <script lang="ts" src="./vocaTopic.component.ts"></script>
 
+
+<script>
+import axios from "axios";
+
+export default {
+
+  data() {
+    return {
+      vocabularyList: [],
+    }
+  },
+
+  name: 'vocaTopic',
+
+  mounted() {
+    this.fetchData();
+  },
+
+  methods: {
+
+    async fetchData() {
+      console.log('vocaTopic query','http://localhost:9000/api/vocabularies/all'  + "/" + this.$route.query.topic)
+      await axios.get('http://localhost:9000/api/vocabularies/all'  + "/" + this.$route.query.topic).then(
+        res=>{
+          this.vocabularyList=res.data
+          console.log('vocaTopic',this.vocabularyList)
+        })
+    },
+
+  }
+}
+</script>
 
 <style scoped>
 /**/

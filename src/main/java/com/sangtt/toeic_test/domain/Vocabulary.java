@@ -24,6 +24,16 @@ public class Vocabulary implements Serializable {
     @Column(name = "word", nullable = false)
     private String word;
 
+
+    @Column(name = "answerA", nullable = false)
+    private String answerA;
+
+    @Column(name = "answerB", nullable = false)
+    private String answerB;
+    @Column(name = "answerC", nullable = false)
+    private String answerC;
+    @Column(name = "answerD", nullable = false)
+    private String answerD;
     @NotNull
     @Column(name = "mean", nullable = false)
     private String mean;
@@ -49,6 +59,38 @@ public class Vocabulary implements Serializable {
     public Vocabulary id(Long id) {
         this.setId(id);
         return this;
+    }
+
+    public String getAnswerB() {
+        return answerB;
+    }
+
+    public void setAnswerB(String answerB) {
+        this.answerB = answerB;
+    }
+
+    public String getAnswerC() {
+        return answerC;
+    }
+
+    public void setAnswerC(String answerC) {
+        this.answerC = answerC;
+    }
+
+    public String getAnswerD() {
+        return answerD;
+    }
+
+    public void setAnswerD(String answerD) {
+        this.answerD = answerD;
+    }
+
+    public String getAnswerA() {
+        return answerA;
+    }
+
+    public void setAnswerA(String answerA) {
+        this.answerA = answerA;
     }
 
     public void setId(Long id) {

@@ -51,6 +51,58 @@
             </div>
           </div>
           <div class="form-group">
+            <label class="form-control-label" v-text="$t('answerA')" for="vocabulary-answerA">answerA</label>
+            <input
+              type="text"
+              class="form-control"
+              name="answerA"
+              id="vocabulary-answerA"
+              data-cy="answerA"
+              :class="{ valid: !$v.vocabulary.answerA.$invalid, invalid: $v.vocabulary.answerA.$invalid }"
+              v-model="$v.vocabulary.answerA.$model"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-control-label" v-text="$t('answerB')" for="vocabulary-answerB">answerB</label>
+            <input
+              type="text"
+              class="form-control"
+              name="answerB"
+              id="vocabulary-answerB"
+              data-cy="answerB"
+              :class="{ valid: !$v.vocabulary.answerB.$invalid, invalid: $v.vocabulary.answerB.$invalid }"
+              v-model="$v.vocabulary.answerB.$model"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-control-label" v-text="$t('answerC')" for="vocabulary-answerC">answerC</label>
+            <input
+              type="text"
+              class="form-control"
+              name="answerC"
+              id="vocabulary-answerC"
+              data-cy="answerC"
+              :class="{ valid: !$v.vocabulary.answerC.$invalid, invalid: $v.vocabulary.answerC.$invalid }"
+              v-model="$v.vocabulary.answerC.$model"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-control-label" v-text="$t('answerD')" for="vocabulary-answerD">answerD</label>
+            <input
+              type="text"
+              class="form-control"
+              name="answerD"
+              id="vocabulary-answerD"
+              data-cy="answerD"
+              :class="{ valid: !$v.vocabulary.answerD.$invalid, invalid: $v.vocabulary.answerD.$invalid }"
+              v-model="$v.vocabulary.answerD.$model"
+              required
+            />
+          </div>
+          <div class="form-group">
             <label class="form-control-label" v-text="$t('finalProjectApp.vocabulary.createdAt')" for="vocabulary-createdAt"
               >Created At</label
             >

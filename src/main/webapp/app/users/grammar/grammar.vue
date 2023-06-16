@@ -32,86 +32,27 @@
     <div class="container">
       <div class="list">
         <el-row :gutter="20">
-          <el-col :span="6">
+          <el-col :span="6" v-for="(item, index) in grammarTopicList" :key="index">
             <div class="test-item grid-content bg-purple">
               <el-row>
                 <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/grammartopic1.jpg" class="image">
-                  <div style="padding: 14px; background-color: #e0e0ff; ">
-                    <span v-text="$t('finalProjectApp.userGrammarList.grammar.topic01.title')">THÌ HIỆN TẠI ĐƠN VÀ HIỆN TẠI TIẾP DIỄN</span>
+                  <img :src="item.filePractice" class="image">
+                  <div style="padding: 14px; background-color: #e0e0ff; height: 200px; ">
+                    <span style="height: 100px;" v-text="$t(item.nameTopic)">{{item.nameTopic}}</span>
                     <div class="bottom clearfix">
                       <ul>
-                        <li v-text="$t('finalProjectApp.userGrammarList.grammar.topic01.text')">Grammar owners need to know in the TOEIC test</li>
-                        <li><i class="el-icon-view"></i>200</li>
-                        <li><i class="el-icon-user-solid"></i>150</li>
+<!--                        <li v-text="$t('finalProjectApp.userGrammarList.grammar.topic01.text')">Grammar owners need to know in the TOEIC test</li>-->
+                        <li><i class="el-icon-view"></i>{{item.view}}</li>
+                        <li><i class="el-icon-user-solid"></i>{{item.test}}</li>
                       </ul>
-                      <router-link class="alert-link join" to="/users/grammar/gramTopic" v-text="$t('home.join')">JOIN</router-link>
+                      <router-link class="alert-link join" :to="{path: '/users/grammar/gramTopic', query: { topic: index + 1 }}" v-text="$t('home.join')">JOIN</router-link>
                     </div>
                   </div>
                 </el-card>
               </el-row>
             </div>
           </el-col>
-          <el-col :span="6">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/grammartopic2.jpg" class="image">
-                  <div style="padding: 14px; background-color: #e0e0ff; ">
-                    <span v-text="$t('finalProjectApp.userGrammarList.grammar.topic02.title')">THÌ HIỆN TẠI HOÀN THÀNH VÀ THÌ HIỆN TẠI HOÀN THÀNH TIẾP DIỄN</span>
-                    <div class="bottom clearfix">
-                      <ul>
-                        <li v-text="$t('finalProjectApp.userGrammarList.grammar.topic01.text')">Grammar owners need to know in the TOEIC test</li>
-                        <li><i class="el-icon-view"></i>200</li>
-                        <li><i class="el-icon-user-solid"></i>180</li>
-                      </ul>
-                      <router-link class="alert-link join" to="/users/grammar/gramTopicPass" v-text="$t('home.join')">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="6">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/grammartopic5.jpg" class="image">
-                  <div style="padding: 14px; background-color: #e0e0ff; ">
-                    <span v-text="$t('finalProjectApp.userGrammarList.grammar.topic03.title')">DANH TỪ</span>
-                    <div class="bottom clearfix">
-                      <ul>
-                        <li v-text="$t('finalProjectApp.userGrammarList.grammar.topic01.text')">Grammar owners need to know in the TOEIC test</li>
-                        <li><i class="el-icon-view"></i>200</li>
-                        <li><i class="el-icon-user-solid"></i>100</li>
-                      </ul>
-                      <router-link class="alert-link join" to="/users/grammar/gramTopicNouns" v-text="$t('home.join')" style="margin-top: 27px">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
-          <el-col :span="6">
-            <div class="test-item grid-content bg-purple">
-              <el-row>
-                <el-card :body-style="{ padding: '0px' }">
-                  <img src="../../../content/images/grammartopic6.jpg" class="image">
-                  <div style="padding: 14px; background-color: #e0e0ff; ">
-                    <span v-text="$t('finalProjectApp.userGrammarList.grammar.topic04.title')">TÍNH TỪ VÀ TRẠNG TỪ</span>
-                    <div class="bottom clearfix">
-                      <ul>
-                        <li v-text="$t('finalProjectApp.userGrammarList.grammar.topic01.text')">Grammar owners need to know in the TOEIC test</li>
-                        <li><i class="el-icon-view"></i>200</li>
-                        <li><i class="el-icon-user-solid"></i>212</li>
-                      </ul>
-                      <router-link class="alert-link join" to="/users/grammar/gramTopic" v-text="$t('home.join')" style="margin-top: 27px">JOIN</router-link>
-                    </div>
-                  </div>
-                </el-card>
-              </el-row>
-            </div>
-          </el-col>
+
         </el-row>
       </div>
     </div>
@@ -121,7 +62,36 @@
 
 
 <script lang="ts" src="./grammar.component.ts"></script>
+<script>
+import axios from "axios";
 
+export default {
+  data() {
+    return {
+      grammarTopicList: [],
+    }
+  },
+
+  name: 'grammarTopic',
+
+  mounted() {
+    this.fetchData();
+  },
+
+  methods: {
+
+    async fetchData() {
+      await axios.get('http://localhost:9000/api/grammar-topics').then(
+        res=>{
+          this.grammarTopicList=res.data
+          console.log('grammar topic list',this.grammarTopicList)
+        })
+    },
+
+  }
+}
+
+</script>
 
 <style scoped>
 /**/
